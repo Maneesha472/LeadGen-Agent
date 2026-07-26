@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "villow"
+version = "0.1.0"
+description = "Python SDK for Villow publisher agents"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "fastapi>=0.122,<1",
+  "httpx>=0.28,<1",
+  "pydantic>=2.12,<3",
+  "PyYAML>=6,<7",
+  "uvicorn>=0.38,<1",
+]
+
+[project.scripts]
+villow = "villow.cli:main"
+villow-contract-test = "villow.cli:main"

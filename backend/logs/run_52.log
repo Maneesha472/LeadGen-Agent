@@ -1,0 +1,16 @@
+[SYSTEM] CSV Bulk Execution for 'Meta' scheduled at 2026-07-20 09:25:22
+[2026-07-20 09:25:23] Starting Lead Generation Agent Execution #52
+[2026-07-20 09:25:23] Criteria - Category: Social Media | Location: https://meta.com | Keywords: social network AR VR
+[2026-07-20 09:25:23] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://meta.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://meta.com ...
+[2026-07-20 09:25:45] [LIVE SCRAPING] Probing subpage: https://meta.com/contact
+[2026-07-20 09:26:05] [LIVE SCRAPING] Probing subpage: https://meta.com/about
+[2026-07-20 09:26:06] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:10] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Meta CEO...
+[2026-07-20 09:26:16] [LIVE SCRAPING] Processing lead for Meta | Email: contact@meta.com | Score: 60%
+[2026-07-20 09:26:16] [SUCCESS] Saved lead for Meta: Office Manager (Operations) | Verified: Valid
+[2026-07-20 09:26:17] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:17] Agent execution finished.
+[2026-07-20 09:26:17] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

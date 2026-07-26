@@ -1,0 +1,17 @@
+[2026-07-19 15:54:31] Starting Lead Generation Agent Execution #29
+[2026-07-19 15:54:31] Criteria - Category: Direct Enrichment | Location: https://www.mahindra.com/ | Keywords: None
+[2026-07-19 15:54:31] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 15:54:32] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.mahindra.com/
+[2026-07-19 15:54:32] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 15:54:34] [LIVE SCRAPING] visiting https://www.mahindra.com/ ...
+[2026-07-19 15:54:38] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact
+[2026-07-19 15:54:39] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact-us
+[2026-07-19 15:54:40] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contactus
+[2026-07-19 15:54:41] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact_us
+[2026-07-19 15:54:43] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/investor-relations/reports
+[2026-07-19 15:54:44] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/mahindra-leadership-university
+[2026-07-19 15:54:46] [LIVE SCRAPING] Processing lead record for Mahindra | Email: ramachandran.sriram@mahindra.com | Score: 70%
+[2026-07-19 15:54:46] [WARNING] Lead for Mahindra already exists in your account. Skipping duplicate.
+[2026-07-19 15:54:46] [INFO] Skipped duplicate lead at website https://www.mahindra.com/
+[2026-07-19 15:54:46] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-19 15:54:46] Agent execution finished.

@@ -1,0 +1,19 @@
+[SYSTEM] Agent execution scheduled at 2026-07-21 14:46:50
+[2026-07-21 14:46:51] Starting Lead Generation Agent Execution #61
+[2026-07-21 14:46:51] Criteria - Category: Direct Enrichment | Location: https://www.mahindra.com/ | Keywords: None
+[2026-07-21 14:46:51] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-21 14:46:51] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://www.mahindra.com/
+[2026-07-21 14:46:51] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-21 14:46:51] [LIVE SCRAPING] Visiting https://www.mahindra.com ...
+[2026-07-21 14:46:56] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact-us
+[2026-07-21 14:46:58] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact
+[2026-07-21 14:47:03] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/about-us
+[2026-07-21 14:47:05] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/about
+[2026-07-21 14:47:05] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-21 14:47:08] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Mahindra CEO...
+[2026-07-21 14:47:14] [LIVE SCRAPING] Searching LinkedIn company page for Mahindra...
+[2026-07-21 14:47:21] [LIVE SCRAPING] Processing lead for Mahindra | Email: contact@mahindra.com | Score: 60%
+[2026-07-21 14:47:21] [SUCCESS] Saved lead for Mahindra: Office Manager (Operations) | Verified: Valid
+[2026-07-21 14:47:22] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-21 14:47:22] Agent execution finished.
+[2026-07-21 14:47:22] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

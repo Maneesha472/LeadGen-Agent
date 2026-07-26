@@ -1,0 +1,27 @@
+[SYSTEM] CSV Bulk Execution for 'NVIDIA' scheduled at 2026-07-20 09:25:23
+[2026-07-20 09:25:23] Starting Lead Generation Agent Execution #53
+[2026-07-20 09:25:23] Criteria - Category: Semiconductors | Location: https://nvidia.com | Keywords: GPU AI chips
+[2026-07-20 09:25:23] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://nvidia.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://nvidia.com ...
+[2026-07-20 09:25:36] [LIVE SCRAPING] Team/leadership page found: https://www.nvidia.com/en-in/about-nvidia/careers/
+[2026-07-20 09:25:44] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/support/
+[2026-07-20 09:25:46] [LIVE SCRAPING] Probing subpage: https://blogs.nvidia.com/blog/amazon-zero-touch-manufacturing
+[2026-07-20 09:25:49] [LIVE SCRAPING] Probing subpage: https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-with-broad-industry-support
+[2026-07-20 09:25:51] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/careers/
+[2026-07-20 09:25:54] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/ai-for-good/
+[2026-07-20 09:25:57] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-us/about-nvidia/webinar-portal/
+[2026-07-20 09:26:00] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/partners/
+[2026-07-20 09:26:03] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-us/support/enterprise/advisory-services/
+[2026-07-20 09:26:06] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/privacy-policy/
+[2026-07-20 09:26:08] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/privacy-center/
+[2026-07-20 09:26:10] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/accessibility/
+[2026-07-20 09:26:13] [LIVE SCRAPING] Probing subpage: https://www.nvidia.com/en-in/about-nvidia/company-policies/
+[2026-07-20 09:26:14] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:15] [LIVE SCRAPING] Searching LinkedIn for Explore Life at NVIDIA at Nvidia...
+[2026-07-20 09:26:20] [LIVE SCRAPING] Processing lead for Nvidia | Email: hpc-top500-wmfg-multi-img-d@2x.jpg | Score: 84%
+[2026-07-20 09:26:20] [SUCCESS] Saved lead for Nvidia: Explore Life at NVIDIA (We’re an eclectic, passionate group of professionals dedicated to solving some of the world’s biggest challenges. The project is the boss—even for our CEO. We thrive on seamless collaboration and shared success while embracing diversity and individuality. Everyone contributes. Everyone belongs.) | Verified: Valid
+[2026-07-20 09:26:21] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:21] Agent execution finished.
+[2026-07-20 09:26:21] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.next/
+.env
+.env*.local
+.playwright-mcp/
+.codex/
+worklane-*.png
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignore node_modules symlinks (trailing-slash rule above misses symlinks)
+/node_modules
+sdk/node/dist/
+sdk/node/node_modules
+reference-agents/**/.env
+
+# Playwright CLI tooling artifacts (design-skill browser logs)
+.playwright-cli/
+
+# Local video production (not pushed to origin)
+ProductVideo/
+videos/
+
+# Built SDK tarballs for publisher handoff (regenerate locally)
+sdk-dist/

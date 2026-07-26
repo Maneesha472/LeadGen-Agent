@@ -1,0 +1,18 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 17:44:14
+[2026-07-19 17:44:14] Starting Lead Generation Agent Execution #40
+[2026-07-19 17:44:14] Criteria - Category: IT Service | Location: Wipro | Keywords: Location: Mumbai
+[2026-07-19 17:44:14] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-19 17:44:14] [LIVE SCRAPING] Company name: 'Wipro'. Resolving official website...
+[2026-07-19 17:44:15] [LIVE SCRAPING SUCCESS] Resolved: https://www.wipro.com
+[2026-07-19 17:44:15] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-19 17:44:15] [LIVE SCRAPING] Visiting https://www.wipro.com ...
+[2026-07-19 17:44:18] [LIVE SCRAPING] Team/leadership page found: https://www.wipro.com/about-us/
+[2026-07-19 17:44:27] [LIVE SCRAPING] Probing subpage: https://www.wipro.com/contact-us
+[2026-07-19 17:44:29] [LIVE SCRAPING] Probing subpage: https://www.wipro.com/contact
+[2026-07-19 17:44:36] [LIVE SCRAPING] Probing subpage: https://www.wipro.com/about-us
+[2026-07-19 17:44:39] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-19 17:44:40] [LIVE SCRAPING] Processing lead for Wipro | Email: contact@wipro.com | Score: 60%
+[2026-07-19 17:44:40] [SUCCESS] Saved lead for Wipro: Office Manager (Operations) | Verified: Valid
+[2026-07-19 17:44:40] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 17:44:40] Agent execution finished.
+[2026-07-19 17:44:40] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

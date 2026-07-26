@@ -1,0 +1,12 @@
+[2026-07-24 19:58:44] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 19:58:44] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 19:58:45] [LIVE SCRAPING] Generated 3 search variations (Capped at 3).
+[2026-07-24 19:58:45] Iteration 1/3
+Searching: Chicago software companies under 20 employees
+[2026-07-24 19:58:46] [WARNING] Exa search failed: Request failed with status code 402: {"requestId":"bb4b172f530e78b38c28d8c8e3968879","error":"You have exceeded your credits limit. Please top up to keep using Exa at dashboard.exa.ai","tag":"NO_MORE_CREDITS"}
+[2026-07-24 19:58:46] Iteration 2/3
+Searching: small software firms in Chicago
+[2026-07-24 19:58:47] [WARNING] Exa search failed: Request failed with status code 402: {"requestId":"16f679acf4703c26ecc3581ce2bf8ff4","error":"You have exceeded your credits limit. Please top up to keep using Exa at dashboard.exa.ai","tag":"NO_MORE_CREDITS"}
+[2026-07-24 19:58:47] Iteration 3/3
+Searching: Chicago based software startups with less than 20 staff
+[2026-07-24 19:58:48] [WARNING] Exa search failed: Request failed with status code 402: {"requestId":"0d818954005824edf9e211e80da2f9e8","error":"You have exceeded your credits limit. Please top up to keep using Exa at dashboard.exa.ai","tag":"NO_MORE_CREDITS"}

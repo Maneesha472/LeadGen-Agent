@@ -1,0 +1,44 @@
+[2026-07-24 11:07:48] Starting Lead Generation Agent Execution #104
+[2026-07-24 11:07:48] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-24 11:07:48] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-24 11:07:48] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 11:07:49] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-24 11:07:49] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+Chicago software companies under 20 employees
+[2026-07-24 11:07:49] [LIVE SCRAPING] Querying Exa AI for: Chicago software companies under 20 employees
+[2026-07-24 11:07:50] [LIVE SCRAPING] Found 29 new target websites. Processing batch...
+[2026-07-24 11:07:50] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-24 11:07:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-24 11:07:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact-us
+[2026-07-24 11:07:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact
+[2026-07-24 11:07:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact_us
+[2026-07-24 11:08:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contactus
+[2026-07-24 11:08:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/about-us
+[2026-07-24 11:08:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/about
+[2026-07-24 11:08:39] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:08:39] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:08:39] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:08:39] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software in Chicago...
+[2026-07-24 11:08:41] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:08:42] [LIVE SCRAPING] Processing lead for ZNP Tech — Websites · Apps · Software | Email: contact@znptech.com | Score: 85/100
+[2026-07-24 11:08:42] \n--- VALIDATION FOR: ZNP Tech — Websites · Apps · Software ---
+[2026-07-24 11:08:42] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:08:42] Email: contact@znptech.com (Source: Not Available)
+[2026-07-24 11:08:42] LinkedIn (Person): Not Available
+[2026-07-24 11:08:42] LinkedIn (Company): Not Available
+[2026-07-24 11:08:42] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:08:42] --------------------------------
+[2026-07-24 11:08:42] CRITICAL ERROR in Agent execution: (psycopg2.errors.UndefinedColumn) column contacts.lead_score does not exist
+LINE 1: ..., contacts.linkedin_url AS contacts_linkedin_url, contacts.l...
+                                                             ^
+
+[SQL: SELECT contacts.id AS contacts_id, contacts.company_id AS contacts_company_id, contacts.name AS contacts_name, contacts.designation AS contacts_designation, contacts.email AS contacts_email, contacts.phone AS contacts_phone, contacts.linkedin_url AS contacts_linkedin_url, contacts.lead_score AS contacts_lead_score, contacts.email_source AS contacts_email_source, contacts.contact_source AS contacts_contact_source, contacts.status AS contacts_status, contacts.verification_status AS contacts_verification_status, contacts.score_breakdown AS contacts_score_breakdown, contacts.source_attribution AS contacts_source_attribution, contacts.created_at AS contacts_created_at 
+FROM contacts JOIN companies ON contacts.company_id = companies.id 
+WHERE companies.execution_id = %(execution_id_1)s AND contacts.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'execution_id_1': 104, 'email_1': 'contact@znptech.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-07-24 11:08:42] Agent execution finished.

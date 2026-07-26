@@ -1,0 +1,875 @@
+[2026-07-24 11:10:52] Starting Lead Generation Agent Execution #105
+[2026-07-24 11:10:52] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-24 11:10:52] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-24 11:10:52] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 11:10:53] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-24 11:10:53] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+Chicago software companies under 20 employees
+[2026-07-24 11:10:53] [LIVE SCRAPING] Querying Exa AI for: Chicago software companies under 20 employees
+[2026-07-24 11:10:54] [LIVE SCRAPING] Found 29 new target websites. Processing batch...
+[2026-07-24 11:10:54] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-24 11:10:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-24 11:10:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact-us
+[2026-07-24 11:11:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact
+[2026-07-24 11:11:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact_us
+[2026-07-24 11:11:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contactus
+[2026-07-24 11:11:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/about-us
+[2026-07-24 11:11:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/about
+[2026-07-24 11:11:27] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:11:28] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:11:28] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software in Chicago...
+[2026-07-24 11:11:29] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:11:29] [LIVE SCRAPING] Processing lead for ZNP Tech — Websites · Apps · Software | Email: contact@znptech.com | Score: 85/100
+[2026-07-24 11:11:29] \n--- VALIDATION FOR: ZNP Tech — Websites · Apps · Software ---
+[2026-07-24 11:11:29] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:11:29] Email: contact@znptech.com (Source: Not Available)
+[2026-07-24 11:11:29] LinkedIn (Person): Not Available
+[2026-07-24 11:11:29] LinkedIn (Company): Not Available
+[2026-07-24 11:11:29] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:11:29] --------------------------------
+[2026-07-24 11:11:30] [SUCCESS] Saved lead for ZNP Tech — Websites · Apps · Software: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:11:30] [LIVE SCRAPING] Visiting https://ncubesoftware.com ...
+[2026-07-24 11:11:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ncubesoftware.com
+[2026-07-24 11:11:38] [WARNING] Could not load https://ncubesoftware.com. Skipping.
+[2026-07-24 11:11:38] [LIVE SCRAPING] Visiting https://juzu-ai.com ...
+[2026-07-24 11:11:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com
+[2026-07-24 11:11:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/contact-us
+[2026-07-24 11:11:55] [LIVE SCRAPING] Probing subpage: https://juzu-ai.com/contact-us
+[2026-07-24 11:11:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/contact
+[2026-07-24 11:12:04] [LIVE SCRAPING] Probing subpage: https://juzu-ai.com/contact
+[2026-07-24 11:12:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/contact_us
+[2026-07-24 11:12:25] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:12:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/contactus
+[2026-07-24 11:12:36] [LIVE SCRAPING] Probing subpage: https://juzu-ai.com/contactus
+[2026-07-24 11:12:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/about-us
+[2026-07-24 11:12:50] [LIVE SCRAPING] Probing subpage: https://juzu-ai.com/about-us
+[2026-07-24 11:12:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com/about
+[2026-07-24 11:13:08] [LIVE SCRAPING] Probing subpage: https://juzu-ai.com/about
+[2026-07-24 11:13:09] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:13:10] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:13:10] [LIVE SCRAPING] Searching LinkedIn company page for Juzu AI in Chicago...
+[2026-07-24 11:13:11] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:13:11] [LIVE SCRAPING] Processing lead for Juzu AI | Email: hello@juzu-ai.com | Score: 80/100
+[2026-07-24 11:13:11] \n--- VALIDATION FOR: Juzu AI ---
+[2026-07-24 11:13:11] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:13:11] Email: hello@juzu-ai.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:13:11] LinkedIn (Person): Not Available
+[2026-07-24 11:13:11] LinkedIn (Company): Not Available
+[2026-07-24 11:13:11] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:13:11] --------------------------------
+[2026-07-24 11:13:11] [SUCCESS] Saved lead for Juzu AI: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:13:11] [LIVE SCRAPING] Visiting https://pumoritech.com ...
+[2026-07-24 11:13:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com
+[2026-07-24 11:13:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/contact-us
+[2026-07-24 11:13:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/contact
+[2026-07-24 11:13:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/contact_us
+[2026-07-24 11:13:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/contactus
+[2026-07-24 11:13:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/about-us
+[2026-07-24 11:14:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com/about
+[2026-07-24 11:14:09] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:14:10] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:14:10] [LIVE SCRAPING] Searching LinkedIn company page for Pumori - Software Development Solution Provider in Chicago - Web, Windows, Mobile and Cloud in Chicago...
+[2026-07-24 11:14:12] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/vodori
+[2026-07-24 11:14:12] [LIVE SCRAPING] Processing lead for Pumori - Software Development Solution Provider in Chicago - Web, Windows, Mobile and Cloud | Email: contact@pumoritech.com | Score: 80/100
+[2026-07-24 11:14:12] \n--- VALIDATION FOR: Pumori - Software Development Solution Provider in Chicago - Web, Windows, Mobile and Cloud ---
+[2026-07-24 11:14:12] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:14:12] Email: contact@pumoritech.com (Source: Not Available)
+[2026-07-24 11:14:12] LinkedIn (Person): Not Available
+[2026-07-24 11:14:12] LinkedIn (Company): https://www.linkedin.com/company/vodori
+[2026-07-24 11:14:12] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:14:12] --------------------------------
+[2026-07-24 11:14:12] [SUCCESS] Saved lead for Pumori - Software Development Solution Provider in Chicago - Web, Windows, Mobile and Cloud: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:14:13] [LIVE SCRAPING] Visiting https://10ustech.com ...
+[2026-07-24 11:14:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com
+[2026-07-24 11:14:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/contact-us
+[2026-07-24 11:14:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/contact
+[2026-07-24 11:14:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/contact_us
+[2026-07-24 11:14:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/contactus
+[2026-07-24 11:14:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/about-us
+[2026-07-24 11:14:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com/about
+[2026-07-24 11:14:32] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:14:33] [LIVE SCRAPING] Extracted Leader: Kiran R. Katwa (FOUNDER & PRESIDENT)
+[2026-07-24 11:14:33] [LIVE SCRAPING] Searching LinkedIn for Kiran R. Katwa at 10 US Tech Inc. — Software Engineering Firm in Chicago...
+[2026-07-24 11:14:34] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:14:34] [LIVE SCRAPING] Searching LinkedIn company page for 10 US Tech Inc. — Software Engineering Firm in Chicago in Chicago...
+[2026-07-24 11:14:36] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/strategic-systems-international
+[2026-07-24 11:14:37] [LIVE SCRAPING] Processing lead for 10 US Tech Inc. — Software Engineering Firm in Chicago | Email: info@10ustech.com | Score: 70/100
+[2026-07-24 11:14:37] \n--- VALIDATION FOR: 10 US Tech Inc. — Software Engineering Firm in Chicago ---
+[2026-07-24 11:14:37] Person: Kiran R. Katwa (FOUNDER & PRESIDENT)
+[2026-07-24 11:14:37] Email: info@10ustech.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:14:37] LinkedIn (Person): Not Available
+[2026-07-24 11:14:37] LinkedIn (Company): https://www.linkedin.com/company/strategic-systems-international
+[2026-07-24 11:14:37] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:14:37] --------------------------------
+[2026-07-24 11:14:37] [QUALITY FILTER] Lead for 10 US Tech Inc. — Software Engineering Firm in Chicago rejected: Confidence score (70) < 80
+[2026-07-24 11:14:37] [LIVE SCRAPING] Visiting https://dakic.com ...
+[2026-07-24 11:14:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com
+[2026-07-24 11:14:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/contact-us
+[2026-07-24 11:14:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/contact
+[2026-07-24 11:14:57] [LIVE SCRAPING] Probing subpage: https://dakic.com/contact
+[2026-07-24 11:14:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/contact_us
+[2026-07-24 11:14:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/contactus
+[2026-07-24 11:15:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/about-us
+[2026-07-24 11:15:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com/about
+[2026-07-24 11:15:13] [LIVE SCRAPING] Probing subpage: https://dakic.com/about
+[2026-07-24 11:15:13] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:15:15] [LIVE SCRAPING] Extracted Leader: Zeljko Dakich (Founder)
+[2026-07-24 11:15:15] [LIVE SCRAPING] Searching LinkedIn for Zeljko Dakich at Future-Ready Product Engineering in Chicago | Dakic...
+[2026-07-24 11:15:16] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:15:16] [LIVE SCRAPING] Searching LinkedIn company page for Future-Ready Product Engineering in Chicago | Dakic in Chicago...
+[2026-07-24 11:15:18] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-product-alliance
+[2026-07-24 11:15:18] [LIVE SCRAPING] Processing lead for Future-Ready Product Engineering in Chicago | Dakic | Email: contact@support.com | Score: 50/100
+[2026-07-24 11:15:18] \n--- VALIDATION FOR: Future-Ready Product Engineering in Chicago | Dakic ---
+[2026-07-24 11:15:18] Person: Zeljko Dakich (Founder)
+[2026-07-24 11:15:18] Email: contact@support.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:15:18] LinkedIn (Person): Not Available
+[2026-07-24 11:15:18] LinkedIn (Company): https://www.linkedin.com/company/chicago-product-alliance
+[2026-07-24 11:15:18] Score: 50/100 [official_email: 25, domain_match: 0, real_ceo: 20, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:15:18] --------------------------------
+[2026-07-24 11:15:18] [QUALITY FILTER] Lead for Future-Ready Product Engineering in Chicago | Dakic rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:15:18] [LIVE SCRAPING] Visiting https://www.sdpchicago.com ...
+[2026-07-24 11:15:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com
+[2026-07-24 11:15:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/contact-us
+[2026-07-24 11:15:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/contact
+[2026-07-24 11:15:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/contact_us
+[2026-07-24 11:15:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/contactus
+[2026-07-24 11:15:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/about-us
+[2026-07-24 11:15:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com/about
+[2026-07-24 11:15:40] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:15:41] [LIVE SCRAPING] Extracted Leader: Robert Dawson (Co-Founder & CEO)
+[2026-07-24 11:15:41] [LIVE SCRAPING] Searching LinkedIn for Robert Dawson at Strategic Data Products — AI does the busywork. You run the business....
+[2026-07-24 11:15:42] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:15:42] [LIVE SCRAPING] Searching LinkedIn company page for Strategic Data Products — AI does the busywork. You run the business. in Chicago...
+[2026-07-24 11:15:44] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/mymavenai
+[2026-07-24 11:15:45] [LIVE SCRAPING] Processing lead for Strategic Data Products — AI does the busywork. You run the business. | Email: rdawson@strategicdataproducts.com | Score: 50/100
+[2026-07-24 11:15:45] \n--- VALIDATION FOR: Strategic Data Products — AI does the busywork. You run the business. ---
+[2026-07-24 11:15:45] Person: Robert Dawson (Co-Founder & CEO)
+[2026-07-24 11:15:45] Email: rdawson@strategicdataproducts.com (Source: Groq LLM Context Analysis)
+[2026-07-24 11:15:45] LinkedIn (Person): Not Available
+[2026-07-24 11:15:45] LinkedIn (Company): https://www.linkedin.com/company/mymavenai
+[2026-07-24 11:15:45] Score: 50/100 [official_email: 25, domain_match: 0, real_ceo: 20, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:15:45] --------------------------------
+[2026-07-24 11:15:45] [QUALITY FILTER] Lead for Strategic Data Products — AI does the busywork. You run the business. rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:15:45] [LIVE SCRAPING] Visiting https://boldlinestudios.com ...
+[2026-07-24 11:15:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com
+[2026-07-24 11:15:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/contact-us
+[2026-07-24 11:15:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/contact
+[2026-07-24 11:15:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/contact_us
+[2026-07-24 11:15:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/contactus
+[2026-07-24 11:15:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/about-us
+[2026-07-24 11:15:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com/about
+[2026-07-24 11:15:56] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:15:56] [LIVE SCRAPING] Extracted Leader: Ken (None)
+[2026-07-24 11:15:56] [LIVE SCRAPING] Searching LinkedIn for Ken at Bold Line Studios...
+[2026-07-24 11:15:58] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:15:58] [LIVE SCRAPING] Searching LinkedIn company page for Bold Line Studios in Chicago...
+[2026-07-24 11:16:01] [LIVE SCRAPING] Found via Exa AI: https://tr.linkedin.com/company/2design-group
+[2026-07-24 11:16:02] [LIVE SCRAPING] Processing lead for Bold Line Studios | Email: habitcre@e.com | Score: 0/100
+[2026-07-24 11:16:02] \n--- VALIDATION FOR: Bold Line Studios ---
+[2026-07-24 11:16:02] Person: Ken (None)
+[2026-07-24 11:16:02] Email: habitcre@e.com (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:16:02] LinkedIn (Person): Not Available
+[2026-07-24 11:16:02] LinkedIn (Company): https://tr.linkedin.com/company/2design-group
+[2026-07-24 11:16:02] Score: 0/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:16:02] --------------------------------
+[2026-07-24 11:16:02] [QUALITY FILTER] Lead for Bold Line Studios rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:16:02] [LIVE SCRAPING] Visiting https://dombrowskitechnologies.com ...
+[2026-07-24 11:16:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com
+[2026-07-24 11:16:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/contact-us
+[2026-07-24 11:16:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/contact
+[2026-07-24 11:16:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/contact_us
+[2026-07-24 11:16:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/contactus
+[2026-07-24 11:16:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/about-us
+[2026-07-24 11:16:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com/about
+[2026-07-24 11:16:16] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:16:17] [LIVE SCRAPING] Extracted Leader: Dylan Dombrowski (Founder)
+[2026-07-24 11:16:17] [LIVE SCRAPING] Searching LinkedIn company page for Custom Software & Web Development in Chicago | Dombrowski Technologies in Chicago...
+[2026-07-24 11:16:19] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-24 11:16:19] [LIVE SCRAPING] Processing lead for Custom Software & Web Development in Chicago | Dombrowski Technologies | Email: hello@dombrowskitechnologies.com | Score: 80/100
+[2026-07-24 11:16:19] \n--- VALIDATION FOR: Custom Software & Web Development in Chicago | Dombrowski Technologies ---
+[2026-07-24 11:16:19] Person: Dylan Dombrowski (Founder)
+[2026-07-24 11:16:19] Email: hello@dombrowskitechnologies.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:16:19] LinkedIn (Person): https://www.linkedin.com/in/dylanjdombrowski
+[2026-07-24 11:16:19] LinkedIn (Company): https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-24 11:16:19] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:16:19] --------------------------------
+[2026-07-24 11:16:20] [SUCCESS] Saved lead for Custom Software & Web Development in Chicago | Dombrowski Technologies: Dylan Dombrowski (Founder) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 0, location: 0, company_validity: 0
+[2026-07-24 11:16:20] [LIVE SCRAPING] Visiting https://www.pekkerllc.com ...
+[2026-07-24 11:16:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com
+[2026-07-24 11:16:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/contact-us
+[2026-07-24 11:16:25] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/contact-us
+[2026-07-24 11:16:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/contact
+[2026-07-24 11:16:28] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/contact
+[2026-07-24 11:16:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/contact_us
+[2026-07-24 11:16:31] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/contact_us
+[2026-07-24 11:16:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/contactus
+[2026-07-24 11:16:33] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/contactus
+[2026-07-24 11:16:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/about-us
+[2026-07-24 11:16:51] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/about-us
+[2026-07-24 11:16:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com/about
+[2026-07-24 11:16:54] [LIVE SCRAPING] Probing subpage: https://www.pekkerllc.com/about
+[2026-07-24 11:16:54] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:16:55] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:16:55] [LIVE SCRAPING] Searching LinkedIn company page for Pekker LLC — Software Development in Chicago, IL in Chicago...
+[2026-07-24 11:16:56] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:16:56] [LIVE SCRAPING] Processing lead for Pekker LLC — Software Development in Chicago, IL | Email: contact@pekkerllc.com | Score: 80/100
+[2026-07-24 11:16:56] \n--- VALIDATION FOR: Pekker LLC — Software Development in Chicago, IL ---
+[2026-07-24 11:16:56] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:16:56] Email: contact@pekkerllc.com (Source: Not Available)
+[2026-07-24 11:16:56] LinkedIn (Person): Not Available
+[2026-07-24 11:16:56] LinkedIn (Company): Not Available
+[2026-07-24 11:16:56] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:16:56] --------------------------------
+[2026-07-24 11:16:56] [SUCCESS] Saved lead for Pekker LLC — Software Development in Chicago, IL: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:16:56] [LIVE SCRAPING] Visiting https://seanware.llc ...
+[2026-07-24 11:16:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc
+[2026-07-24 11:16:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/contact-us
+[2026-07-24 11:17:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/contact
+[2026-07-24 11:17:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/contact_us
+[2026-07-24 11:17:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/contactus
+[2026-07-24 11:17:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/about-us
+[2026-07-24 11:17:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc/about
+[2026-07-24 11:17:10] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:17:11] [LIVE SCRAPING] Extracted Leader: Sean Gransee (Owner)
+[2026-07-24 11:17:11] [LIVE SCRAPING] Searching LinkedIn for Sean Gransee at Seanware LLC...
+[2026-07-24 11:17:13] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:17:13] [LIVE SCRAPING] Searching LinkedIn company page for Seanware LLC in Chicago...
+[2026-07-24 11:17:14] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:17:14] [LIVE SCRAPING] Processing lead for Seanware LLC | Email: contact@seanware.llc | Score: 65/100
+[2026-07-24 11:17:14] \n--- VALIDATION FOR: Seanware LLC ---
+[2026-07-24 11:17:14] Person: Sean Gransee (Owner)
+[2026-07-24 11:17:14] Email: contact@seanware.llc (Source: Not Available)
+[2026-07-24 11:17:14] LinkedIn (Person): Not Available
+[2026-07-24 11:17:14] LinkedIn (Company): Not Available
+[2026-07-24 11:17:14] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:17:14] --------------------------------
+[2026-07-24 11:17:14] [QUALITY FILTER] Lead for Seanware LLC rejected: Confidence score (65) < 80
+[2026-07-24 11:17:14] [LIVE SCRAPING] Visiting https://www.beniceworks.com ...
+[2026-07-24 11:17:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com
+[2026-07-24 11:17:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/contact-us
+[2026-07-24 11:17:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/contact
+[2026-07-24 11:17:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/contact_us
+[2026-07-24 11:17:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/contactus
+[2026-07-24 11:17:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/about-us
+[2026-07-24 11:17:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com/about
+[2026-07-24 11:17:49] [LIVE SCRAPING] Probing subpage: https://www.beniceworks.com/about
+[2026-07-24 11:17:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:17:50] [LIVE SCRAPING] Extracted Leader: Claire Niederberger (Founder)
+[2026-07-24 11:17:50] [LIVE SCRAPING] Searching LinkedIn for Claire Niederberger at Be Nice Works...
+[2026-07-24 11:17:51] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:17:51] [LIVE SCRAPING] Searching LinkedIn company page for Be Nice Works in Chicago...
+[2026-07-24 11:17:53] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/niceworkentertainment
+[2026-07-24 11:17:53] [LIVE SCRAPING] Processing lead for Be Nice Works | Email: hello.beniceworks@gmail.com | Score: 55/100
+[2026-07-24 11:17:53] \n--- VALIDATION FOR: Be Nice Works ---
+[2026-07-24 11:17:53] Person: Claire Niederberger (Founder)
+[2026-07-24 11:17:53] Email: hello.beniceworks@gmail.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:17:53] LinkedIn (Person): Not Available
+[2026-07-24 11:17:53] LinkedIn (Company): https://www.linkedin.com/company/niceworkentertainment
+[2026-07-24 11:17:53] Score: 55/100 [official_email: 25, domain_match: 0, real_ceo: 20, linkedin_match: 0, website_evidence: 10, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:17:53] --------------------------------
+[2026-07-24 11:17:53] [QUALITY FILTER] Lead for Be Nice Works rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:17:53] [LIVE SCRAPING] Visiting https://www.theradicalsoftware.com ...
+[2026-07-24 11:17:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com
+[2026-07-24 11:17:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/contact-us
+[2026-07-24 11:18:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/contact
+[2026-07-24 11:18:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/contact_us
+[2026-07-24 11:18:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/contactus
+[2026-07-24 11:18:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/about-us
+[2026-07-24 11:18:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com/about
+[2026-07-24 11:18:11] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:18:12] [LIVE SCRAPING] Extracted Leader: Rory (Co-Founder)
+[2026-07-24 11:18:12] [LIVE SCRAPING] Searching LinkedIn company page for Radical Software | Custom Software Solutions for Modern Businesses in Chicago...
+[2026-07-24 11:18:14] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:18:14] [LIVE SCRAPING] Processing lead for Radical Software | Custom Software Solutions for Modern Businesses | Email: theradicalsoftware@gmail.com | Score: 65/100
+[2026-07-24 11:18:14] \n--- VALIDATION FOR: Radical Software | Custom Software Solutions for Modern Businesses ---
+[2026-07-24 11:18:14] Person: Rory (Co-Founder)
+[2026-07-24 11:18:14] Email: theradicalsoftware@gmail.com (Source: Groq LLM Context Analysis)
+[2026-07-24 11:18:14] LinkedIn (Person): https://www.linkedin.com/in/rorymcauliffe/
+[2026-07-24 11:18:14] LinkedIn (Company): Not Available
+[2026-07-24 11:18:14] Score: 65/100 [official_email: 25, domain_match: 0, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:18:14] --------------------------------
+[2026-07-24 11:18:14] [QUALITY FILTER] Lead for Radical Software | Custom Software Solutions for Modern Businesses rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:18:14] [LIVE SCRAPING] Visiting https://reallyvibrant.com ...
+[2026-07-24 11:18:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com
+[2026-07-24 11:18:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/contact-us
+[2026-07-24 11:18:18] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/contact-us
+[2026-07-24 11:18:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/contact
+[2026-07-24 11:18:19] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/contact
+[2026-07-24 11:18:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/contact_us
+[2026-07-24 11:18:21] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/contact_us
+[2026-07-24 11:18:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/contactus
+[2026-07-24 11:18:23] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/contactus
+[2026-07-24 11:18:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/about-us
+[2026-07-24 11:18:24] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/about-us
+[2026-07-24 11:18:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com/about
+[2026-07-24 11:18:26] [LIVE SCRAPING] Probing subpage: https://reallyvibrant.com/about
+[2026-07-24 11:18:26] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:18:27] [LIVE SCRAPING] Extracted Leader: Isaac Kadosh (Founder)
+[2026-07-24 11:18:27] [LIVE SCRAPING] Searching LinkedIn company page for ReallyVibrant | AI Infrastructure & Automation for Chicago Business in Chicago...
+[2026-07-24 11:18:29] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/airolabsai
+[2026-07-24 11:18:29] [LIVE SCRAPING] Processing lead for ReallyVibrant | AI Infrastructure & Automation for Chicago Business | Email: contact@reallyvibrant.com | Score: 80/100
+[2026-07-24 11:18:29] \n--- VALIDATION FOR: ReallyVibrant | AI Infrastructure & Automation for Chicago Business ---
+[2026-07-24 11:18:29] Person: Isaac Kadosh (Founder)
+[2026-07-24 11:18:29] Email: contact@reallyvibrant.com (Source: Not Available)
+[2026-07-24 11:18:29] LinkedIn (Person): None
+[2026-07-24 11:18:29] LinkedIn (Company): https://www.linkedin.com/company/airolabsai
+[2026-07-24 11:18:29] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 0, website_evidence: 10, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:18:29] --------------------------------
+[2026-07-24 11:18:29] [QUALITY FILTER] Lead for ReallyVibrant | AI Infrastructure & Automation for Chicago Business rejected: LinkedIn match check failed for person-level lead
+[2026-07-24 11:18:29] [LIVE SCRAPING] Visiting https://birthbaum.com ...
+[2026-07-24 11:18:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com
+[2026-07-24 11:18:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/contact-us
+[2026-07-24 11:18:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/contact
+[2026-07-24 11:18:34] [LIVE SCRAPING] Probing subpage: https://birthbaum.com/contact
+[2026-07-24 11:18:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/contact_us
+[2026-07-24 11:18:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/contactus
+[2026-07-24 11:18:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/about-us
+[2026-07-24 11:18:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com/about
+[2026-07-24 11:18:41] [LIVE SCRAPING] Probing subpage: https://birthbaum.com/about
+[2026-07-24 11:18:42] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:18:42] [LIVE SCRAPING] Extracted Leader: Ed Jaeger (Founder)
+[2026-07-24 11:18:42] [LIVE SCRAPING] Searching LinkedIn company page for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) in Chicago...
+[2026-07-24 11:18:44] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:18:44] [LIVE SCRAPING] Processing lead for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) | Email: contact@birthbaum.com | Score: 65/100
+[2026-07-24 11:18:44] \n--- VALIDATION FOR: Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) ---
+[2026-07-24 11:18:44] Person: Ed Jaeger (Founder)
+[2026-07-24 11:18:44] Email: contact@birthbaum.com (Source: Not Available)
+[2026-07-24 11:18:44] LinkedIn (Person): https://ed.birthbaum.com
+[2026-07-24 11:18:44] LinkedIn (Company): Not Available
+[2026-07-24 11:18:44] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:18:44] --------------------------------
+[2026-07-24 11:18:44] [QUALITY FILTER] Lead for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) rejected: Confidence score (65) < 80
+[2026-07-24 11:18:44] [LIVE SCRAPING] Visiting https://pureapplications.com ...
+[2026-07-24 11:18:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com
+[2026-07-24 11:18:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/contact-us
+[2026-07-24 11:18:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/contact
+[2026-07-24 11:18:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/contact_us
+[2026-07-24 11:18:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/contactus
+[2026-07-24 11:18:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/about-us
+[2026-07-24 11:18:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com/about
+[2026-07-24 11:18:59] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:19:00] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:19:00] [LIVE SCRAPING] Searching LinkedIn company page for Pure Applications — Chicago in Chicago...
+[2026-07-24 11:19:03] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/pure-lithium
+[2026-07-24 11:19:03] [LIVE SCRAPING] Processing lead for Pure Applications — Chicago | Email: contact@pureapplications.com | Score: 80/100
+[2026-07-24 11:19:03] \n--- VALIDATION FOR: Pure Applications — Chicago ---
+[2026-07-24 11:19:03] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:19:03] Email: contact@pureapplications.com (Source: Not Available)
+[2026-07-24 11:19:03] LinkedIn (Person): Not Available
+[2026-07-24 11:19:03] LinkedIn (Company): https://www.linkedin.com/company/pure-lithium
+[2026-07-24 11:19:03] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:19:03] --------------------------------
+[2026-07-24 11:19:03] [SUCCESS] Saved lead for Pure Applications — Chicago: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:19:03] [LIVE SCRAPING] Visiting https://ai-workflow.fyi ...
+[2026-07-24 11:19:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi
+[2026-07-24 11:19:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/about
+[2026-07-24 11:19:08] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/about
+[2026-07-24 11:19:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/contact
+[2026-07-24 11:19:11] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/contact
+[2026-07-24 11:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/contact-us
+[2026-07-24 11:19:13] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/contact-us
+[2026-07-24 11:19:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/contact_us
+[2026-07-24 11:19:16] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/contact_us
+[2026-07-24 11:19:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/contactus
+[2026-07-24 11:19:31] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/contactus
+[2026-07-24 11:19:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi/about-us
+[2026-07-24 11:19:34] [LIVE SCRAPING] Probing subpage: https://ai-workflow.fyi/about-us
+[2026-07-24 11:19:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:19:35] [LIVE SCRAPING] Extracted Leader: Marco Delgado (Founder & Strategy Lead)
+[2026-07-24 11:19:35] [LIVE SCRAPING] Searching LinkedIn company page for Ai Workflow in Chicago...
+[2026-07-24 11:19:37] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/exergetic
+[2026-07-24 11:19:37] [LIVE SCRAPING] Processing lead for Ai Workflow | Email: jonny@cursor.gg | Score: 65/100
+[2026-07-24 11:19:37] \n--- VALIDATION FOR: Ai Workflow ---
+[2026-07-24 11:19:37] Person: Marco Delgado (Founder & Strategy Lead)
+[2026-07-24 11:19:37] Email: jonny@cursor.gg (Source: Groq LLM Context Analysis)
+[2026-07-24 11:19:37] LinkedIn (Person): https://linkedin.com/in/marcodelgado
+[2026-07-24 11:19:37] LinkedIn (Company): https://www.linkedin.com/company/exergetic
+[2026-07-24 11:19:37] Score: 65/100 [official_email: 25, domain_match: 0, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:19:37] --------------------------------
+[2026-07-24 11:19:37] [QUALITY FILTER] Lead for Ai Workflow rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:19:37] [LIVE SCRAPING] Visiting https://www.absoluteio.com ...
+[2026-07-24 11:19:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com
+[2026-07-24 11:19:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/contact-us
+[2026-07-24 11:19:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/contact
+[2026-07-24 11:19:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/contact_us
+[2026-07-24 11:20:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/contactus
+[2026-07-24 11:20:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/about-us
+[2026-07-24 11:20:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com/about
+[2026-07-24 11:20:24] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:20:24] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:20:24] [LIVE SCRAPING] Searching LinkedIn company page for Absolute IO | Intelligent Systems in Chicago...
+[2026-07-24 11:20:26] [LIVE SCRAPING] Found via Exa AI: https://es.linkedin.com/company/digital-systems-and-integration
+[2026-07-24 11:20:26] [LIVE SCRAPING] Processing lead for Absolute IO | Intelligent Systems | Email: contact@absoluteio.com | Score: 80/100
+[2026-07-24 11:20:26] \n--- VALIDATION FOR: Absolute IO | Intelligent Systems ---
+[2026-07-24 11:20:26] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-24 11:20:26] Email: contact@absoluteio.com (Source: Not Available)
+[2026-07-24 11:20:26] LinkedIn (Person): Not Available
+[2026-07-24 11:20:26] LinkedIn (Company): https://es.linkedin.com/company/digital-systems-and-integration
+[2026-07-24 11:20:26] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:20:26] --------------------------------
+[2026-07-24 11:20:26] [SUCCESS] Saved lead for Absolute IO | Intelligent Systems: NOT_FOUND (NOT_FOUND) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:20:26] [LIVE SCRAPING] Visiting https://www.tnetic.com ...
+[2026-07-24 11:20:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com
+[2026-07-24 11:20:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/contact-us
+[2026-07-24 11:20:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/contact
+[2026-07-24 11:20:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/contact_us
+[2026-07-24 11:20:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/contactus
+[2026-07-24 11:20:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/about-us
+[2026-07-24 11:20:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tnetic.com/about
+[2026-07-24 11:20:35] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:20:51] [LIVE SCRAPING] Searching LinkedIn company page for TNETIC, Inc. — Software that works as hard as you do. in Chicago...
+[2026-07-24 11:20:52] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:20:52] [LIVE SCRAPING] Processing lead for TNETIC, Inc. — Software that works as hard as you do. | Email: i-@tend.com | Score: 30/100
+[2026-07-24 11:20:52] \n--- VALIDATION FOR: TNETIC, Inc. — Software that works as hard as you do. ---
+[2026-07-24 11:20:52] Person: Office Manager (Operations)
+[2026-07-24 11:20:52] Email: i-@tend.com (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:20:52] LinkedIn (Person): Not Available
+[2026-07-24 11:20:52] LinkedIn (Company): Not Available
+[2026-07-24 11:20:52] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:20:52] --------------------------------
+[2026-07-24 11:20:52] [QUALITY FILTER] Lead for TNETIC, Inc. — Software that works as hard as you do. rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:20:52] [LIVE SCRAPING] Visiting https://www.orbitech.software ...
+[2026-07-24 11:20:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software
+[2026-07-24 11:20:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/contact-us
+[2026-07-24 11:20:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/contact
+[2026-07-24 11:20:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/contact_us
+[2026-07-24 11:21:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/contactus
+[2026-07-24 11:21:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/about-us
+[2026-07-24 11:21:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software/about
+[2026-07-24 11:21:14] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:21:29] [LIVE SCRAPING] Searching LinkedIn company page for Orbitech Software Solutions in Chicago...
+[2026-07-24 11:21:31] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:21:31] [LIVE SCRAPING] Processing lead for Orbitech Software Solutions | Email: contact@orbitech.software | Score: 85/100
+[2026-07-24 11:21:31] \n--- VALIDATION FOR: Orbitech Software Solutions ---
+[2026-07-24 11:21:31] Person: Office Manager (Operations)
+[2026-07-24 11:21:31] Email: contact@orbitech.software (Source: Not Available)
+[2026-07-24 11:21:31] LinkedIn (Person): Not Available
+[2026-07-24 11:21:31] LinkedIn (Company): Not Available
+[2026-07-24 11:21:31] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:21:31] --------------------------------
+[2026-07-24 11:21:32] [SUCCESS] Saved lead for Orbitech Software Solutions: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:21:32] [LIVE SCRAPING] Visiting https://hoynelabs.com ...
+[2026-07-24 11:21:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com
+[2026-07-24 11:21:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/contact-us
+[2026-07-24 11:21:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/contact
+[2026-07-24 11:21:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/contact_us
+[2026-07-24 11:21:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/contactus
+[2026-07-24 11:21:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/about-us
+[2026-07-24 11:21:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com/about
+[2026-07-24 11:21:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:22:05] [LIVE SCRAPING] Searching LinkedIn company page for Hoyne Labs | AI Tools & Data Intelligence, Chicago in Chicago...
+[2026-07-24 11:22:06] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/isimplifyme
+[2026-07-24 11:22:06] [LIVE SCRAPING] Processing lead for Hoyne Labs | AI Tools & Data Intelligence, Chicago | Email: hoynelabs@gmail.com | Score: 25/100
+[2026-07-24 11:22:06] \n--- VALIDATION FOR: Hoyne Labs | AI Tools & Data Intelligence, Chicago ---
+[2026-07-24 11:22:06] Person: Office Manager (Operations)
+[2026-07-24 11:22:06] Email: hoynelabs@gmail.com (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:22:06] LinkedIn (Person): Not Available
+[2026-07-24 11:22:06] LinkedIn (Company): https://www.linkedin.com/company/isimplifyme
+[2026-07-24 11:22:06] Score: 25/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:22:06] --------------------------------
+[2026-07-24 11:22:06] [QUALITY FILTER] Lead for Hoyne Labs | AI Tools & Data Intelligence, Chicago rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:22:06] [LIVE SCRAPING] Visiting https://hydeparksoftwareconsulting.com ...
+[2026-07-24 11:22:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com
+[2026-07-24 11:22:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/contact-us
+[2026-07-24 11:22:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/contact
+[2026-07-24 11:22:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/contact_us
+[2026-07-24 11:22:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/contactus
+[2026-07-24 11:22:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/about-us
+[2026-07-24 11:22:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hydeparksoftwareconsulting.com/about
+[2026-07-24 11:22:35] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:22:46] [LIVE SCRAPING] Extracted Leader: Steve Fram (Owner)
+[2026-07-24 11:22:46] [LIVE SCRAPING] Searching LinkedIn company page for Hyde Park Software Consulting - Independent Software Consultant in Chicago in Chicago...
+[2026-07-24 11:23:03] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/hpa-vc
+[2026-07-24 11:23:04] [LIVE SCRAPING] Processing lead for Hyde Park Software Consulting - Independent Software Consultant in Chicago | Email: steve@hydeparksoftwareconsulting.com | Score: 80/100
+[2026-07-24 11:23:04] \n--- VALIDATION FOR: Hyde Park Software Consulting - Independent Software Consultant in Chicago ---
+[2026-07-24 11:23:04] Person: Steve Fram (Owner)
+[2026-07-24 11:23:04] Email: steve@hydeparksoftwareconsulting.com (Source: Groq LLM Context Analysis)
+[2026-07-24 11:23:04] LinkedIn (Person): https://www.linkedin.com/in/stevefram
+[2026-07-24 11:23:04] LinkedIn (Company): https://www.linkedin.com/company/hpa-vc
+[2026-07-24 11:23:04] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:23:04] --------------------------------
+[2026-07-24 11:23:04] [SUCCESS] Saved lead for Hyde Park Software Consulting - Independent Software Consultant in Chicago: Steve Fram (Owner) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 20, linkedin_match: 15, website_evidence: 0, phone: 0, location: 0, company_validity: 0
+[2026-07-24 11:23:04] [LIVE SCRAPING] Visiting https://sofusm.com ...
+[2026-07-24 11:23:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com
+[2026-07-24 11:23:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/contact-us
+[2026-07-24 11:23:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/contact
+[2026-07-24 11:23:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/contact_us
+[2026-07-24 11:23:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/contactus
+[2026-07-24 11:23:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/about-us
+[2026-07-24 11:23:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com/about
+[2026-07-24 11:23:30] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:23:46] [LIVE SCRAPING] Searching LinkedIn company page for Sofusm — Your Chicago Partner for Digital Excellence in Chicago...
+[2026-07-24 11:23:47] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:23:47] [LIVE SCRAPING] Processing lead for Sofusm — Your Chicago Partner for Digital Excellence | Email: hello@sofusm.com | Score: 85/100
+[2026-07-24 11:23:47] \n--- VALIDATION FOR: Sofusm — Your Chicago Partner for Digital Excellence ---
+[2026-07-24 11:23:47] Person: Office Manager (Operations)
+[2026-07-24 11:23:47] Email: hello@sofusm.com (Source: Website DOM Extraction (Generic))
+[2026-07-24 11:23:47] LinkedIn (Person): Not Available
+[2026-07-24 11:23:47] LinkedIn (Company): Not Available
+[2026-07-24 11:23:47] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:23:47] --------------------------------
+[2026-07-24 11:23:47] [SUCCESS] Saved lead for Sofusm — Your Chicago Partner for Digital Excellence: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:23:47] [LIVE SCRAPING] Visiting https://www.gogreenlit.com ...
+[2026-07-24 11:23:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com
+[2026-07-24 11:23:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/contact-us
+[2026-07-24 11:23:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/contact
+[2026-07-24 11:23:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/contact_us
+[2026-07-24 11:23:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/contactus
+[2026-07-24 11:23:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/about-us
+[2026-07-24 11:24:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com/about
+[2026-07-24 11:24:01] [LIVE SCRAPING] Probing subpage: https://www.gogreenlit.com/about
+[2026-07-24 11:24:01] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:24:17] [LIVE SCRAPING] Searching LinkedIn company page for About goGreenlit | Chicago QA Consulting Firm | goGreenlit in Chicago...
+[2026-07-24 11:24:34] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/qualitestolenick
+[2026-07-24 11:24:34] [LIVE SCRAPING] Processing lead for About goGreenlit | Chicago QA Consulting Firm | goGreenlit | Email: gogreenlit@gmail.com | Score: 25/100
+[2026-07-24 11:24:34] \n--- VALIDATION FOR: About goGreenlit | Chicago QA Consulting Firm | goGreenlit ---
+[2026-07-24 11:24:34] Person: Office Manager (Operations)
+[2026-07-24 11:24:34] Email: gogreenlit@gmail.com (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:24:34] LinkedIn (Person): Not Available
+[2026-07-24 11:24:34] LinkedIn (Company): https://www.linkedin.com/company/qualitestolenick
+[2026-07-24 11:24:34] Score: 25/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 0]
+[2026-07-24 11:24:34] --------------------------------
+[2026-07-24 11:24:34] [QUALITY FILTER] Lead for About goGreenlit | Chicago QA Consulting Firm | goGreenlit rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:24:34] [LIVE SCRAPING] Visiting https://usuallytech.com ...
+[2026-07-24 11:24:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com
+[2026-07-24 11:24:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/contact-us
+[2026-07-24 11:24:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/contact
+[2026-07-24 11:24:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/contact_us
+[2026-07-24 11:24:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/contactus
+[2026-07-24 11:24:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/about-us
+[2026-07-24 11:24:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com/about
+[2026-07-24 11:24:47] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:25:03] [LIVE SCRAPING] Searching LinkedIn company page for Real Estate Software Developers | Usually Tech in Chicago...
+[2026-07-24 11:25:20] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/sitetechnologies
+[2026-07-24 11:25:21] [LIVE SCRAPING] Processing lead for Real Estate Software Developers | Usually Tech | Email: contact@usuallytech.com | Score: 85/100
+[2026-07-24 11:25:21] \n--- VALIDATION FOR: Real Estate Software Developers | Usually Tech ---
+[2026-07-24 11:25:21] Person: Office Manager (Operations)
+[2026-07-24 11:25:21] Email: contact@usuallytech.com (Source: Not Available)
+[2026-07-24 11:25:21] LinkedIn (Person): Not Available
+[2026-07-24 11:25:21] LinkedIn (Company): https://www.linkedin.com/company/sitetechnologies
+[2026-07-24 11:25:21] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:25:21] --------------------------------
+[2026-07-24 11:25:21] [SUCCESS] Saved lead for Real Estate Software Developers | Usually Tech: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:25:22] [LIVE SCRAPING] Visiting https://www.caxy.com ...
+[2026-07-24 11:25:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com
+[2026-07-24 11:25:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/about-us
+[2026-07-24 11:25:30] [LIVE SCRAPING] Probing subpage: https://www.caxy.com/about-us
+[2026-07-24 11:25:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/about-you
+[2026-07-24 11:25:37] [LIVE SCRAPING] Probing subpage: https://www.caxy.com/about-you
+[2026-07-24 11:25:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/contact
+[2026-07-24 11:25:42] [LIVE SCRAPING] Probing subpage: https://www.caxy.com/contact
+[2026-07-24 11:25:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/contact-us
+[2026-07-24 11:25:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/contact_us
+[2026-07-24 11:25:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/contactus
+[2026-07-24 11:25:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com/about
+[2026-07-24 11:25:54] [LIVE SCRAPING] Probing subpage: https://www.caxy.com/about
+[2026-07-24 11:25:54] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:26:10] [LIVE SCRAPING] Searching LinkedIn company page for Chicago AI & Digital Transformation Consulting | Caxy in Chicago...
+[2026-07-24 11:26:27] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/caxy-interactive
+[2026-07-24 11:26:28] [LIVE SCRAPING] Processing lead for Chicago AI & Digital Transformation Consulting | Caxy | Email: contact@caxy.com | Score: 80/100
+[2026-07-24 11:26:28] \n--- VALIDATION FOR: Chicago AI & Digital Transformation Consulting | Caxy ---
+[2026-07-24 11:26:28] Person: Office Manager (Operations)
+[2026-07-24 11:26:28] Email: contact@caxy.com (Source: Not Available)
+[2026-07-24 11:26:28] LinkedIn (Person): Not Available
+[2026-07-24 11:26:28] LinkedIn (Company): https://www.linkedin.com/company/caxy-interactive
+[2026-07-24 11:26:28] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:26:28] --------------------------------
+[2026-07-24 11:26:28] [SUCCESS] Saved lead for Chicago AI & Digital Transformation Consulting | Caxy: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:26:28] [LIVE SCRAPING] Visiting https://cuebytes.com ...
+[2026-07-24 11:26:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com
+[2026-07-24 11:26:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/contact-us
+[2026-07-24 11:26:35] [LIVE SCRAPING] Probing subpage: https://cuebytes.com/contact-us
+[2026-07-24 11:26:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/contact
+[2026-07-24 11:26:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/contact_us
+[2026-07-24 11:26:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/contactus
+[2026-07-24 11:26:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/about-us
+[2026-07-24 11:26:46] [LIVE SCRAPING] Probing subpage: https://cuebytes.com/about-us
+[2026-07-24 11:26:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com/about
+[2026-07-24 11:26:48] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:27:04] [LIVE SCRAPING] Searching LinkedIn company page for Software Development Company Chicago | CueBytes in Chicago...
+[2026-07-24 11:27:21] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-24 11:27:22] [LIVE SCRAPING] Processing lead for Software Development Company Chicago | CueBytes | Email: com.pickleballpir@e.idink | Score: 5/100
+[2026-07-24 11:27:22] \n--- VALIDATION FOR: Software Development Company Chicago | CueBytes ---
+[2026-07-24 11:27:22] Person: Office Manager (Operations)
+[2026-07-24 11:27:22] Email: com.pickleballpir@e.idink (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:27:22] LinkedIn (Person): Not Available
+[2026-07-24 11:27:22] LinkedIn (Company): https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-24 11:27:22] Score: 5/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:27:22] --------------------------------
+[2026-07-24 11:27:22] [QUALITY FILTER] Lead for Software Development Company Chicago | CueBytes rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:27:22] [LIVE SCRAPING] Visiting https://eightbitstudios.com ...
+[2026-07-24 11:27:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com
+[2026-07-24 11:27:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/contact-us
+[2026-07-24 11:27:45] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:27:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/contact
+[2026-07-24 11:28:05] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:28:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/contact_us
+[2026-07-24 11:28:26] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:28:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/contactus
+[2026-07-24 11:28:46] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:28:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/about-us
+[2026-07-24 11:29:06] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:29:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com/about
+[2026-07-24 11:29:14] [LIVE SCRAPING] Probing subpage: https://eightbitstudios.com/about
+[2026-07-24 11:29:15] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:29:31] [LIVE SCRAPING] Searching LinkedIn company page for About | Eight Bit Studios in Chicago...
+[2026-07-24 11:29:48] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/eight-bit-studios
+[2026-07-24 11:29:48] [LIVE SCRAPING] Processing lead for About | Eight Bit Studios | Email: contact@eightbitstudios.com | Score: 85/100
+[2026-07-24 11:29:48] \n--- VALIDATION FOR: About | Eight Bit Studios ---
+[2026-07-24 11:29:48] Person: Office Manager (Operations)
+[2026-07-24 11:29:48] Email: contact@eightbitstudios.com (Source: Not Available)
+[2026-07-24 11:29:48] LinkedIn (Person): Not Available
+[2026-07-24 11:29:48] LinkedIn (Company): https://www.linkedin.com/company/eight-bit-studios
+[2026-07-24 11:29:48] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:29:48] --------------------------------
+[2026-07-24 11:29:48] [SUCCESS] Saved lead for About | Eight Bit Studios: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:29:49] [LIVE SCRAPING] Visiting https://digiline.io ...
+[2026-07-24 11:29:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io
+[2026-07-24 11:29:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/contact-us
+[2026-07-24 11:30:11] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:30:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/contact
+[2026-07-24 11:30:25] [LIVE SCRAPING] Probing subpage: https://digiline.io/contact
+[2026-07-24 11:30:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/contact_us
+[2026-07-24 11:30:40] [LIVE SCRAPING] Probing subpage: https://digiline.io/contact_us
+[2026-07-24 11:30:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/contactus
+[2026-07-24 11:30:57] [LIVE SCRAPING] Probing subpage: https://digiline.io/contactus
+[2026-07-24 11:30:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/about-us
+[2026-07-24 11:31:12] [LIVE SCRAPING] Probing subpage: https://digiline.io/about-us
+[2026-07-24 11:31:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io/about
+[2026-07-24 11:31:30] [LIVE SCRAPING] Probing subpage: https://digiline.io/about
+[2026-07-24 11:31:31] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:31:47] [LIVE SCRAPING] Searching LinkedIn company page for Digiline in Chicago...
+[2026-07-24 11:32:04] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/digiline-solution
+[2026-07-24 11:32:04] [LIVE SCRAPING] Processing lead for Digiline | Email: contact@digiline.io | Score: 80/100
+[2026-07-24 11:32:04] \n--- VALIDATION FOR: Digiline ---
+[2026-07-24 11:32:04] Person: Office Manager (Operations)
+[2026-07-24 11:32:04] Email: contact@digiline.io (Source: Not Available)
+[2026-07-24 11:32:04] LinkedIn (Person): Not Available
+[2026-07-24 11:32:04] LinkedIn (Company): https://www.linkedin.com/company/digiline-solution
+[2026-07-24 11:32:04] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:32:04] --------------------------------
+[2026-07-24 11:32:04] [SUCCESS] Saved lead for Digiline: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:32:04] Valid Leads: 14/20
+------------------------------------------------
+[2026-07-24 11:32:04] 
+------------------------------------------------
+Iteration 2/10
+Searching:
+small software firms in Chicago
+[2026-07-24 11:32:04] [LIVE SCRAPING] Querying Exa AI for: small software firms in Chicago
+[2026-07-24 11:32:05] [LIVE SCRAPING] Found 7 new target websites. Processing batch...
+[2026-07-24 11:32:05] [LIVE SCRAPING] Visiting https://www.parallactic.com ...
+[2026-07-24 11:32:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com
+[2026-07-24 11:32:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/contact-us
+[2026-07-24 11:32:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/contact
+[2026-07-24 11:32:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/contact_us
+[2026-07-24 11:32:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/contactus
+[2026-07-24 11:33:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/about-us
+[2026-07-24 11:33:25] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:33:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com/about
+[2026-07-24 11:33:44] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:34:00] [LIVE SCRAPING] Searching LinkedIn company page for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails in Chicago...
+[2026-07-24 11:34:01] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:34:02] [LIVE SCRAPING] Processing lead for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails | Email: d@a.php | Score: 5/100
+[2026-07-24 11:34:02] \n--- VALIDATION FOR: Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails ---
+[2026-07-24 11:34:02] Person: Office Manager (Operations)
+[2026-07-24 11:34:02] Email: d@a.php (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:34:02] LinkedIn (Person): Not Available
+[2026-07-24 11:34:02] LinkedIn (Company): Not Available
+[2026-07-24 11:34:02] Score: 5/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:34:02] --------------------------------
+[2026-07-24 11:34:02] [QUALITY FILTER] Lead for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 11:34:02] [LIVE SCRAPING] Visiting https://leantegral.com ...
+[2026-07-24 11:34:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com
+[2026-07-24 11:34:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/contact-us
+[2026-07-24 11:34:25] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:34:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/contact
+[2026-07-24 11:34:46] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:34:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/contact_us
+[2026-07-24 11:35:06] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:35:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/contactus
+[2026-07-24 11:35:26] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:35:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/about-us
+[2026-07-24 11:35:47] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:35:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com/about
+[2026-07-24 11:36:07] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:36:07] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:36:23] [LIVE SCRAPING] Searching LinkedIn company page for About | Leantegral in Chicago...
+[2026-07-24 11:36:42] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/built-in-chicago
+[2026-07-24 11:36:42] [LIVE SCRAPING] Processing lead for About | Leantegral | Email: contact@leantegral.com | Score: 85/100
+[2026-07-24 11:36:42] \n--- VALIDATION FOR: About | Leantegral ---
+[2026-07-24 11:36:42] Person: Office Manager (Operations)
+[2026-07-24 11:36:42] Email: contact@leantegral.com (Source: Not Available)
+[2026-07-24 11:36:42] LinkedIn (Person): Not Available
+[2026-07-24 11:36:42] LinkedIn (Company): https://www.linkedin.com/company/built-in-chicago
+[2026-07-24 11:36:42] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-24 11:36:42] --------------------------------
+[2026-07-24 11:36:44] [SUCCESS] Saved lead for About | Leantegral: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-24 11:36:44] [LIVE SCRAPING] Visiting https://champlinenterprises.com ...
+[2026-07-24 11:36:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com
+[2026-07-24 11:36:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/contact-us
+[2026-07-24 11:37:08] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:37:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/contact
+[2026-07-24 11:37:09] [LIVE SCRAPING] Probing subpage: https://champlinenterprises.com/contact
+[2026-07-24 11:37:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/contact_us
+[2026-07-24 11:37:31] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:37:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/contactus
+[2026-07-24 11:37:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/about-us
+[2026-07-24 11:38:03] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:38:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com/about
+[2026-07-24 11:38:05] [LIVE SCRAPING] Probing subpage: https://champlinenterprises.com/about
+[2026-07-24 11:38:05] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:38:22] [LIVE SCRAPING] Searching LinkedIn company page for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises in Chicago...
+[2026-07-24 11:38:41] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/airolabsai
+[2026-07-24 11:38:42] [LIVE SCRAPING] Processing lead for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises | Email: stillw@ers.champlinenterprises.com | Score: 25/100
+[2026-07-24 11:38:42] \n--- VALIDATION FOR: AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises ---
+[2026-07-24 11:38:42] Person: Office Manager (Operations)
+[2026-07-24 11:38:42] Email: stillw@ers.champlinenterprises.com (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:38:42] LinkedIn (Person): Not Available
+[2026-07-24 11:38:42] LinkedIn (Company): https://www.linkedin.com/company/airolabsai
+[2026-07-24 11:38:42] Score: 25/100 [official_email: 0, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 0]
+[2026-07-24 11:38:42] --------------------------------
+[2026-07-24 11:38:42] [QUALITY FILTER] Lead for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises rejected: Email is unverified (MX Record Failed)
+[2026-07-24 11:38:42] [LIVE SCRAPING] Visiting https://northsidesystems.com ...
+[2026-07-24 11:38:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com
+[2026-07-24 11:38:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/contact-us
+[2026-07-24 11:39:06] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:39:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/contact
+[2026-07-24 11:39:27] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:39:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/contact_us
+[2026-07-24 11:39:48] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:39:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/contactus
+[2026-07-24 11:40:09] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/about-us
+[2026-07-24 11:40:29] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:40:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com/about
+[2026-07-24 11:40:50] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:40:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:41:07] [LIVE SCRAPING] Searching LinkedIn company page for Northside Systems, LLC | Software Development Services | Chicago, IL in Chicago...
+[2026-07-24 11:41:26] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/northside-systems
+[2026-07-24 11:41:26] [LIVE SCRAPING] Processing lead for Northside Systems, LLC | Software Development Services | Chicago, IL | Email: contact@northsidesystems.com | Score: 80/100
+[2026-07-24 11:41:26] \n--- VALIDATION FOR: Northside Systems, LLC | Software Development Services | Chicago, IL ---
+[2026-07-24 11:41:26] Person: Office Manager (Operations)
+[2026-07-24 11:41:26] Email: contact@northsidesystems.com (Source: Not Available)
+[2026-07-24 11:41:26] LinkedIn (Person): Not Available
+[2026-07-24 11:41:26] LinkedIn (Company): https://www.linkedin.com/company/northside-systems
+[2026-07-24 11:41:26] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:41:26] --------------------------------
+[2026-07-24 11:41:27] [SUCCESS] Saved lead for Northside Systems, LLC | Software Development Services | Chicago, IL: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:41:27] [LIVE SCRAPING] Visiting https://www.humblespark.com ...
+[2026-07-24 11:41:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com
+[2026-07-24 11:41:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/contact-us
+[2026-07-24 11:41:50] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:41:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/contact
+[2026-07-24 11:42:11] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:42:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/contact_us
+[2026-07-24 11:42:31] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:42:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/contactus
+[2026-07-24 11:42:52] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:42:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/about-us
+[2026-07-24 11:43:12] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:43:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com/about
+[2026-07-24 11:43:34] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:43:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:43:51] [LIVE SCRAPING] Searching LinkedIn company page for A HumbleSpark for your business, from Chicago | HumbleSpark in Chicago...
+[2026-07-24 11:43:53] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:43:53] [LIVE SCRAPING] Processing lead for A HumbleSpark for your business, from Chicago | HumbleSpark | Email: contact@humblespark.com | Score: 80/100
+[2026-07-24 11:43:53] \n--- VALIDATION FOR: A HumbleSpark for your business, from Chicago | HumbleSpark ---
+[2026-07-24 11:43:53] Person: Office Manager (Operations)
+[2026-07-24 11:43:53] Email: contact@humblespark.com (Source: Not Available)
+[2026-07-24 11:43:53] LinkedIn (Person): Not Available
+[2026-07-24 11:43:53] LinkedIn (Company): Not Available
+[2026-07-24 11:43:53] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:43:53] --------------------------------
+[2026-07-24 11:43:54] [SUCCESS] Saved lead for A HumbleSpark for your business, from Chicago | HumbleSpark: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:43:54] [LIVE SCRAPING] Visiting https://www.napersolutions.com ...
+[2026-07-24 11:43:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.napersolutions.com
+[2026-07-24 11:44:17] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:44:17] [WARNING] Could not load https://www.napersolutions.com. Skipping.
+[2026-07-24 11:44:17] [LIVE SCRAPING] Visiting https://www.proliphus.com ...
+[2026-07-24 11:44:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com
+[2026-07-24 11:44:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/contact-us
+[2026-07-24 11:44:41] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:44:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/contact
+[2026-07-24 11:45:02] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:45:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/contact_us
+[2026-07-24 11:45:23] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:45:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/contactus
+[2026-07-24 11:45:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/about-us
+[2026-07-24 11:45:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com/about
+[2026-07-24 11:45:59] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:46:15] [LIVE SCRAPING] Searching LinkedIn company page for Proliphus Enterprises – keep moving forward in Chicago...
+[2026-07-24 11:46:17] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 11:46:17] [LIVE SCRAPING] Processing lead for Proliphus Enterprises – keep moving forward | Email: contact@proliphus.com | Score: 80/100
+[2026-07-24 11:46:17] \n--- VALIDATION FOR: Proliphus Enterprises – keep moving forward ---
+[2026-07-24 11:46:17] Person: Office Manager (Operations)
+[2026-07-24 11:46:17] Email: contact@proliphus.com (Source: Not Available)
+[2026-07-24 11:46:17] LinkedIn (Person): Not Available
+[2026-07-24 11:46:17] LinkedIn (Company): Not Available
+[2026-07-24 11:46:17] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:46:17] --------------------------------
+[2026-07-24 11:46:17] [SUCCESS] Saved lead for Proliphus Enterprises – keep moving forward: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:46:18] Valid Leads: 18/20
+------------------------------------------------
+[2026-07-24 11:46:18] 
+------------------------------------------------
+Iteration 3/10
+Searching:
+Chicago based software startups with less than 20 staff
+[2026-07-24 11:46:18] [LIVE SCRAPING] Querying Exa AI for: Chicago based software startups with less than 20 staff
+[2026-07-24 11:46:19] [LIVE SCRAPING] Found 14 new target websites. Processing batch...
+[2026-07-24 11:46:19] [LIVE SCRAPING] Visiting https://mistiq.org ...
+[2026-07-24 11:46:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org
+[2026-07-24 11:46:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/contact-us
+[2026-07-24 11:46:42] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:46:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/contact
+[2026-07-24 11:47:03] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:47:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/contact_us
+[2026-07-24 11:47:23] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:47:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/contactus
+[2026-07-24 11:47:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/about-us
+[2026-07-24 11:47:46] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:47:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org/about
+[2026-07-24 11:47:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:48:06] [LIVE SCRAPING] Searching LinkedIn company page for Mistiq | AI-native consumer software in Chicago...
+[2026-07-24 11:48:08] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/8th-light
+[2026-07-24 11:48:08] [LIVE SCRAPING] Processing lead for Mistiq | AI-native consumer software | Email: sharven.rane@mistiq.org | Score: 80/100
+[2026-07-24 11:48:08] \n--- VALIDATION FOR: Mistiq | AI-native consumer software ---
+[2026-07-24 11:48:08] Person: Office Manager (Operations)
+[2026-07-24 11:48:08] Email: sharven.rane@mistiq.org (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:48:08] LinkedIn (Person): Not Available
+[2026-07-24 11:48:08] LinkedIn (Company): https://www.linkedin.com/company/8th-light
+[2026-07-24 11:48:08] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:48:08] --------------------------------
+[2026-07-24 11:48:09] [SUCCESS] Saved lead for Mistiq | AI-native consumer software: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:48:09] [LIVE SCRAPING] Visiting https://www.zourse.ai ...
+[2026-07-24 11:48:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai
+[2026-07-24 11:48:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/contact-us
+[2026-07-24 11:48:33] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:48:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/contact
+[2026-07-24 11:48:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/contact_us
+[2026-07-24 11:48:55] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:48:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/contactus
+[2026-07-24 11:49:15] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 11:49:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/about-us
+[2026-07-24 11:49:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zourse.ai/about
+[2026-07-24 11:49:20] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 11:49:38] [LIVE SCRAPING] Searching LinkedIn company page for Zourse — Intelligence for the Real Estate Profession in Chicago...
+[2026-07-24 11:49:56] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/thecounselorsofrealestate
+[2026-07-24 11:49:56] [LIVE SCRAPING] Processing lead for Zourse — Intelligence for the Real Estate Profession | Email: live@app.zourse.ai | Score: 80/100
+[2026-07-24 11:49:56] \n--- VALIDATION FOR: Zourse — Intelligence for the Real Estate Profession ---
+[2026-07-24 11:49:56] Person: Office Manager (Operations)
+[2026-07-24 11:49:56] Email: live@app.zourse.ai (Source: Website DOM Extraction (Best Match))
+[2026-07-24 11:49:56] LinkedIn (Person): Not Available
+[2026-07-24 11:49:56] LinkedIn (Company): https://www.linkedin.com/company/thecounselorsofrealestate
+[2026-07-24 11:49:56] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-24 11:49:56] --------------------------------
+[2026-07-24 11:49:57] [SUCCESS] Saved lead for Zourse — Intelligence for the Real Estate Profession: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-24 11:49:57] Valid Leads: 20/20
+------------------------------------------------
+[2026-07-24 11:49:57] Target reached. Valid Leads: 20/20. Scanned: 38/200.
+[2026-07-24 11:49:58] [LIVE SCRAPING SUCCESS] Generated 20 valid new leads (Duplicates skipped). Total companies scanned: 38
+[2026-07-24 11:49:58] Agent execution finished.

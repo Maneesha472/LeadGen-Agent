@@ -1,0 +1,18 @@
+[2026-07-19 16:37:37] Starting Lead Generation Agent Execution #33
+[2026-07-19 16:37:37] Criteria - Category: IT Service | Location: Tata Consultancy | Keywords: Location: Mumbai
+[2026-07-19 16:37:37] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 16:37:38] [LIVE SCRAPING] Company name specified: 'Tata Consultancy'. Resolving official website domain...
+[2026-07-19 16:37:44] [LIVE SCRAPING SUCCESS] Resolved official website for 'Tata Consultancy': https://www.tataconsultancy.com
+[2026-07-19 16:37:44] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 16:37:46] [LIVE SCRAPING] visiting https://www.tataconsultancy.com ...
+[2026-07-19 16:37:52] [WARNING] Could not connect to https://www.tataconsultancy.com: HTTPSConnectionPool(host='www.tataconsultancy.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002306010E490>: Failed to resolve 'www.tataconsultancy.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-19 16:37:52] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact-us/mumbai
+[2026-07-19 16:37:53] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/locations/mumbai
+[2026-07-19 16:37:54] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact-us
+[2026-07-19 16:37:54] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contactus
+[2026-07-19 16:37:55] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact
+[2026-07-19 16:37:56] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact_us
+[2026-07-19 16:37:57] [LIVE SCRAPING] Processing lead record for Tata Consultancy | Email: Not Available | Score: 29%
+[2026-07-19 16:37:57] [SUCCESS] Validated & saved lead for Tata Consultancy: Office Manager (Operations) | Verified: Unverified
+[2026-07-19 16:37:57] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 16:37:57] Agent execution finished.

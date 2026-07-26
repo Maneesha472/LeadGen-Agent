@@ -1,0 +1,11 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 15:20:31
+[2026-07-19 15:20:31] Starting Lead Generation Agent Execution #23
+[2026-07-19 15:20:31] Criteria - Category: Direct Enrichment | Location: https://www.mahindra.com/ | Keywords: None
+[2026-07-19 15:20:31] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 15:20:32] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.mahindra.com/
+[2026-07-19 15:20:32] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 15:20:34] [LIVE SCRAPING] visiting https://www.mahindra.com/ ...
+[2026-07-19 15:20:40] [LIVE SCRAPING] Navigating to subpage: https://www.mahindra.com/about-us
+[2026-07-19 15:20:43] CRITICAL ERROR in Agent execution: name 'is_direct_url' is not defined
+[2026-07-19 15:20:43] Agent execution finished.
+[2026-07-19 15:20:43] [OUTREACH] Skipped. No email template provided.

@@ -1,0 +1,14 @@
+[SYSTEM] Agent execution scheduled at 2026-07-18 18:04:37
+[2026-07-18 18:04:37] Starting Lead Generation Agent Execution #12
+[2026-07-18 18:04:37] Criteria - Category: Direct Enrichment | Location: leadtune.com | Keywords: None
+[2026-07-18 18:04:37] [LIVE SCRAPING] Starting live scraper...
+[2026-07-18 18:04:38] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: leadtune.com
+[2026-07-18 18:04:38] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-18 18:04:40] [LIVE SCRAPING] visiting https://leadtune.com ...
+[2026-07-18 18:04:41] [INFO] No email found on website. Guessing fallback: info@leadtune.com
+[2026-07-18 18:04:41] [LIVE SCRAPING] Validating lead: Office Manager | Email: info@leadtune.com
+[2026-07-18 18:04:41] [WARNING] Lead with email info@leadtune.com already exists. Skipping duplicate.
+[2026-07-18 18:04:41] [FAILED] Validation failed for lead at website https://leadtune.com
+[2026-07-18 18:04:42] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-18 18:04:42] Agent execution finished.
+[2026-07-18 18:04:42] [OUTREACH] Skipped. No email template provided.

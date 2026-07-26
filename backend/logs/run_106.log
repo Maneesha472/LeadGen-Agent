@@ -1,0 +1,17 @@
+[2026-07-24 12:42:41] Starting Lead Generation Agent Execution #106
+[2026-07-24 12:42:41] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-24 12:42:41] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-24 12:42:42] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 12:42:43] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-24 12:42:43] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+Chicago software companies under 20 employees
+[2026-07-24 12:42:43] [LIVE SCRAPING] Querying Exa AI for: Chicago software companies under 20 employees
+[2026-07-24 12:42:44] [LIVE SCRAPING] Found 29 new target websites. Processing batch...
+[2026-07-24 12:42:44] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-24 12:42:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-24 12:42:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact-us
+[2026-07-24 12:43:07] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-24 12:43:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com/contact

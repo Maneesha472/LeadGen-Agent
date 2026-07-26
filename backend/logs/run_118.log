@@ -1,0 +1,33 @@
+[2026-07-24 16:14:20] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 16:14:21] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 16:14:38] Iteration 1/1
+Searching: Software buyers companies in Chicago under 20 employees
+[2026-07-24 16:14:39] [LIVE SCRAPING] Scraping directory/listicle for companies: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 16:14:39] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 16:14:41] [LIVE SCRAPING] Scraping directory/listicle for companies: https://clutch.co/developers/small-business/chicago
+[2026-07-24 16:14:41] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://clutch.co/developers/small-business/chicago
+[2026-07-24 16:14:42] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.builtinchicago.org/companies/type/app-development-companies
+[2026-07-24 16:14:42] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.builtinchicago.org/companies/type/app-development-companies
+[2026-07-24 16:14:43] [LIVE SCRAPING] Scraping directory/listicle for companies: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:14:43] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:14:44] [LIVE SCRAPING] Scraping directory/listicle for companies: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 16:14:44] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 16:14:45] [LIVE SCRAPING] Scraping directory/listicle for companies: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 16:14:45] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 16:14:47] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:14:47] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:14:50] [LIVE SCRAPING] Scraping directory/listicle for companies: https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 16:14:50] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 16:14:52] [LIVE SCRAPING] Found 95 new target websites. Processing batch concurrently...
+[2026-07-24 16:14:52] [LIVE SCRAPING] Visiting tekinvent.com ...
+[2026-07-24 16:14:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for tekinvent.com
+[2026-07-24 16:14:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/contact-us
+[2026-07-24 16:14:55] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/contact-us
+[2026-07-24 16:14:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/contact-us/
+[2026-07-24 16:14:55] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/contact-us/
+[2026-07-24 16:14:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for tekinvent.com/contact-us
+[2026-07-24 16:14:56] [LIVE SCRAPING] Probing subpage: tekinvent.com/contact-us
+[2026-07-24 16:14:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for tekinvent.com/contact
+[2026-07-24 16:14:58] [LIVE SCRAPING] Probing subpage: tekinvent.com/contact
+[2026-07-24 16:14:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for tekinvent.com/contact_us
+[2026-07-24 16:14:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for tekinvent.com/contactus

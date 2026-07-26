@@ -1,0 +1,30 @@
+publisher_id: PUBLISHER_PLACEHOLDER
+agent_id: AGENT_PLACEHOLDER
+name: Lead Generation Agent
+version: 0.1.0
+capabilities:
+  streaming: true
+task_templates:
+  - slug: lead_generation
+    category_slug: sales_lead_generation
+    artifact_type: table_data
+    typical_charge: 100
+    unit_ceiling: 200
+    input_composition:
+      fields:
+        - name: category
+          type: string
+          required: true
+          description: "Business Category (e.g., HVAC, Plumber)"
+        - name: location
+          type: string
+          required: true
+          description: "Location or URL (e.g., Seattle, WA)"
+        - name: keywords
+          type: string
+          required: false
+          description: "Additional keywords"
+        - name: max_results
+          type: integer
+          required: false
+          description: "Maximum number of leads to generate (defaults to unlimited)"

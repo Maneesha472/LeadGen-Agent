@@ -1,0 +1,1060 @@
+[2026-07-23 21:37:25] Starting Lead Generation Agent Execution #100
+[2026-07-23 21:37:25] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 21:37:25] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 21:37:26] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-23 21:37:28] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-23 21:37:28] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+small software companies in Chicago
+[2026-07-23 21:37:28] [LIVE SCRAPING] Querying Exa AI for: small software companies in Chicago
+[2026-07-23 21:37:29] [LIVE SCRAPING] Found 28 new target websites. Processing batch...
+[2026-07-23 21:37:29] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-23 21:37:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-23 21:37:33] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:37:34] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-23 21:37:34] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software...
+[2026-07-23 21:37:37] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/atome-edtech
+[2026-07-23 21:37:38] [LIVE SCRAPING] Processing lead for ZNP Tech — Websites · Apps · Software | Email: info@znptech.com | Score: 70/100
+[2026-07-23 21:37:38] \n--- VALIDATION FOR: ZNP Tech — Websites · Apps · Software ---
+[2026-07-23 21:37:38] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-23 21:37:38] Email: info@znptech.com (Source: Groq LLM Context Analysis)
+[2026-07-23 21:37:38] LinkedIn (Person): Not Available
+[2026-07-23 21:37:38] LinkedIn (Company): https://www.linkedin.com/company/atome-edtech
+[2026-07-23 21:37:38] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:37:38] --------------------------------
+[2026-07-23 21:37:38] [QUALITY FILTER] Lead for ZNP Tech — Websites · Apps · Software rejected: Confidence score (70) < 80
+[2026-07-23 21:37:38] [LIVE SCRAPING] Visiting https://dombrowskitechnologies.com ...
+[2026-07-23 21:37:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com
+[2026-07-23 21:37:42] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:37:43] [LIVE SCRAPING] Searching LinkedIn company page for Custom Software & Web Development in Chicago | Dombrowski Technologies...
+[2026-07-23 21:37:45] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 21:37:45] [LIVE SCRAPING] Processing lead for Custom Software & Web Development in Chicago | Dombrowski Technologies | Email: hello@dombrowskitechnologies.com | Score: 65/100
+[2026-07-23 21:37:45] \n--- VALIDATION FOR: Custom Software & Web Development in Chicago | Dombrowski Technologies ---
+[2026-07-23 21:37:45] Person: Office Manager (Operations)
+[2026-07-23 21:37:45] Email: hello@dombrowskitechnologies.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:37:45] LinkedIn (Person): Not Available
+[2026-07-23 21:37:45] LinkedIn (Company): https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 21:37:45] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:37:45] --------------------------------
+[2026-07-23 21:37:45] [QUALITY FILTER] Lead for Custom Software & Web Development in Chicago | Dombrowski Technologies rejected: Confidence score (65) < 80
+[2026-07-23 21:37:45] [LIVE SCRAPING] Visiting https://www.pekkerllc.com ...
+[2026-07-23 21:37:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com
+[2026-07-23 21:37:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:37:51] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-23 21:37:51] [LIVE SCRAPING] Searching LinkedIn company page for Pekker LLC — Software Development in Chicago, IL...
+[2026-07-23 21:37:54] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:37:55] [LIVE SCRAPING] Processing lead for Pekker LLC — Software Development in Chicago, IL | Email: contact@pekkerllc.com | Score: 65/100
+[2026-07-23 21:37:55] \n--- VALIDATION FOR: Pekker LLC — Software Development in Chicago, IL ---
+[2026-07-23 21:37:55] Person: NOT_FOUND (NOT_FOUND)
+[2026-07-23 21:37:55] Email: contact@pekkerllc.com (Source: Not Available)
+[2026-07-23 21:37:55] LinkedIn (Person): Not Available
+[2026-07-23 21:37:55] LinkedIn (Company): Not Available
+[2026-07-23 21:37:55] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:37:55] --------------------------------
+[2026-07-23 21:37:55] [QUALITY FILTER] Lead for Pekker LLC — Software Development in Chicago, IL rejected: Confidence score (65) < 80
+[2026-07-23 21:37:55] [LIVE SCRAPING] Visiting https://pumoritech.com ...
+[2026-07-23 21:37:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com
+[2026-07-23 21:38:18] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:38:18] [WARNING] Could not load https://pumoritech.com. Skipping.
+[2026-07-23 21:38:18] [LIVE SCRAPING] Visiting https://dakic.com ...
+[2026-07-23 21:38:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com
+[2026-07-23 21:38:21] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:38:22] [LIVE SCRAPING] Searching LinkedIn company page for Future-Ready Product Engineering in Chicago | Dakic...
+[2026-07-23 21:38:25] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/cognition-ies
+[2026-07-23 21:38:25] [LIVE SCRAPING] Processing lead for Future-Ready Product Engineering in Chicago | Dakic | Email: contact@dakic.com | Score: 65/100
+[2026-07-23 21:38:25] \n--- VALIDATION FOR: Future-Ready Product Engineering in Chicago | Dakic ---
+[2026-07-23 21:38:25] Person: Office Manager (Operations)
+[2026-07-23 21:38:25] Email: contact@dakic.com (Source: Not Available)
+[2026-07-23 21:38:25] LinkedIn (Person): Not Available
+[2026-07-23 21:38:25] LinkedIn (Company): https://www.linkedin.com/company/cognition-ies
+[2026-07-23 21:38:25] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:38:25] --------------------------------
+[2026-07-23 21:38:25] [QUALITY FILTER] Lead for Future-Ready Product Engineering in Chicago | Dakic rejected: Confidence score (65) < 80
+[2026-07-23 21:38:25] [LIVE SCRAPING] Visiting https://www.theradicalsoftware.com ...
+[2026-07-23 21:38:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com
+[2026-07-23 21:38:29] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:38:30] [LIVE SCRAPING] Searching LinkedIn company page for Radical Software | Custom Software Solutions for Modern Businesses...
+[2026-07-23 21:38:32] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/radicleinc
+[2026-07-23 21:38:32] [LIVE SCRAPING] Processing lead for Radical Software | Custom Software Solutions for Modern Businesses | Email: theradicalsoftware@gmail.com | Score: 30/100
+[2026-07-23 21:38:32] \n--- VALIDATION FOR: Radical Software | Custom Software Solutions for Modern Businesses ---
+[2026-07-23 21:38:32] Person: Office Manager (Operations)
+[2026-07-23 21:38:32] Email: theradicalsoftware@gmail.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:38:32] LinkedIn (Person): Not Available
+[2026-07-23 21:38:32] LinkedIn (Company): https://www.linkedin.com/company/radicleinc
+[2026-07-23 21:38:32] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:38:32] --------------------------------
+[2026-07-23 21:38:32] [QUALITY FILTER] Lead for Radical Software | Custom Software Solutions for Modern Businesses rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:38:32] [LIVE SCRAPING] Visiting https://boldlinestudios.com ...
+[2026-07-23 21:38:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com
+[2026-07-23 21:38:36] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:38:37] [LIVE SCRAPING] Searching LinkedIn company page for Bold Line Studios...
+[2026-07-23 21:38:39] [LIVE SCRAPING] Found via Exa AI: https://uk.linkedin.com/company/boldprint-studios
+[2026-07-23 21:38:40] [LIVE SCRAPING] Processing lead for Bold Line Studios | Email: habitcre@e.com | Score: 0/100
+[2026-07-23 21:38:40] \n--- VALIDATION FOR: Bold Line Studios ---
+[2026-07-23 21:38:40] Person: Office Manager (Operations)
+[2026-07-23 21:38:40] Email: habitcre@e.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:38:40] LinkedIn (Person): Not Available
+[2026-07-23 21:38:40] LinkedIn (Company): https://uk.linkedin.com/company/boldprint-studios
+[2026-07-23 21:38:40] Score: 0/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:38:40] --------------------------------
+[2026-07-23 21:38:40] [QUALITY FILTER] Lead for Bold Line Studios rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:38:40] [LIVE SCRAPING] Visiting https://seanware.llc ...
+[2026-07-23 21:38:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc
+[2026-07-23 21:38:44] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:38:45] [LIVE SCRAPING] Extracted Leader: Sean Gransee (NOT_FOUND)
+[2026-07-23 21:38:45] [LIVE SCRAPING] Searching LinkedIn for Sean Gransee at Seanware LLC...
+[2026-07-23 21:38:46] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:38:46] [LIVE SCRAPING] Searching LinkedIn company page for Seanware LLC...
+[2026-07-23 21:38:47] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:38:47] [LIVE SCRAPING] Processing lead for Seanware LLC | Email: contact@seanware.llc | Score: 75/100
+[2026-07-23 21:38:47] \n--- VALIDATION FOR: Seanware LLC ---
+[2026-07-23 21:38:47] Person: Sean Gransee (NOT_FOUND)
+[2026-07-23 21:38:47] Email: contact@seanware.llc (Source: Not Available)
+[2026-07-23 21:38:47] LinkedIn (Person): Not Available
+[2026-07-23 21:38:47] LinkedIn (Company): Not Available
+[2026-07-23 21:38:47] Score: 75/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 10, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:38:47] --------------------------------
+[2026-07-23 21:38:47] [QUALITY FILTER] Lead for Seanware LLC rejected: Confidence score (75) < 80
+[2026-07-23 21:38:47] [LIVE SCRAPING] Visiting https://ncubesoftware.com ...
+[2026-07-23 21:38:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ncubesoftware.com
+[2026-07-23 21:39:10] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:39:10] [WARNING] Could not load https://ncubesoftware.com. Skipping.
+[2026-07-23 21:39:10] [LIVE SCRAPING] Visiting https://juzu-ai.com ...
+[2026-07-23 21:39:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com
+[2026-07-23 21:39:14] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:15] [LIVE SCRAPING] Searching LinkedIn company page for Juzu AI...
+[2026-07-23 21:39:17] [LIVE SCRAPING] Found via Exa AI: https://be.linkedin.com/company/belgium-startup-ecosystem
+[2026-07-23 21:39:18] [LIVE SCRAPING] Processing lead for Juzu AI | Email: hello@juzu-ai.com | Score: 65/100
+[2026-07-23 21:39:18] \n--- VALIDATION FOR: Juzu AI ---
+[2026-07-23 21:39:18] Person: Office Manager (Operations)
+[2026-07-23 21:39:18] Email: hello@juzu-ai.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:39:18] LinkedIn (Person): Not Available
+[2026-07-23 21:39:18] LinkedIn (Company): https://be.linkedin.com/company/belgium-startup-ecosystem
+[2026-07-23 21:39:18] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:39:18] --------------------------------
+[2026-07-23 21:39:18] [QUALITY FILTER] Lead for Juzu AI rejected: Confidence score (65) < 80
+[2026-07-23 21:39:18] [LIVE SCRAPING] Visiting https://pureapplications.com ...
+[2026-07-23 21:39:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com
+[2026-07-23 21:39:21] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:22] [LIVE SCRAPING] Searching LinkedIn company page for Pure Applications — Chicago...
+[2026-07-23 21:39:24] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/pure-lithium
+[2026-07-23 21:39:24] [LIVE SCRAPING] Processing lead for Pure Applications — Chicago | Email: contact@pureapplications.com | Score: 65/100
+[2026-07-23 21:39:24] \n--- VALIDATION FOR: Pure Applications — Chicago ---
+[2026-07-23 21:39:24] Person: Office Manager (Operations)
+[2026-07-23 21:39:24] Email: contact@pureapplications.com (Source: Not Available)
+[2026-07-23 21:39:24] LinkedIn (Person): Not Available
+[2026-07-23 21:39:24] LinkedIn (Company): https://www.linkedin.com/company/pure-lithium
+[2026-07-23 21:39:24] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:39:24] --------------------------------
+[2026-07-23 21:39:24] [QUALITY FILTER] Lead for Pure Applications — Chicago rejected: Confidence score (65) < 80
+[2026-07-23 21:39:24] [LIVE SCRAPING] Visiting https://tnetic.com ...
+[2026-07-23 21:39:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tnetic.com
+[2026-07-23 21:39:28] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:29] [LIVE SCRAPING] Searching LinkedIn company page for TNETIC, Inc. — Software that works as hard as you do....
+[2026-07-23 21:39:31] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:39:31] [LIVE SCRAPING] Processing lead for TNETIC, Inc. — Software that works as hard as you do. | Email: i-@tend.com | Score: 30/100
+[2026-07-23 21:39:31] \n--- VALIDATION FOR: TNETIC, Inc. — Software that works as hard as you do. ---
+[2026-07-23 21:39:31] Person: Office Manager (Operations)
+[2026-07-23 21:39:31] Email: i-@tend.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:39:31] LinkedIn (Person): Not Available
+[2026-07-23 21:39:31] LinkedIn (Company): Not Available
+[2026-07-23 21:39:31] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:39:31] --------------------------------
+[2026-07-23 21:39:31] [QUALITY FILTER] Lead for TNETIC, Inc. — Software that works as hard as you do. rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:39:31] [LIVE SCRAPING] Visiting https://www.sdpchicago.com ...
+[2026-07-23 21:39:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com
+[2026-07-23 21:39:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:35] [LIVE SCRAPING] Searching LinkedIn company page for Strategic Data Products — AI does the busywork. You run the business....
+[2026-07-23 21:39:41] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ai-to-business
+[2026-07-23 21:39:41] [LIVE SCRAPING] Processing lead for Strategic Data Products — AI does the busywork. You run the business. | Email: rdawson@strategicdataproducts.com | Score: 30/100
+[2026-07-23 21:39:41] \n--- VALIDATION FOR: Strategic Data Products — AI does the busywork. You run the business. ---
+[2026-07-23 21:39:41] Person: Office Manager (Operations)
+[2026-07-23 21:39:41] Email: rdawson@strategicdataproducts.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:39:41] LinkedIn (Person): Not Available
+[2026-07-23 21:39:41] LinkedIn (Company): https://www.linkedin.com/company/ai-to-business
+[2026-07-23 21:39:41] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:39:41] --------------------------------
+[2026-07-23 21:39:41] [QUALITY FILTER] Lead for Strategic Data Products — AI does the busywork. You run the business. rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:39:41] [LIVE SCRAPING] Visiting https://reallyvibrant.com ...
+[2026-07-23 21:39:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com
+[2026-07-23 21:39:44] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:45] [LIVE SCRAPING] Searching LinkedIn company page for ReallyVibrant | AI Infrastructure & Automation for Chicago Business...
+[2026-07-23 21:39:48] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/airolabsai
+[2026-07-23 21:39:48] [LIVE SCRAPING] Processing lead for ReallyVibrant | AI Infrastructure & Automation for Chicago Business | Email: contact@reallyvibrant.com | Score: 70/100
+[2026-07-23 21:39:48] \n--- VALIDATION FOR: ReallyVibrant | AI Infrastructure & Automation for Chicago Business ---
+[2026-07-23 21:39:48] Person: Office Manager (Operations)
+[2026-07-23 21:39:48] Email: contact@reallyvibrant.com (Source: Not Available)
+[2026-07-23 21:39:48] LinkedIn (Person): Not Available
+[2026-07-23 21:39:48] LinkedIn (Company): https://www.linkedin.com/company/airolabsai
+[2026-07-23 21:39:48] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:39:48] --------------------------------
+[2026-07-23 21:39:48] [QUALITY FILTER] Lead for ReallyVibrant | AI Infrastructure & Automation for Chicago Business rejected: Confidence score (70) < 80
+[2026-07-23 21:39:48] [LIVE SCRAPING] Visiting https://cuebytes.com ...
+[2026-07-23 21:39:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://cuebytes.com
+[2026-07-23 21:39:51] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:39:52] [LIVE SCRAPING] Searching LinkedIn company page for Software Development Company Chicago | CueBytes...
+[2026-07-23 21:39:55] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/cuebytes
+[2026-07-23 21:39:56] [LIVE SCRAPING] Processing lead for Software Development Company Chicago | CueBytes | Email: com.pickleballpir@e.idink | Score: 5/100
+[2026-07-23 21:39:56] \n--- VALIDATION FOR: Software Development Company Chicago | CueBytes ---
+[2026-07-23 21:39:56] Person: Office Manager (Operations)
+[2026-07-23 21:39:56] Email: com.pickleballpir@e.idink (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:39:56] LinkedIn (Person): Not Available
+[2026-07-23 21:39:56] LinkedIn (Company): https://www.linkedin.com/company/cuebytes
+[2026-07-23 21:39:56] Score: 5/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:39:56] --------------------------------
+[2026-07-23 21:39:56] [QUALITY FILTER] Lead for Software Development Company Chicago | CueBytes rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:39:56] [LIVE SCRAPING] Visiting https://leantegral.com ...
+[2026-07-23 21:39:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://leantegral.com
+[2026-07-23 21:39:59] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:00] [LIVE SCRAPING] Searching LinkedIn company page for About | Leantegral...
+[2026-07-23 21:40:02] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/about-com
+[2026-07-23 21:40:03] [LIVE SCRAPING] Processing lead for About | Leantegral | Email: contact@leantegral.com | Score: 70/100
+[2026-07-23 21:40:03] \n--- VALIDATION FOR: About | Leantegral ---
+[2026-07-23 21:40:03] Person: Office Manager (Operations)
+[2026-07-23 21:40:03] Email: contact@leantegral.com (Source: Not Available)
+[2026-07-23 21:40:03] LinkedIn (Person): Not Available
+[2026-07-23 21:40:03] LinkedIn (Company): https://www.linkedin.com/company/about-com
+[2026-07-23 21:40:03] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:40:03] --------------------------------
+[2026-07-23 21:40:03] [QUALITY FILTER] Lead for About | Leantegral rejected: Confidence score (70) < 80
+[2026-07-23 21:40:03] [LIVE SCRAPING] Visiting https://www.humblespark.com ...
+[2026-07-23 21:40:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.humblespark.com
+[2026-07-23 21:40:06] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:07] [LIVE SCRAPING] Searching LinkedIn company page for A HumbleSpark for your business, from Chicago | HumbleSpark...
+[2026-07-23 21:40:09] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:40:09] [LIVE SCRAPING] Processing lead for A HumbleSpark for your business, from Chicago | HumbleSpark | Email: contact@humblespark.com | Score: 65/100
+[2026-07-23 21:40:09] \n--- VALIDATION FOR: A HumbleSpark for your business, from Chicago | HumbleSpark ---
+[2026-07-23 21:40:09] Person: Office Manager (Operations)
+[2026-07-23 21:40:09] Email: contact@humblespark.com (Source: Not Available)
+[2026-07-23 21:40:09] LinkedIn (Person): Not Available
+[2026-07-23 21:40:09] LinkedIn (Company): Not Available
+[2026-07-23 21:40:09] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:40:09] --------------------------------
+[2026-07-23 21:40:09] [QUALITY FILTER] Lead for A HumbleSpark for your business, from Chicago | HumbleSpark rejected: Confidence score (65) < 80
+[2026-07-23 21:40:09] [LIVE SCRAPING] Visiting https://www.beniceworks.com ...
+[2026-07-23 21:40:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com
+[2026-07-23 21:40:13] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:14] [LIVE SCRAPING] Searching LinkedIn company page for Be Nice Works...
+[2026-07-23 21:40:16] [LIVE SCRAPING] Found via Exa AI: https://uk.linkedin.com/company/niceworkrun
+[2026-07-23 21:40:16] [LIVE SCRAPING] Processing lead for Be Nice Works | Email: hello.beniceworks@gmail.com | Score: 25/100
+[2026-07-23 21:40:16] \n--- VALIDATION FOR: Be Nice Works ---
+[2026-07-23 21:40:16] Person: Office Manager (Operations)
+[2026-07-23 21:40:16] Email: hello.beniceworks@gmail.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:40:16] LinkedIn (Person): Not Available
+[2026-07-23 21:40:16] LinkedIn (Company): https://uk.linkedin.com/company/niceworkrun
+[2026-07-23 21:40:16] Score: 25/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:40:16] --------------------------------
+[2026-07-23 21:40:16] [QUALITY FILTER] Lead for Be Nice Works rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:40:16] [LIVE SCRAPING] Visiting https://www.hydeparksoftwareconsulting.com ...
+[2026-07-23 21:40:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hydeparksoftwareconsulting.com
+[2026-07-23 21:40:20] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:21] [LIVE SCRAPING] Searching LinkedIn company page for Hyde Park Software Consulting - Independent Software Consultant in Chicago...
+[2026-07-23 21:40:23] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/hpa-vc
+[2026-07-23 21:40:23] [LIVE SCRAPING] Processing lead for Hyde Park Software Consulting - Independent Software Consultant in Chicago | Email: steve@hydeparksoftwareconsulting.com | Score: 65/100
+[2026-07-23 21:40:23] \n--- VALIDATION FOR: Hyde Park Software Consulting - Independent Software Consultant in Chicago ---
+[2026-07-23 21:40:23] Person: Office Manager (Operations)
+[2026-07-23 21:40:23] Email: steve@hydeparksoftwareconsulting.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:40:23] LinkedIn (Person): Not Available
+[2026-07-23 21:40:23] LinkedIn (Company): https://www.linkedin.com/company/hpa-vc
+[2026-07-23 21:40:23] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:40:23] --------------------------------
+[2026-07-23 21:40:23] [QUALITY FILTER] Lead for Hyde Park Software Consulting - Independent Software Consultant in Chicago rejected: Confidence score (65) < 80
+[2026-07-23 21:40:23] [LIVE SCRAPING] Visiting https://9thdesigns.com ...
+[2026-07-23 21:40:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://9thdesigns.com
+[2026-07-23 21:40:26] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:27] [LIVE SCRAPING] Searching LinkedIn company page for 9th Designs | Creative Software Studio...
+[2026-07-23 21:40:30] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/lollypop-studio
+[2026-07-23 21:40:31] [LIVE SCRAPING] Processing lead for 9th Designs | Creative Software Studio | Email: st@us.9th.app | Score: 0/100
+[2026-07-23 21:40:31] \n--- VALIDATION FOR: 9th Designs | Creative Software Studio ---
+[2026-07-23 21:40:31] Person: Office Manager (Operations)
+[2026-07-23 21:40:31] Email: st@us.9th.app (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:40:31] LinkedIn (Person): Not Available
+[2026-07-23 21:40:31] LinkedIn (Company): https://www.linkedin.com/company/lollypop-studio
+[2026-07-23 21:40:31] Score: 0/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:40:31] --------------------------------
+[2026-07-23 21:40:31] [QUALITY FILTER] Lead for 9th Designs | Creative Software Studio rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:40:31] [LIVE SCRAPING] Visiting https://www.parallactic.com ...
+[2026-07-23 21:40:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.parallactic.com
+[2026-07-23 21:40:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:35] [LIVE SCRAPING] Searching LinkedIn company page for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails...
+[2026-07-23 21:40:38] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:40:39] [LIVE SCRAPING] Processing lead for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails | Email: d@a.php | Score: 5/100
+[2026-07-23 21:40:39] \n--- VALIDATION FOR: Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails ---
+[2026-07-23 21:40:39] Person: Office Manager (Operations)
+[2026-07-23 21:40:39] Email: d@a.php (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:40:39] LinkedIn (Person): Not Available
+[2026-07-23 21:40:39] LinkedIn (Company): Not Available
+[2026-07-23 21:40:39] Score: 5/100 [official_email: 0, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:40:39] --------------------------------
+[2026-07-23 21:40:39] [QUALITY FILTER] Lead for Parallactic Consulting - Chicago Web Development, Custom Programming & Ruby on Rails rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:40:39] [LIVE SCRAPING] Visiting https://northsidesystems.com ...
+[2026-07-23 21:40:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://northsidesystems.com
+[2026-07-23 21:40:42] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:43] [LIVE SCRAPING] Searching LinkedIn company page for Northside Systems, LLC | Software Development Services | Chicago, IL...
+[2026-07-23 21:40:46] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/northside-metrics
+[2026-07-23 21:40:46] [LIVE SCRAPING] Processing lead for Northside Systems, LLC | Software Development Services | Chicago, IL | Email: contact@northsidesystems.com | Score: 65/100
+[2026-07-23 21:40:46] \n--- VALIDATION FOR: Northside Systems, LLC | Software Development Services | Chicago, IL ---
+[2026-07-23 21:40:46] Person: Office Manager (Operations)
+[2026-07-23 21:40:46] Email: contact@northsidesystems.com (Source: Not Available)
+[2026-07-23 21:40:46] LinkedIn (Person): Not Available
+[2026-07-23 21:40:46] LinkedIn (Company): https://www.linkedin.com/company/northside-metrics
+[2026-07-23 21:40:46] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:40:46] --------------------------------
+[2026-07-23 21:40:46] [QUALITY FILTER] Lead for Northside Systems, LLC | Software Development Services | Chicago, IL rejected: Confidence score (65) < 80
+[2026-07-23 21:40:46] [LIVE SCRAPING] Visiting https://birthbaum.com ...
+[2026-07-23 21:40:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com
+[2026-07-23 21:40:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:50] [LIVE SCRAPING] Searching LinkedIn company page for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago)...
+[2026-07-23 21:40:52] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:40:53] [LIVE SCRAPING] Processing lead for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) | Email: contact@birthbaum.com | Score: 65/100
+[2026-07-23 21:40:53] \n--- VALIDATION FOR: Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) ---
+[2026-07-23 21:40:53] Person: Office Manager (Operations)
+[2026-07-23 21:40:53] Email: contact@birthbaum.com (Source: Not Available)
+[2026-07-23 21:40:53] LinkedIn (Person): Not Available
+[2026-07-23 21:40:53] LinkedIn (Company): Not Available
+[2026-07-23 21:40:53] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:40:53] --------------------------------
+[2026-07-23 21:40:53] [QUALITY FILTER] Lead for Birthbaum - AI Agents, Data Platforms & Resilient Cloud Systems (Chicago) rejected: Confidence score (65) < 80
+[2026-07-23 21:40:53] [LIVE SCRAPING] Visiting https://10ustech.com ...
+[2026-07-23 21:40:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com
+[2026-07-23 21:40:56] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:40:57] [LIVE SCRAPING] Searching LinkedIn company page for 10 US Tech Inc. — Software Engineering Firm in Chicago...
+[2026-07-23 21:40:59] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/strategic-systems-international
+[2026-07-23 21:40:59] [LIVE SCRAPING] Processing lead for 10 US Tech Inc. — Software Engineering Firm in Chicago | Email: cha@pass.com | Score: 30/100
+[2026-07-23 21:40:59] \n--- VALIDATION FOR: 10 US Tech Inc. — Software Engineering Firm in Chicago ---
+[2026-07-23 21:40:59] Person: Office Manager (Operations)
+[2026-07-23 21:40:59] Email: cha@pass.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:40:59] LinkedIn (Person): Not Available
+[2026-07-23 21:40:59] LinkedIn (Company): https://www.linkedin.com/company/strategic-systems-international
+[2026-07-23 21:40:59] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:40:59] --------------------------------
+[2026-07-23 21:40:59] [QUALITY FILTER] Lead for 10 US Tech Inc. — Software Engineering Firm in Chicago rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:40:59] [LIVE SCRAPING] Visiting https://www.orbitech.software ...
+[2026-07-23 21:41:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software
+[2026-07-23 21:41:03] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:03] [LIVE SCRAPING] Searching LinkedIn company page for Orbitech Software Solutions...
+[2026-07-23 21:41:05] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/theorbitech
+[2026-07-23 21:41:05] [LIVE SCRAPING] Processing lead for Orbitech Software Solutions | Email: contact@orbitech.software | Score: 70/100
+[2026-07-23 21:41:05] \n--- VALIDATION FOR: Orbitech Software Solutions ---
+[2026-07-23 21:41:05] Person: Office Manager (Operations)
+[2026-07-23 21:41:05] Email: contact@orbitech.software (Source: Not Available)
+[2026-07-23 21:41:05] LinkedIn (Person): Not Available
+[2026-07-23 21:41:05] LinkedIn (Company): https://www.linkedin.com/company/theorbitech
+[2026-07-23 21:41:05] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:41:05] --------------------------------
+[2026-07-23 21:41:05] [QUALITY FILTER] Lead for Orbitech Software Solutions rejected: Confidence score (70) < 80
+[2026-07-23 21:41:05] [LIVE SCRAPING] Visiting https://www.absoluteio.com ...
+[2026-07-23 21:41:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.absoluteio.com
+[2026-07-23 21:41:27] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:41:27] [WARNING] Could not load https://www.absoluteio.com. Skipping.
+[2026-07-23 21:41:27] [LIVE SCRAPING] Visiting https://www.heliumfoot.com ...
+[2026-07-23 21:41:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.heliumfoot.com
+[2026-07-23 21:41:31] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:32] [LIVE SCRAPING] Searching LinkedIn company page for Home | Helium Foot Software...
+[2026-07-23 21:41:35] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/helium-foot-software
+[2026-07-23 21:41:35] [LIVE SCRAPING] Processing lead for Home | Helium Foot Software | Email: contact@heliumfoot.com | Score: 65/100
+[2026-07-23 21:41:35] \n--- VALIDATION FOR: Home | Helium Foot Software ---
+[2026-07-23 21:41:35] Person: Office Manager (Operations)
+[2026-07-23 21:41:35] Email: contact@heliumfoot.com (Source: Not Available)
+[2026-07-23 21:41:35] LinkedIn (Person): Not Available
+[2026-07-23 21:41:35] LinkedIn (Company): https://www.linkedin.com/company/helium-foot-software
+[2026-07-23 21:41:35] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:41:35] --------------------------------
+[2026-07-23 21:41:35] [QUALITY FILTER] Lead for Home | Helium Foot Software rejected: Confidence score (65) < 80
+[2026-07-23 21:41:35] [LIVE SCRAPING] Visiting https://www.caxy.com ...
+[2026-07-23 21:41:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.caxy.com
+[2026-07-23 21:41:39] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:40] [LIVE SCRAPING] Searching LinkedIn company page for Chicago AI & Digital Transformation Consulting | Caxy...
+[2026-07-23 21:41:42] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/nile-data-hub
+[2026-07-23 21:41:42] [LIVE SCRAPING] Processing lead for Chicago AI & Digital Transformation Consulting | Caxy | Email: contact@caxy.com | Score: 65/100
+[2026-07-23 21:41:42] \n--- VALIDATION FOR: Chicago AI & Digital Transformation Consulting | Caxy ---
+[2026-07-23 21:41:42] Person: Office Manager (Operations)
+[2026-07-23 21:41:42] Email: contact@caxy.com (Source: Not Available)
+[2026-07-23 21:41:42] LinkedIn (Person): Not Available
+[2026-07-23 21:41:42] LinkedIn (Company): https://www.linkedin.com/company/nile-data-hub
+[2026-07-23 21:41:42] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:41:42] --------------------------------
+[2026-07-23 21:41:42] [QUALITY FILTER] Lead for Chicago AI & Digital Transformation Consulting | Caxy rejected: Confidence score (65) < 80
+[2026-07-23 21:41:42] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:41:42] 
+------------------------------------------------
+Iteration 2/10
+Searching:
+Chicago software firms with fewer than 20 employees
+[2026-07-23 21:41:42] [LIVE SCRAPING] Querying Exa AI for: Chicago software firms with fewer than 20 employees
+[2026-07-23 21:41:45] [LIVE SCRAPING] Found 7 new target websites. Processing batch...
+[2026-07-23 21:41:45] [LIVE SCRAPING] Visiting https://ai-workflow.fyi ...
+[2026-07-23 21:41:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi
+[2026-07-23 21:41:48] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:49] [LIVE SCRAPING] Searching LinkedIn company page for Ai Workflow...
+[2026-07-23 21:41:51] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/workflow-ai-suite
+[2026-07-23 21:41:51] [LIVE SCRAPING] Processing lead for Ai Workflow | Email: jonny@cursor.gg | Score: 30/100
+[2026-07-23 21:41:51] \n--- VALIDATION FOR: Ai Workflow ---
+[2026-07-23 21:41:51] Person: Office Manager (Operations)
+[2026-07-23 21:41:51] Email: jonny@cursor.gg (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:41:51] LinkedIn (Person): Not Available
+[2026-07-23 21:41:51] LinkedIn (Company): https://www.linkedin.com/company/workflow-ai-suite
+[2026-07-23 21:41:51] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:41:51] --------------------------------
+[2026-07-23 21:41:51] [QUALITY FILTER] Lead for Ai Workflow rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:41:51] [LIVE SCRAPING] Visiting https://www.gogreenlit.com ...
+[2026-07-23 21:41:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com
+[2026-07-23 21:41:55] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:56] [LIVE SCRAPING] Searching LinkedIn company page for About goGreenlit | Chicago QA Consulting Firm | goGreenlit...
+[2026-07-23 21:41:58] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/qualitestolenick
+[2026-07-23 21:41:58] [LIVE SCRAPING] Processing lead for About goGreenlit | Chicago QA Consulting Firm | goGreenlit | Email: gogreenlit@gmail.com | Score: 25/100
+[2026-07-23 21:41:58] \n--- VALIDATION FOR: About goGreenlit | Chicago QA Consulting Firm | goGreenlit ---
+[2026-07-23 21:41:58] Person: Office Manager (Operations)
+[2026-07-23 21:41:58] Email: gogreenlit@gmail.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:41:58] LinkedIn (Person): Not Available
+[2026-07-23 21:41:58] LinkedIn (Company): https://www.linkedin.com/company/qualitestolenick
+[2026-07-23 21:41:58] Score: 25/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:41:58] --------------------------------
+[2026-07-23 21:41:58] [QUALITY FILTER] Lead for About goGreenlit | Chicago QA Consulting Firm | goGreenlit rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:41:58] [LIVE SCRAPING] Visiting https://usuallytech.com ...
+[2026-07-23 21:42:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://usuallytech.com
+[2026-07-23 21:42:01] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:02] [LIVE SCRAPING] Searching LinkedIn company page for Real Estate Software Developers | Usually Tech...
+[2026-07-23 21:42:04] [LIVE SCRAPING] Found via Exa AI: https://ca.linkedin.com/company/spark-re
+[2026-07-23 21:42:05] [LIVE SCRAPING] Processing lead for Real Estate Software Developers | Usually Tech | Email: contact@usuallytech.com | Score: 70/100
+[2026-07-23 21:42:05] \n--- VALIDATION FOR: Real Estate Software Developers | Usually Tech ---
+[2026-07-23 21:42:05] Person: Office Manager (Operations)
+[2026-07-23 21:42:05] Email: contact@usuallytech.com (Source: Not Available)
+[2026-07-23 21:42:05] LinkedIn (Person): Not Available
+[2026-07-23 21:42:05] LinkedIn (Company): https://ca.linkedin.com/company/spark-re
+[2026-07-23 21:42:05] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:42:05] --------------------------------
+[2026-07-23 21:42:05] [QUALITY FILTER] Lead for Real Estate Software Developers | Usually Tech rejected: Confidence score (70) < 80
+[2026-07-23 21:42:05] [LIVE SCRAPING] Visiting https://hoynelabs.com ...
+[2026-07-23 21:42:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://hoynelabs.com
+[2026-07-23 21:42:09] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:10] [LIVE SCRAPING] Searching LinkedIn company page for Hoyne Labs | AI Tools & Data Intelligence, Chicago...
+[2026-07-23 21:42:12] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/isimplifyme
+[2026-07-23 21:42:12] [LIVE SCRAPING] Processing lead for Hoyne Labs | AI Tools & Data Intelligence, Chicago | Email: hoynelabs@gmail.com | Score: 25/100
+[2026-07-23 21:42:12] \n--- VALIDATION FOR: Hoyne Labs | AI Tools & Data Intelligence, Chicago ---
+[2026-07-23 21:42:12] Person: Office Manager (Operations)
+[2026-07-23 21:42:12] Email: hoynelabs@gmail.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:42:12] LinkedIn (Person): Not Available
+[2026-07-23 21:42:12] LinkedIn (Company): https://www.linkedin.com/company/isimplifyme
+[2026-07-23 21:42:12] Score: 25/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:42:12] --------------------------------
+[2026-07-23 21:42:12] [QUALITY FILTER] Lead for Hoyne Labs | AI Tools & Data Intelligence, Chicago rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:42:12] [LIVE SCRAPING] Visiting https://linkrulzsoftware.com ...
+[2026-07-23 21:42:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://linkrulzsoftware.com
+[2026-07-23 21:42:16] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:17] [LIVE SCRAPING] Searching LinkedIn company page for Linkrulz Software...
+[2026-07-23 21:42:19] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:42:19] [LIVE SCRAPING] Processing lead for Linkrulz Software | Email: info@linkrulzsoftware.com | Score: 70/100
+[2026-07-23 21:42:19] \n--- VALIDATION FOR: Linkrulz Software ---
+[2026-07-23 21:42:19] Person: Office Manager (Operations)
+[2026-07-23 21:42:19] Email: info@linkrulzsoftware.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:42:19] LinkedIn (Person): Not Available
+[2026-07-23 21:42:19] LinkedIn (Company): Not Available
+[2026-07-23 21:42:19] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:42:19] --------------------------------
+[2026-07-23 21:42:19] [QUALITY FILTER] Lead for Linkrulz Software rejected: Confidence score (70) < 80
+[2026-07-23 21:42:19] [LIVE SCRAPING] Visiting https://eightbitstudios.com ...
+[2026-07-23 21:42:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com
+[2026-07-23 21:42:22] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:23] [LIVE SCRAPING] Searching LinkedIn company page for About | Eight Bit Studios...
+[2026-07-23 21:42:25] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/eight-bit-studios
+[2026-07-23 21:42:26] [LIVE SCRAPING] Processing lead for About | Eight Bit Studios | Email: contact@eightbitstudios.com | Score: 70/100
+[2026-07-23 21:42:26] \n--- VALIDATION FOR: About | Eight Bit Studios ---
+[2026-07-23 21:42:26] Person: Office Manager (Operations)
+[2026-07-23 21:42:26] Email: contact@eightbitstudios.com (Source: Not Available)
+[2026-07-23 21:42:26] LinkedIn (Person): Not Available
+[2026-07-23 21:42:26] LinkedIn (Company): https://www.linkedin.com/company/eight-bit-studios
+[2026-07-23 21:42:26] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:42:26] --------------------------------
+[2026-07-23 21:42:26] [QUALITY FILTER] Lead for About | Eight Bit Studios rejected: Confidence score (70) < 80
+[2026-07-23 21:42:26] [LIVE SCRAPING] Visiting https://sofusm.com ...
+[2026-07-23 21:42:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sofusm.com
+[2026-07-23 21:42:30] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:31] [LIVE SCRAPING] Searching LinkedIn company page for Sofusm — Your Chicago Partner for Digital Excellence...
+[2026-07-23 21:42:33] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:42:33] [LIVE SCRAPING] Processing lead for Sofusm — Your Chicago Partner for Digital Excellence | Email: hello@sofusm.com | Score: 70/100
+[2026-07-23 21:42:33] \n--- VALIDATION FOR: Sofusm — Your Chicago Partner for Digital Excellence ---
+[2026-07-23 21:42:33] Person: Office Manager (Operations)
+[2026-07-23 21:42:33] Email: hello@sofusm.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:42:33] LinkedIn (Person): Not Available
+[2026-07-23 21:42:33] LinkedIn (Company): Not Available
+[2026-07-23 21:42:33] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:42:33] --------------------------------
+[2026-07-23 21:42:33] [QUALITY FILTER] Lead for Sofusm — Your Chicago Partner for Digital Excellence rejected: Confidence score (70) < 80
+[2026-07-23 21:42:33] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:42:33] 
+------------------------------------------------
+Iteration 3/10
+Searching:
+tiny software development teams in Chicago
+[2026-07-23 21:42:33] [LIVE SCRAPING] Querying Exa AI for: tiny software development teams in Chicago
+[2026-07-23 21:42:34] [LIVE SCRAPING] Found 8 new target websites. Processing batch...
+[2026-07-23 21:42:34] [LIVE SCRAPING] Visiting https://bad-team.net ...
+[2026-07-23 21:42:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://bad-team.net
+[2026-07-23 21:42:37] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:37] [LIVE SCRAPING] Searching LinkedIn company page for BAD TEAM — Bad Ass Developers Team | Chicago, IL...
+[2026-07-23 21:42:39] [LIVE SCRAPING] Found via Exa AI: https://br.linkedin.com/company/mess-marketing
+[2026-07-23 21:42:39] [LIVE SCRAPING] Processing lead for BAD TEAM — Bad Ass Developers Team | Chicago, IL | Email: contact@bad-team.net | Score: 65/100
+[2026-07-23 21:42:39] \n--- VALIDATION FOR: BAD TEAM — Bad Ass Developers Team | Chicago, IL ---
+[2026-07-23 21:42:39] Person: Office Manager (Operations)
+[2026-07-23 21:42:39] Email: contact@bad-team.net (Source: Not Available)
+[2026-07-23 21:42:39] LinkedIn (Person): Not Available
+[2026-07-23 21:42:39] LinkedIn (Company): https://br.linkedin.com/company/mess-marketing
+[2026-07-23 21:42:39] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:42:39] --------------------------------
+[2026-07-23 21:42:39] [QUALITY FILTER] Lead for BAD TEAM — Bad Ass Developers Team | Chicago, IL rejected: Confidence score (65) < 80
+[2026-07-23 21:42:39] [LIVE SCRAPING] Visiting https://www.tupadev.com ...
+[2026-07-23 21:42:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tupadev.com
+[2026-07-23 21:42:42] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:42] [LIVE SCRAPING] Searching LinkedIn company page for Tupa Dev LLC | Software Development & Consulting — Chicago, IL...
+[2026-07-23 21:42:44] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/rampart-technologies-corporation
+[2026-07-23 21:42:44] [LIVE SCRAPING] Processing lead for Tupa Dev LLC | Software Development & Consulting — Chicago, IL | Email: contact@tupadev.com | Score: 65/100
+[2026-07-23 21:42:44] \n--- VALIDATION FOR: Tupa Dev LLC | Software Development & Consulting — Chicago, IL ---
+[2026-07-23 21:42:44] Person: Office Manager (Operations)
+[2026-07-23 21:42:44] Email: contact@tupadev.com (Source: Not Available)
+[2026-07-23 21:42:44] LinkedIn (Person): Not Available
+[2026-07-23 21:42:44] LinkedIn (Company): https://www.linkedin.com/company/rampart-technologies-corporation
+[2026-07-23 21:42:44] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:42:44] --------------------------------
+[2026-07-23 21:42:44] [QUALITY FILTER] Lead for Tupa Dev LLC | Software Development & Consulting — Chicago, IL rejected: Confidence score (65) < 80
+[2026-07-23 21:42:44] [LIVE SCRAPING] Visiting https://agencyreview.dev ...
+[2026-07-23 21:42:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://agencyreview.dev
+[2026-07-23 21:42:48] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:48] [LIVE SCRAPING] Searching LinkedIn company page for Mile Marker Review | AgencyReview...
+[2026-07-23 21:42:50] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/lightview-capital
+[2026-07-23 21:42:52] [LIVE SCRAPING] Processing lead for Mile Marker Review | AgencyReview | Email: contact@agencyreview.dev | Score: 65/100
+[2026-07-23 21:42:52] \n--- VALIDATION FOR: Mile Marker Review | AgencyReview ---
+[2026-07-23 21:42:52] Person: Office Manager (Operations)
+[2026-07-23 21:42:52] Email: contact@agencyreview.dev (Source: Not Available)
+[2026-07-23 21:42:52] LinkedIn (Person): Not Available
+[2026-07-23 21:42:52] LinkedIn (Company): https://www.linkedin.com/company/lightview-capital
+[2026-07-23 21:42:52] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:42:52] --------------------------------
+[2026-07-23 21:42:52] [QUALITY FILTER] Lead for Mile Marker Review | AgencyReview rejected: Confidence score (65) < 80
+[2026-07-23 21:42:52] [LIVE SCRAPING] Visiting https://digiline.io ...
+[2026-07-23 21:42:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io
+[2026-07-23 21:42:55] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:42:55] [LIVE SCRAPING] Searching LinkedIn company page for Digiline...
+[2026-07-23 21:42:57] [LIVE SCRAPING] Found via Exa AI: https://ng.linkedin.com/company/digiline-solution-limited
+[2026-07-23 21:42:58] [LIVE SCRAPING] Processing lead for Digiline | Email: contact@digiline.io | Score: 65/100
+[2026-07-23 21:42:58] \n--- VALIDATION FOR: Digiline ---
+[2026-07-23 21:42:58] Person: Office Manager (Operations)
+[2026-07-23 21:42:58] Email: contact@digiline.io (Source: Not Available)
+[2026-07-23 21:42:58] LinkedIn (Person): Not Available
+[2026-07-23 21:42:58] LinkedIn (Company): https://ng.linkedin.com/company/digiline-solution-limited
+[2026-07-23 21:42:58] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:42:58] --------------------------------
+[2026-07-23 21:42:58] [QUALITY FILTER] Lead for Digiline rejected: Confidence score (65) < 80
+[2026-07-23 21:42:58] [LIVE SCRAPING] Visiting https://fct-technologies.com ...
+[2026-07-23 21:43:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fct-technologies.com
+[2026-07-23 21:43:01] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:02] [LIVE SCRAPING] Searching LinkedIn company page for About FCT Technologies | Software Development...
+[2026-07-23 21:43:03] [LIVE SCRAPING] Found via Exa AI: https://ng.linkedin.com/company/cyberpull
+[2026-07-23 21:43:05] [LIVE SCRAPING] Processing lead for About FCT Technologies | Software Development | Email: contact@fct-technologies.com | Score: 70/100
+[2026-07-23 21:43:05] \n--- VALIDATION FOR: About FCT Technologies | Software Development ---
+[2026-07-23 21:43:05] Person: Office Manager (Operations)
+[2026-07-23 21:43:05] Email: contact@fct-technologies.com (Source: Not Available)
+[2026-07-23 21:43:05] LinkedIn (Person): Not Available
+[2026-07-23 21:43:05] LinkedIn (Company): https://ng.linkedin.com/company/cyberpull
+[2026-07-23 21:43:05] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:43:05] --------------------------------
+[2026-07-23 21:43:05] [QUALITY FILTER] Lead for About FCT Technologies | Software Development rejected: Confidence score (70) < 80
+[2026-07-23 21:43:05] [LIVE SCRAPING] Visiting https://kddziekan.com ...
+[2026-07-23 21:43:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://kddziekan.com
+[2026-07-23 21:43:08] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:09] [LIVE SCRAPING] Searching LinkedIn company page for Web & Mobile Development in Chicago...
+[2026-07-23 21:43:10] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/techavidus
+[2026-07-23 21:43:11] [LIVE SCRAPING] Processing lead for Web & Mobile Development in Chicago | Email: contact@kddziekan.com | Score: 70/100
+[2026-07-23 21:43:11] \n--- VALIDATION FOR: Web & Mobile Development in Chicago ---
+[2026-07-23 21:43:11] Person: Office Manager (Operations)
+[2026-07-23 21:43:11] Email: contact@kddziekan.com (Source: Not Available)
+[2026-07-23 21:43:11] LinkedIn (Person): Not Available
+[2026-07-23 21:43:11] LinkedIn (Company): https://www.linkedin.com/company/techavidus
+[2026-07-23 21:43:11] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:43:11] --------------------------------
+[2026-07-23 21:43:11] [QUALITY FILTER] Lead for Web & Mobile Development in Chicago rejected: Confidence score (70) < 80
+[2026-07-23 21:43:11] [LIVE SCRAPING] Visiting https://danboth.com ...
+[2026-07-23 21:43:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://danboth.com
+[2026-07-23 21:43:14] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:14] [LIVE SCRAPING] Searching LinkedIn company page for Dan Both — Full-Stack Web Developer | Chicago...
+[2026-07-23 21:43:17] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/fullstack-labs
+[2026-07-23 21:43:19] [LIVE SCRAPING] Processing lead for Dan Both — Full-Stack Web Developer | Chicago | Email: dan@danboth.com | Score: 70/100
+[2026-07-23 21:43:19] \n--- VALIDATION FOR: Dan Both — Full-Stack Web Developer | Chicago ---
+[2026-07-23 21:43:19] Person: Office Manager (Operations)
+[2026-07-23 21:43:19] Email: dan@danboth.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:43:19] LinkedIn (Person): Not Available
+[2026-07-23 21:43:19] LinkedIn (Company): https://www.linkedin.com/company/fullstack-labs
+[2026-07-23 21:43:19] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:43:19] --------------------------------
+[2026-07-23 21:43:19] [QUALITY FILTER] Lead for Dan Both — Full-Stack Web Developer | Chicago rejected: Confidence score (70) < 80
+[2026-07-23 21:43:19] [LIVE SCRAPING] Visiting https://mikelatimer.ai ...
+[2026-07-23 21:43:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mikelatimer.ai
+[2026-07-23 21:43:22] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:23] [LIVE SCRAPING] Searching LinkedIn company page for Custom Web App Developer in Chicago, IL | Fast. | Mike Latimer...
+[2026-07-23 21:43:24] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:43:25] [LIVE SCRAPING] Processing lead for Custom Web App Developer in Chicago, IL | Fast. | Mike Latimer | Email: command.mikel@imer.ai | Score: 70/100
+[2026-07-23 21:43:25] \n--- VALIDATION FOR: Custom Web App Developer in Chicago, IL | Fast. | Mike Latimer ---
+[2026-07-23 21:43:25] Person: Office Manager (Operations)
+[2026-07-23 21:43:25] Email: command.mikel@imer.ai (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:43:25] LinkedIn (Person): Not Available
+[2026-07-23 21:43:25] LinkedIn (Company): Not Available
+[2026-07-23 21:43:25] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:43:25] --------------------------------
+[2026-07-23 21:43:25] [QUALITY FILTER] Lead for Custom Web App Developer in Chicago, IL | Fast. | Mike Latimer rejected: Confidence score (70) < 80
+[2026-07-23 21:43:25] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:43:25] 
+------------------------------------------------
+Iteration 4/10
+Searching:
+micro software businesses in Chicago IL
+[2026-07-23 21:43:25] [LIVE SCRAPING] Querying Exa AI for: micro software businesses in Chicago IL
+[2026-07-23 21:43:26] [LIVE SCRAPING] Found 14 new target websites. Processing batch...
+[2026-07-23 21:43:26] [LIVE SCRAPING] Visiting https://microscale.dev ...
+[2026-07-23 21:43:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://microscale.dev
+[2026-07-23 21:43:30] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:30] [LIVE SCRAPING] Searching LinkedIn company page for Microscale Software Solutions | Apps, Websites, Automation & Custom CRMs...
+[2026-07-23 21:43:32] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:43:32] [LIVE SCRAPING] Processing lead for Microscale Software Solutions | Apps, Websites, Automation & Custom CRMs | Email: contact@microscale.dev | Score: 65/100
+[2026-07-23 21:43:32] \n--- VALIDATION FOR: Microscale Software Solutions | Apps, Websites, Automation & Custom CRMs ---
+[2026-07-23 21:43:32] Person: Office Manager (Operations)
+[2026-07-23 21:43:32] Email: contact@microscale.dev (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:43:32] LinkedIn (Person): Not Available
+[2026-07-23 21:43:32] LinkedIn (Company): Not Available
+[2026-07-23 21:43:32] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:43:32] --------------------------------
+[2026-07-23 21:43:32] [QUALITY FILTER] Lead for Microscale Software Solutions | Apps, Websites, Automation & Custom CRMs rejected: Confidence score (65) < 80
+[2026-07-23 21:43:32] [LIVE SCRAPING] Visiting https://chicago-soft.com ...
+[2026-07-23 21:43:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://chicago-soft.com
+[2026-07-23 21:43:36] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:36] [LIVE SCRAPING] Searching LinkedIn company page for Chicago-Soft, Ltd. – Solutions…Not Just Software...
+[2026-07-23 21:43:39] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-soft-ltd
+[2026-07-23 21:43:39] [LIVE SCRAPING] Processing lead for Chicago-Soft, Ltd. – Solutions…Not Just Software | Email: contact@chicago-soft.com | Score: 65/100
+[2026-07-23 21:43:39] \n--- VALIDATION FOR: Chicago-Soft, Ltd. – Solutions…Not Just Software ---
+[2026-07-23 21:43:39] Person: Office Manager (Operations)
+[2026-07-23 21:43:39] Email: contact@chicago-soft.com (Source: Not Available)
+[2026-07-23 21:43:39] LinkedIn (Person): Not Available
+[2026-07-23 21:43:39] LinkedIn (Company): https://www.linkedin.com/company/chicago-soft-ltd
+[2026-07-23 21:43:39] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:43:39] --------------------------------
+[2026-07-23 21:43:39] [QUALITY FILTER] Lead for Chicago-Soft, Ltd. – Solutions…Not Just Software rejected: Confidence score (65) < 80
+[2026-07-23 21:43:39] [LIVE SCRAPING] Visiting https://waystdio.com ...
+[2026-07-23 21:43:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://waystdio.com
+[2026-07-23 21:43:43] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:43] [LIVE SCRAPING] Searching LinkedIn company page for Remote Micro-SaaS & Business Automation for Chicago Companies | Way Studio...
+[2026-07-23 21:43:47] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:43:47] [LIVE SCRAPING] Processing lead for Remote Micro-SaaS & Business Automation for Chicago Companies | Way Studio | Email: team@waystdio.com | Score: 70/100
+[2026-07-23 21:43:47] \n--- VALIDATION FOR: Remote Micro-SaaS & Business Automation for Chicago Companies | Way Studio ---
+[2026-07-23 21:43:47] Person: Office Manager (Operations)
+[2026-07-23 21:43:47] Email: team@waystdio.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:43:47] LinkedIn (Person): Not Available
+[2026-07-23 21:43:47] LinkedIn (Company): Not Available
+[2026-07-23 21:43:47] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:43:47] --------------------------------
+[2026-07-23 21:43:47] [QUALITY FILTER] Lead for Remote Micro-SaaS & Business Automation for Chicago Companies | Way Studio rejected: Confidence score (70) < 80
+[2026-07-23 21:43:47] [LIVE SCRAPING] Visiting https://www.innovativemicro.net ...
+[2026-07-23 21:43:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.innovativemicro.net
+[2026-07-23 21:43:51] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:43:52] [LIVE SCRAPING] Searching LinkedIn company page for Innovative Micro | Premium Microchips and Custom Electronics...
+[2026-07-23 21:43:55] [LIVE SCRAPING] Found via Exa AI: https://eg.linkedin.com/company/mabrains
+[2026-07-23 21:43:56] [LIVE SCRAPING] Processing lead for Innovative Micro | Premium Microchips and Custom Electronics | Email: innov@ivemicro.net | Score: 25/100
+[2026-07-23 21:43:56] \n--- VALIDATION FOR: Innovative Micro | Premium Microchips and Custom Electronics ---
+[2026-07-23 21:43:56] Person: Office Manager (Operations)
+[2026-07-23 21:43:56] Email: innov@ivemicro.net (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:43:56] LinkedIn (Person): Not Available
+[2026-07-23 21:43:56] LinkedIn (Company): https://eg.linkedin.com/company/mabrains
+[2026-07-23 21:43:56] Score: 25/100 [official_email: 0, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:43:56] --------------------------------
+[2026-07-23 21:43:56] [QUALITY FILTER] Lead for Innovative Micro | Premium Microchips and Custom Electronics rejected: Email is unverified (MX Record Failed)
+[2026-07-23 21:43:56] [LIVE SCRAPING] Visiting https://microchicago.com ...
+[2026-07-23 21:43:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://microchicago.com
+[2026-07-23 21:44:19] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:44:19] [WARNING] Could not load https://microchicago.com. Skipping.
+[2026-07-23 21:44:19] [LIVE SCRAPING] Visiting https://aksoftwaresllc.com ...
+[2026-07-23 21:44:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://aksoftwaresllc.com
+[2026-07-23 21:44:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:24] [LIVE SCRAPING] Searching LinkedIn company page for Chicago MVP Development Agency — AI-Native MVPs for Chicagoland Founders | AK Softwares...
+[2026-07-23 21:44:25] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:44:26] [LIVE SCRAPING] Processing lead for Chicago MVP Development Agency — AI-Native MVPs for Chicagoland Founders | AK Softwares | Email: ashish@aksoftwaresllc.com | Score: 70/100
+[2026-07-23 21:44:26] \n--- VALIDATION FOR: Chicago MVP Development Agency — AI-Native MVPs for Chicagoland Founders | AK Softwares ---
+[2026-07-23 21:44:26] Person: Office Manager (Operations)
+[2026-07-23 21:44:26] Email: ashish@aksoftwaresllc.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:44:26] LinkedIn (Person): Not Available
+[2026-07-23 21:44:26] LinkedIn (Company): Not Available
+[2026-07-23 21:44:26] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:44:26] --------------------------------
+[2026-07-23 21:44:26] [QUALITY FILTER] Lead for Chicago MVP Development Agency — AI-Native MVPs for Chicagoland Founders | AK Softwares rejected: Confidence score (70) < 80
+[2026-07-23 21:44:26] [LIVE SCRAPING] Visiting https://www.mtusa.com ...
+[2026-07-23 21:44:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.mtusa.com
+[2026-07-23 21:44:29] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:30] [LIVE SCRAPING] Searching LinkedIn company page for Chicago Managed Services Provider | Micro-Tech U.S.A....
+[2026-07-23 21:44:32] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/mtusa
+[2026-07-23 21:44:32] [LIVE SCRAPING] Processing lead for Chicago Managed Services Provider | Micro-Tech U.S.A. | Email: contact@mtusa.com | Score: 70/100
+[2026-07-23 21:44:32] \n--- VALIDATION FOR: Chicago Managed Services Provider | Micro-Tech U.S.A. ---
+[2026-07-23 21:44:32] Person: Office Manager (Operations)
+[2026-07-23 21:44:32] Email: contact@mtusa.com (Source: Not Available)
+[2026-07-23 21:44:32] LinkedIn (Person): Not Available
+[2026-07-23 21:44:32] LinkedIn (Company): https://www.linkedin.com/company/mtusa
+[2026-07-23 21:44:32] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:44:32] --------------------------------
+[2026-07-23 21:44:32] [QUALITY FILTER] Lead for Chicago Managed Services Provider | Micro-Tech U.S.A. rejected: Confidence score (70) < 80
+[2026-07-23 21:44:32] [LIVE SCRAPING] Visiting https://vitorian.com ...
+[2026-07-23 21:44:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://vitorian.com
+[2026-07-23 21:44:36] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:36] [LIVE SCRAPING] Searching LinkedIn company page for Vitorian LLC...
+[2026-07-23 21:44:38] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/vitorian-llc
+[2026-07-23 21:44:38] [LIVE SCRAPING] Processing lead for Vitorian LLC | Email: support@vitorian.com | Score: 70/100
+[2026-07-23 21:44:38] \n--- VALIDATION FOR: Vitorian LLC ---
+[2026-07-23 21:44:38] Person: Office Manager (Operations)
+[2026-07-23 21:44:38] Email: support@vitorian.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:44:38] LinkedIn (Person): Not Available
+[2026-07-23 21:44:38] LinkedIn (Company): https://www.linkedin.com/company/vitorian-llc
+[2026-07-23 21:44:38] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:44:38] --------------------------------
+[2026-07-23 21:44:38] [QUALITY FILTER] Lead for Vitorian LLC rejected: Confidence score (70) < 80
+[2026-07-23 21:44:38] [LIVE SCRAPING] Visiting https://micronetconsulting.com ...
+[2026-07-23 21:44:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://micronetconsulting.com
+[2026-07-23 21:44:41] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:42] [LIVE SCRAPING] Searching LinkedIn company page for IT Consulting | Chicago, IL - MicroNet Consulting...
+[2026-07-23 21:44:43] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/micronet-solutions-inc.
+[2026-07-23 21:44:45] [LIVE SCRAPING] Processing lead for IT Consulting | Chicago, IL - MicroNet Consulting | Email: contact@micronetconsulting.com | Score: 65/100
+[2026-07-23 21:44:45] \n--- VALIDATION FOR: IT Consulting | Chicago, IL - MicroNet Consulting ---
+[2026-07-23 21:44:45] Person: Office Manager (Operations)
+[2026-07-23 21:44:45] Email: contact@micronetconsulting.com (Source: Not Available)
+[2026-07-23 21:44:45] LinkedIn (Person): Not Available
+[2026-07-23 21:44:45] LinkedIn (Company): https://www.linkedin.com/company/micronet-solutions-inc.
+[2026-07-23 21:44:45] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:44:45] --------------------------------
+[2026-07-23 21:44:45] [QUALITY FILTER] Lead for IT Consulting | Chicago, IL - MicroNet Consulting rejected: Confidence score (65) < 80
+[2026-07-23 21:44:45] [LIVE SCRAPING] Visiting https://www.performixbiz.com ...
+[2026-07-23 21:44:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.performixbiz.com
+[2026-07-23 21:44:48] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:49] [LIVE SCRAPING] Searching LinkedIn company page for Software Development Company in Chicago - Performix Business Services...
+[2026-07-23 21:44:51] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/windy-city-inc
+[2026-07-23 21:44:52] [LIVE SCRAPING] Processing lead for Software Development Company in Chicago - Performix Business Services | Email: info@performixbiz.com | Score: 70/100
+[2026-07-23 21:44:52] \n--- VALIDATION FOR: Software Development Company in Chicago - Performix Business Services ---
+[2026-07-23 21:44:52] Person: Office Manager (Operations)
+[2026-07-23 21:44:52] Email: info@performixbiz.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:44:52] LinkedIn (Person): Not Available
+[2026-07-23 21:44:52] LinkedIn (Company): https://www.linkedin.com/company/windy-city-inc
+[2026-07-23 21:44:52] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:44:52] --------------------------------
+[2026-07-23 21:44:52] [QUALITY FILTER] Lead for Software Development Company in Chicago - Performix Business Services rejected: Confidence score (70) < 80
+[2026-07-23 21:44:52] [LIVE SCRAPING] Visiting https://omiratech.com ...
+[2026-07-23 21:44:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://omiratech.com
+[2026-07-23 21:44:55] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:44:56] [LIVE SCRAPING] Searching LinkedIn company page for OMIRA — A US engineering studio...
+[2026-07-23 21:44:57] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:44:58] [LIVE SCRAPING] Processing lead for OMIRA — A US engineering studio | Email: hello@omiratech.com | Score: 65/100
+[2026-07-23 21:44:58] \n--- VALIDATION FOR: OMIRA — A US engineering studio ---
+[2026-07-23 21:44:58] Person: Office Manager (Operations)
+[2026-07-23 21:44:58] Email: hello@omiratech.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:44:58] LinkedIn (Person): Not Available
+[2026-07-23 21:44:58] LinkedIn (Company): Not Available
+[2026-07-23 21:44:58] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:44:58] --------------------------------
+[2026-07-23 21:44:58] [QUALITY FILTER] Lead for OMIRA — A US engineering studio rejected: Confidence score (65) < 80
+[2026-07-23 21:44:58] [LIVE SCRAPING] Visiting https://quantlabusa.dev ...
+[2026-07-23 21:45:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quantlabusa.dev
+[2026-07-23 21:45:01] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:02] [LIVE SCRAPING] Searching LinkedIn company page for Chicago Software Development & Pen Testing | QUANT LAB USA...
+[2026-07-23 21:45:04] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/xbow
+[2026-07-23 21:45:04] [LIVE SCRAPING] Processing lead for Chicago Software Development & Pen Testing | QUANT LAB USA | Email: beltz@quantlabusa.dev | Score: 70/100
+[2026-07-23 21:45:04] \n--- VALIDATION FOR: Chicago Software Development & Pen Testing | QUANT LAB USA ---
+[2026-07-23 21:45:04] Person: Office Manager (Operations)
+[2026-07-23 21:45:04] Email: beltz@quantlabusa.dev (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:45:04] LinkedIn (Person): Not Available
+[2026-07-23 21:45:04] LinkedIn (Company): https://www.linkedin.com/company/xbow
+[2026-07-23 21:45:04] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:45:04] --------------------------------
+[2026-07-23 21:45:04] [QUALITY FILTER] Lead for Chicago Software Development & Pen Testing | QUANT LAB USA rejected: Confidence score (70) < 80
+[2026-07-23 21:45:04] [LIVE SCRAPING] Visiting https://knubisoft.com ...
+[2026-07-23 21:45:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://knubisoft.com
+[2026-07-23 21:45:08] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:09] [LIVE SCRAPING] Searching LinkedIn company page for Custom Software Development in Chicago...
+[2026-07-23 21:45:11] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 21:45:11] [LIVE SCRAPING] Processing lead for Custom Software Development in Chicago | Email: contact@knubisoft.com | Score: 65/100
+[2026-07-23 21:45:11] \n--- VALIDATION FOR: Custom Software Development in Chicago ---
+[2026-07-23 21:45:11] Person: Office Manager (Operations)
+[2026-07-23 21:45:11] Email: contact@knubisoft.com (Source: Not Available)
+[2026-07-23 21:45:11] LinkedIn (Person): Not Available
+[2026-07-23 21:45:11] LinkedIn (Company): https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 21:45:11] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:45:11] --------------------------------
+[2026-07-23 21:45:11] [QUALITY FILTER] Lead for Custom Software Development in Chicago rejected: Confidence score (65) < 80
+[2026-07-23 21:45:11] [LIVE SCRAPING] Visiting https://twincore.net ...
+[2026-07-23 21:45:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://twincore.net
+[2026-07-23 21:45:15] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:15] [LIVE SCRAPING] Searching LinkedIn company page for Custom Software Development in Chicago | TwinCore...
+[2026-07-23 21:45:18] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/twincore.net
+[2026-07-23 21:45:18] [LIVE SCRAPING] Processing lead for Custom Software Development in Chicago | TwinCore | Email: contact@twincore.net | Score: 65/100
+[2026-07-23 21:45:18] \n--- VALIDATION FOR: Custom Software Development in Chicago | TwinCore ---
+[2026-07-23 21:45:18] Person: Office Manager (Operations)
+[2026-07-23 21:45:18] Email: contact@twincore.net (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:45:18] LinkedIn (Person): Not Available
+[2026-07-23 21:45:18] LinkedIn (Company): https://www.linkedin.com/company/twincore.net
+[2026-07-23 21:45:18] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:45:18] --------------------------------
+[2026-07-23 21:45:18] [QUALITY FILTER] Lead for Custom Software Development in Chicago | TwinCore rejected: Confidence score (65) < 80
+[2026-07-23 21:45:18] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:45:18] 
+------------------------------------------------
+Iteration 5/10
+Searching:
+software startups in Chicago under 20 staff
+[2026-07-23 21:45:18] [LIVE SCRAPING] Querying Exa AI for: software startups in Chicago under 20 staff
+[2026-07-23 21:45:21] [LIVE SCRAPING] Found 12 new target websites. Processing batch...
+[2026-07-23 21:45:21] [LIVE SCRAPING] Visiting https://mistiq.org ...
+[2026-07-23 21:45:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://mistiq.org
+[2026-07-23 21:45:24] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:25] [LIVE SCRAPING] Searching LinkedIn company page for Mistiq | AI-native consumer software...
+[2026-07-23 21:45:28] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/merciv
+[2026-07-23 21:45:28] [LIVE SCRAPING] Processing lead for Mistiq | AI-native consumer software | Email: sharven.rane@mistiq.org | Score: 65/100
+[2026-07-23 21:45:28] \n--- VALIDATION FOR: Mistiq | AI-native consumer software ---
+[2026-07-23 21:45:28] Person: Office Manager (Operations)
+[2026-07-23 21:45:28] Email: sharven.rane@mistiq.org (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:45:28] LinkedIn (Person): Not Available
+[2026-07-23 21:45:28] LinkedIn (Company): https://www.linkedin.com/company/merciv
+[2026-07-23 21:45:28] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:45:28] --------------------------------
+[2026-07-23 21:45:28] [QUALITY FILTER] Lead for Mistiq | AI-native consumer software rejected: Confidence score (65) < 80
+[2026-07-23 21:45:28] [LIVE SCRAPING] Visiting https://vtortech.com ...
+[2026-07-23 21:45:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://vtortech.com
+[2026-07-23 21:45:31] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:32] [LIVE SCRAPING] Searching LinkedIn company page for VTOR | AI Software Company...
+[2026-07-23 21:45:35] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/fireworks-ai
+[2026-07-23 21:45:35] [LIVE SCRAPING] Processing lead for VTOR | AI Software Company | Email: contact@vtortech.com | Score: 65/100
+[2026-07-23 21:45:35] \n--- VALIDATION FOR: VTOR | AI Software Company ---
+[2026-07-23 21:45:35] Person: Office Manager (Operations)
+[2026-07-23 21:45:35] Email: contact@vtortech.com (Source: Not Available)
+[2026-07-23 21:45:35] LinkedIn (Person): Not Available
+[2026-07-23 21:45:35] LinkedIn (Company): https://www.linkedin.com/company/fireworks-ai
+[2026-07-23 21:45:35] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:45:35] --------------------------------
+[2026-07-23 21:45:35] [QUALITY FILTER] Lead for VTOR | AI Software Company rejected: Confidence score (65) < 80
+[2026-07-23 21:45:35] [LIVE SCRAPING] Visiting https://www.justgoodstock.com ...
+[2026-07-23 21:45:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.justgoodstock.com
+[2026-07-23 21:45:39] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:40] [LIVE SCRAPING] Searching LinkedIn company page for About GoodStock - McKinsey Alumni Building Inventory Optimization Software...
+[2026-07-23 21:45:41] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:45:43] [LIVE SCRAPING] Processing lead for About GoodStock - McKinsey Alumni Building Inventory Optimization Software | Email: contact@justgoodstock.com | Score: 20/100
+[2026-07-23 21:45:43] \n--- VALIDATION FOR: About GoodStock - McKinsey Alumni Building Inventory Optimization Software ---
+[2026-07-23 21:45:43] Person: Office Manager (Operations)
+[2026-07-23 21:45:43] Email: contact@justgoodstock.com (Source: Not Available)
+[2026-07-23 21:45:43] LinkedIn (Person): Not Available
+[2026-07-23 21:45:43] LinkedIn (Company): Not Available
+[2026-07-23 21:45:43] Score: 20/100 [official_email: 0, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0]
+[2026-07-23 21:45:43] --------------------------------
+[2026-07-23 21:45:43] [QUALITY FILTER] Lead for About GoodStock - McKinsey Alumni Building Inventory Optimization Software rejected: Email is unverified (MX Record Failed)
+[2026-07-23 21:45:43] [LIVE SCRAPING] Visiting https://dsm.promo ...
+[2026-07-23 21:45:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dsm.promo
+[2026-07-23 21:45:46] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:47] [LIVE SCRAPING] Searching LinkedIn company page for About Us - DSM.promo | Chicago AI Automation Company...
+[2026-07-23 21:45:48] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/dsm-promo
+[2026-07-23 21:45:48] [LIVE SCRAPING] Processing lead for About Us - DSM.promo | Chicago AI Automation Company | Email: contact@dsm.promo | Score: 65/100
+[2026-07-23 21:45:48] \n--- VALIDATION FOR: About Us - DSM.promo | Chicago AI Automation Company ---
+[2026-07-23 21:45:48] Person: Office Manager (Operations)
+[2026-07-23 21:45:48] Email: contact@dsm.promo (Source: Not Available)
+[2026-07-23 21:45:48] LinkedIn (Person): Not Available
+[2026-07-23 21:45:48] LinkedIn (Company): https://www.linkedin.com/company/dsm-promo
+[2026-07-23 21:45:48] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:45:48] --------------------------------
+[2026-07-23 21:45:48] [QUALITY FILTER] Lead for About Us - DSM.promo | Chicago AI Automation Company rejected: Confidence score (65) < 80
+[2026-07-23 21:45:48] [LIVE SCRAPING] Visiting https://raxonai.com ...
+[2026-07-23 21:45:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://raxonai.com
+[2026-07-23 21:45:51] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:45:52] [LIVE SCRAPING] Searching LinkedIn company page for Raxon AI — AI Automation for Local Businesses...
+[2026-07-23 21:45:55] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/engageware
+[2026-07-23 21:45:55] [LIVE SCRAPING] Processing lead for Raxon AI — AI Automation for Local Businesses | Email: jude@raxonai.com | Score: 70/100
+[2026-07-23 21:45:55] \n--- VALIDATION FOR: Raxon AI — AI Automation for Local Businesses ---
+[2026-07-23 21:45:55] Person: Office Manager (Operations)
+[2026-07-23 21:45:55] Email: jude@raxonai.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:45:55] LinkedIn (Person): Not Available
+[2026-07-23 21:45:55] LinkedIn (Company): https://www.linkedin.com/company/engageware
+[2026-07-23 21:45:55] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:45:55] --------------------------------
+[2026-07-23 21:45:55] [QUALITY FILTER] Lead for Raxon AI — AI Automation for Local Businesses rejected: Confidence score (70) < 80
+[2026-07-23 21:45:55] [LIVE SCRAPING] Visiting https://prismlayer.net ...
+[2026-07-23 21:45:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://prismlayer.net
+[2026-07-23 21:46:18] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:46:18] [WARNING] Could not load https://prismlayer.net. Skipping.
+[2026-07-23 21:46:18] [LIVE SCRAPING] Visiting https://www.ragnerock.com ...
+[2026-07-23 21:46:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ragnerock.com
+[2026-07-23 21:46:21] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:22] [LIVE SCRAPING] Searching LinkedIn company page for About Us | Ragnerock...
+[2026-07-23 21:46:25] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ragnarok-nyc
+[2026-07-23 21:46:25] [LIVE SCRAPING] Processing lead for About Us | Ragnerock | Email: contact@ragnerock.com | Score: 65/100
+[2026-07-23 21:46:25] \n--- VALIDATION FOR: About Us | Ragnerock ---
+[2026-07-23 21:46:25] Person: Office Manager (Operations)
+[2026-07-23 21:46:25] Email: contact@ragnerock.com (Source: Not Available)
+[2026-07-23 21:46:25] LinkedIn (Person): Not Available
+[2026-07-23 21:46:25] LinkedIn (Company): https://www.linkedin.com/company/ragnarok-nyc
+[2026-07-23 21:46:25] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:46:25] --------------------------------
+[2026-07-23 21:46:25] [QUALITY FILTER] Lead for About Us | Ragnerock rejected: Confidence score (65) < 80
+[2026-07-23 21:46:25] [LIVE SCRAPING] Visiting https://impactgraph.ai ...
+[2026-07-23 21:46:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://impactgraph.ai
+[2026-07-23 21:46:28] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:29] [LIVE SCRAPING] Searching LinkedIn company page for ImpactGraph...
+[2026-07-23 21:46:31] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/nebula-graph
+[2026-07-23 21:46:31] [LIVE SCRAPING] Processing lead for ImpactGraph | Email: support@impactgraph.ai | Score: 65/100
+[2026-07-23 21:46:31] \n--- VALIDATION FOR: ImpactGraph ---
+[2026-07-23 21:46:31] Person: Office Manager (Operations)
+[2026-07-23 21:46:31] Email: support@impactgraph.ai (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:46:31] LinkedIn (Person): Not Available
+[2026-07-23 21:46:31] LinkedIn (Company): https://www.linkedin.com/company/nebula-graph
+[2026-07-23 21:46:31] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:46:31] --------------------------------
+[2026-07-23 21:46:31] [QUALITY FILTER] Lead for ImpactGraph rejected: Confidence score (65) < 80
+[2026-07-23 21:46:31] [LIVE SCRAPING] Visiting https://www.agenticflowpro.com ...
+[2026-07-23 21:46:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.agenticflowpro.com
+[2026-07-23 21:46:35] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:36] [LIVE SCRAPING] Searching LinkedIn company page for About AgenticFlowPro — Veteran-Owned AI Automation | Founded by Brian Alvarez...
+[2026-07-23 21:46:38] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:46:38] [LIVE SCRAPING] Processing lead for About AgenticFlowPro — Veteran-Owned AI Automation | Founded by Brian Alvarez | Email: information@agenticflowpro.com | Score: 70/100
+[2026-07-23 21:46:38] \n--- VALIDATION FOR: About AgenticFlowPro — Veteran-Owned AI Automation | Founded by Brian Alvarez ---
+[2026-07-23 21:46:38] Person: Office Manager (Operations)
+[2026-07-23 21:46:38] Email: information@agenticflowpro.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:46:38] LinkedIn (Person): Not Available
+[2026-07-23 21:46:38] LinkedIn (Company): Not Available
+[2026-07-23 21:46:38] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:46:38] --------------------------------
+[2026-07-23 21:46:38] [QUALITY FILTER] Lead for About AgenticFlowPro — Veteran-Owned AI Automation | Founded by Brian Alvarez rejected: Confidence score (70) < 80
+[2026-07-23 21:46:38] [LIVE SCRAPING] Visiting https://polaritylabs.io ...
+[2026-07-23 21:46:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://polaritylabs.io
+[2026-07-23 21:46:41] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:42] [LIVE SCRAPING] Searching LinkedIn company page for Polarity Labs...
+[2026-07-23 21:46:44] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/polarity-labs
+[2026-07-23 21:46:44] [LIVE SCRAPING] Processing lead for Polarity Labs | Email: contact@polaritylabs.io | Score: 65/100
+[2026-07-23 21:46:44] \n--- VALIDATION FOR: Polarity Labs ---
+[2026-07-23 21:46:44] Person: Office Manager (Operations)
+[2026-07-23 21:46:44] Email: contact@polaritylabs.io (Source: Not Available)
+[2026-07-23 21:46:44] LinkedIn (Person): Not Available
+[2026-07-23 21:46:44] LinkedIn (Company): https://www.linkedin.com/company/polarity-labs
+[2026-07-23 21:46:44] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:46:44] --------------------------------
+[2026-07-23 21:46:44] [QUALITY FILTER] Lead for Polarity Labs rejected: Confidence score (65) < 80
+[2026-07-23 21:46:44] [LIVE SCRAPING] Visiting https://f4.fund ...
+[2026-07-23 21:46:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://f4.fund
+[2026-07-23 21:46:47] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:48] [LIVE SCRAPING] Searching LinkedIn company page for Spej | Enterprise Software | F4...
+[2026-07-23 21:46:55] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/software-enterprise-llc
+[2026-07-23 21:46:55] [LIVE SCRAPING] Processing lead for Spej | Enterprise Software | F4 | Email: contact@f4.fund | Score: 65/100
+[2026-07-23 21:46:55] \n--- VALIDATION FOR: Spej | Enterprise Software | F4 ---
+[2026-07-23 21:46:55] Person: Office Manager (Operations)
+[2026-07-23 21:46:55] Email: contact@f4.fund (Source: Not Available)
+[2026-07-23 21:46:55] LinkedIn (Person): Not Available
+[2026-07-23 21:46:55] LinkedIn (Company): https://www.linkedin.com/company/software-enterprise-llc
+[2026-07-23 21:46:55] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:46:55] --------------------------------
+[2026-07-23 21:46:55] [QUALITY FILTER] Lead for Spej | Enterprise Software | F4 rejected: Confidence score (65) < 80
+[2026-07-23 21:46:55] [LIVE SCRAPING] Visiting https://socraticlabs.dev ...
+[2026-07-23 21:46:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://socraticlabs.dev
+[2026-07-23 21:46:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:46:59] [LIVE SCRAPING] Searching LinkedIn company page for Socratic Labs — Right question. Clear solution....
+[2026-07-23 21:47:01] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/trelus
+[2026-07-23 21:47:01] [LIVE SCRAPING] Processing lead for Socratic Labs — Right question. Clear solution. | Email: contact@socraticlabs.dev | Score: 65/100
+[2026-07-23 21:47:01] \n--- VALIDATION FOR: Socratic Labs — Right question. Clear solution. ---
+[2026-07-23 21:47:01] Person: Office Manager (Operations)
+[2026-07-23 21:47:01] Email: contact@socraticlabs.dev (Source: Not Available)
+[2026-07-23 21:47:01] LinkedIn (Person): Not Available
+[2026-07-23 21:47:01] LinkedIn (Company): https://www.linkedin.com/company/trelus
+[2026-07-23 21:47:01] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:47:01] --------------------------------
+[2026-07-23 21:47:01] [QUALITY FILTER] Lead for Socratic Labs — Right question. Clear solution. rejected: Confidence score (65) < 80
+[2026-07-23 21:47:01] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:47:01] 
+------------------------------------------------
+Iteration 6/10
+Searching:
+Chicago based software companies with small teams
+[2026-07-23 21:47:01] [LIVE SCRAPING] Querying Exa AI for: Chicago based software companies with small teams
+[2026-07-23 21:47:03] [WARNING] No new target websites found for 'Chicago based software companies with small teams'. Trying next variation...
+[2026-07-23 21:47:03] 
+------------------------------------------------
+Iteration 7/10
+Searching:
+mini software firms in Chicago area
+[2026-07-23 21:47:03] [LIVE SCRAPING] Querying Exa AI for: mini software firms in Chicago area
+[2026-07-23 21:47:04] [LIVE SCRAPING] Found 5 new target websites. Processing batch...
+[2026-07-23 21:47:04] [LIVE SCRAPING] Visiting https://vynx-labs.dev ...
+[2026-07-23 21:47:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://vynx-labs.dev
+[2026-07-23 21:47:07] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:47:08] [LIVE SCRAPING] Searching LinkedIn company page for Vynx Labs — Custom AI Chatbots & Automation Built in 48 Hours | Chicago...
+[2026-07-23 21:47:11] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:47:11] [LIVE SCRAPING] Processing lead for Vynx Labs — Custom AI Chatbots & Automation Built in 48 Hours | Chicago | Email: vynx@vynx-labs.dev | Score: 65/100
+[2026-07-23 21:47:11] \n--- VALIDATION FOR: Vynx Labs — Custom AI Chatbots & Automation Built in 48 Hours | Chicago ---
+[2026-07-23 21:47:11] Person: Office Manager (Operations)
+[2026-07-23 21:47:11] Email: vynx@vynx-labs.dev (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:47:11] LinkedIn (Person): Not Available
+[2026-07-23 21:47:11] LinkedIn (Company): Not Available
+[2026-07-23 21:47:11] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:47:11] --------------------------------
+[2026-07-23 21:47:11] [QUALITY FILTER] Lead for Vynx Labs — Custom AI Chatbots & Automation Built in 48 Hours | Chicago rejected: Confidence score (65) < 80
+[2026-07-23 21:47:11] [LIVE SCRAPING] Visiting https://bytepointllc.com ...
+[2026-07-23 21:47:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://bytepointllc.com
+[2026-07-23 21:47:15] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:47:16] [LIVE SCRAPING] Searching LinkedIn company page for About – bytepoint llc...
+[2026-07-23 21:47:18] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 21:47:18] [LIVE SCRAPING] Processing lead for About – bytepoint llc | Email: hello@bytepointllc.com | Score: 70/100
+[2026-07-23 21:47:18] \n--- VALIDATION FOR: About – bytepoint llc ---
+[2026-07-23 21:47:18] Person: Office Manager (Operations)
+[2026-07-23 21:47:18] Email: hello@bytepointllc.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:47:18] LinkedIn (Person): Not Available
+[2026-07-23 21:47:18] LinkedIn (Company): Not Available
+[2026-07-23 21:47:18] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:47:18] --------------------------------
+[2026-07-23 21:47:18] [QUALITY FILTER] Lead for About – bytepoint llc rejected: Confidence score (70) < 80
+[2026-07-23 21:47:18] [LIVE SCRAPING] Visiting https://teaprogrammer.com ...
+[2026-07-23 21:47:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://teaprogrammer.com
+[2026-07-23 21:47:41] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)
+[2026-07-23 21:47:41] [WARNING] Could not load https://teaprogrammer.com. Skipping.
+[2026-07-23 21:47:41] [LIVE SCRAPING] Visiting https://champlinenterprises.com ...
+[2026-07-23 21:47:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champlinenterprises.com
+[2026-07-23 21:47:44] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:47:45] [LIVE SCRAPING] Searching LinkedIn company page for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises...
+[2026-07-23 21:47:48] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/aidotengineer
+[2026-07-23 21:47:48] [LIVE SCRAPING] Processing lead for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises | Email: contact@champlinenterprises.com | Score: 70/100
+[2026-07-23 21:47:48] \n--- VALIDATION FOR: AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises ---
+[2026-07-23 21:47:48] Person: Office Manager (Operations)
+[2026-07-23 21:47:48] Email: contact@champlinenterprises.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 21:47:48] LinkedIn (Person): Not Available
+[2026-07-23 21:47:48] LinkedIn (Company): https://www.linkedin.com/company/aidotengineer
+[2026-07-23 21:47:48] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:47:48] --------------------------------
+[2026-07-23 21:47:48] [QUALITY FILTER] Lead for AI Engineering in Chicago | Senior AI Engineer | Champlin Enterprises rejected: Confidence score (70) < 80
+[2026-07-23 21:47:48] [LIVE SCRAPING] Visiting https://www.proliphus.com ...
+[2026-07-23 21:47:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.proliphus.com
+[2026-07-23 21:47:52] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:47:53] [LIVE SCRAPING] Searching LinkedIn company page for Proliphus Enterprises – keep moving forward...
+[2026-07-23 21:47:55] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/prolifics
+[2026-07-23 21:47:56] [LIVE SCRAPING] Processing lead for Proliphus Enterprises – keep moving forward | Email: contact@proliphus.com | Score: 65/100
+[2026-07-23 21:47:56] \n--- VALIDATION FOR: Proliphus Enterprises – keep moving forward ---
+[2026-07-23 21:47:56] Person: Office Manager (Operations)
+[2026-07-23 21:47:56] Email: contact@proliphus.com (Source: Not Available)
+[2026-07-23 21:47:56] LinkedIn (Person): Not Available
+[2026-07-23 21:47:56] LinkedIn (Company): https://www.linkedin.com/company/prolifics
+[2026-07-23 21:47:56] Score: 65/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 20]
+[2026-07-23 21:47:56] --------------------------------
+[2026-07-23 21:47:56] [QUALITY FILTER] Lead for Proliphus Enterprises – keep moving forward rejected: Confidence score (65) < 80
+[2026-07-23 21:47:56] Valid Leads: 0/20
+------------------------------------------------
+[2026-07-23 21:47:56] 
+------------------------------------------------
+Iteration 8/10
+Searching:
+Chicago software companies fewer than 20 people
+[2026-07-23 21:47:56] [LIVE SCRAPING] Querying Exa AI for: Chicago software companies fewer than 20 people
+[2026-07-23 21:47:59] [LIVE SCRAPING] Found 1 new target websites. Processing batch...
+[2026-07-23 21:48:00] [LIVE SCRAPING] Visiting https://www.bow-tied.com ...
+[2026-07-23 21:48:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bow-tied.com
+[2026-07-23 21:48:03] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:48:05] [LIVE SCRAPING] Searching LinkedIn company page for Bow‑Tied | Science & Technology Solutions...
+[2026-07-23 21:48:05] CRITICAL ERROR in Agent execution: 'charmap' codec can't encode character '\u2011' in position 77: character maps to <undefined>
+[2026-07-23 21:48:05] Agent execution finished.

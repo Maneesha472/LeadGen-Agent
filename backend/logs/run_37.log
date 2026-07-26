@@ -1,0 +1,16 @@
+[2026-07-19 16:48:11] Starting Lead Generation Agent Execution #37
+[2026-07-19 16:48:11] Criteria - Category: IT Service | Location: https://www.infosys.com | Keywords: Location: Bengaluru
+[2026-07-19 16:48:11] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 16:48:12] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.infosys.com
+[2026-07-19 16:48:12] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 16:48:14] [LIVE SCRAPING] visiting https://www.infosys.com ...
+[2026-07-19 16:48:19] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/locations/bengaluru
+[2026-07-19 16:48:20] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact-us/bengaluru
+[2026-07-19 16:48:22] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact
+[2026-07-19 16:48:24] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact-us
+[2026-07-19 16:48:25] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contactus
+[2026-07-19 16:48:27] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact_us
+[2026-07-19 16:48:28] [LIVE SCRAPING] Processing lead record for Infosys | Email: contact@infosys.com | Score: 54%
+[2026-07-19 16:48:29] [SUCCESS] Validated & saved lead for Infosys: Office Manager (Operations) | Verified: Valid
+[2026-07-19 16:48:29] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 16:48:29] Agent execution finished.

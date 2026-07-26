@@ -1,0 +1,21 @@
+[SYSTEM] Agent execution scheduled at 2026-07-20 06:09:21
+[2026-07-20 06:09:21] Starting Lead Generation Agent Execution #46
+[2026-07-20 06:09:21] Criteria - Category: Direct Enrichment | Location: hcltech | Keywords: None
+[2026-07-20 06:09:21] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 06:09:22] [LIVE SCRAPING] Company name: 'hcltech'. Resolving official website...
+[2026-07-20 06:09:22] [LIVE SCRAPING SUCCESS] Resolved: https://www.hcltech.com
+[2026-07-20 06:09:22] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 06:09:22] [LIVE SCRAPING] Visiting https://www.hcltech.com ...
+[2026-07-20 06:09:25] [LIVE SCRAPING] Team/leadership page found: https://www.hcltech.com/contact-us/request-for-services
+[2026-07-20 06:09:27] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/contact-us/request-for-services
+[2026-07-20 06:09:29] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/about-us
+[2026-07-20 06:09:32] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/leadership
+[2026-07-20 06:09:34] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/contact
+[2026-07-20 06:09:38] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/contactus
+[2026-07-20 06:09:40] [LIVE SCRAPING] Probing subpage: https://www.hcltech.com/about
+[2026-07-20 06:09:40] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 06:09:41] [LIVE SCRAPING] Processing lead for Hcltech | Email: oper@ions.learn | Score: 94%
+[2026-07-20 06:09:41] [SUCCESS] Saved lead for Hcltech: Episode 2 - Reimagining the future of life sciences (Kanda Natarajan, VP of IT at GSK, and Vijay Guntur, CTO and Head of Ecosystems at HCLTech, join Sophia Zhang, SVP at Conde Nast to reflect on their experiences and highlight key lessons for leaders.) | Verified: Valid
+[2026-07-20 06:09:41] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 06:09:41] Agent execution finished.
+[2026-07-20 06:09:41] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

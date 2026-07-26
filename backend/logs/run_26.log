@@ -1,0 +1,17 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 15:49:55
+[2026-07-19 15:49:56] Starting Lead Generation Agent Execution #26
+[2026-07-19 15:49:56] Criteria - Category: Direct Enrichment | Location: https://www.mahindra.com/ | Keywords: None
+[2026-07-19 15:49:56] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 15:49:57] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.mahindra.com/
+[2026-07-19 15:49:57] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 15:49:59] [LIVE SCRAPING] visiting https://www.mahindra.com/ ...
+[2026-07-19 15:50:05] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/investor-relations/policies-and-documents
+[2026-07-19 15:50:06] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/mahindra-accelerated-leadership-track
+[2026-07-19 15:50:08] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/locations
+[2026-07-19 15:50:10] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/about-our-story
+[2026-07-19 15:50:12] [LIVE SCRAPING] AI Extraction active. Analyzing multi-page payload...
+[2026-07-19 15:50:17] [LIVE SCRAPING] Processing lead record for Mahindra | Email: Not Available | Score: 45%
+[2026-07-19 15:50:17] [SUCCESS] Validated & saved lead for Mahindra: Office Manager (Operations) | Verified: Unverified
+[2026-07-19 15:50:18] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 15:50:18] Agent execution finished.
+[2026-07-19 15:50:18] [OUTREACH] Skipped. No email template provided.

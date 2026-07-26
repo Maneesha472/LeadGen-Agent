@@ -1,0 +1,24 @@
+[SYSTEM] CSV Bulk Execution for 'Microsoft' scheduled at 2026-07-20 09:25:22
+[2026-07-20 09:25:22] Starting Lead Generation Agent Execution #48
+[2026-07-20 09:25:22] Criteria - Category: Technology | Location: https://microsoft.com | Keywords: cloud software enterprise
+[2026-07-20 09:25:22] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://microsoft.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://microsoft.com ...
+[2026-07-20 09:25:30] [LIVE SCRAPING] Team/leadership page found: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+[2026-07-20 09:25:35] [LIVE SCRAPING] Probing subpage: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+[2026-07-20 09:25:38] [LIVE SCRAPING] Probing subpage: https://support.microsoft.com/en-us
+[2026-07-20 09:25:43] [LIVE SCRAPING] Probing subpage: https://onedrive.live.com/about/en-us/
+[2026-07-20 09:25:47] [LIVE SCRAPING] Probing subpage: https://products.office.com/en-us/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams
+[2026-07-20 09:25:50] [LIVE SCRAPING] Probing subpage: https://support.microsoft.com/en-us/microsoft-store-and-billing?ocid=MS_Footer_StoreSupport
+[2026-07-20 09:25:54] [LIVE SCRAPING] Probing subpage: https://www.microsoft.com/en-us/education/products/teams
+[2026-07-20 09:25:59] [LIVE SCRAPING] Probing subpage: https://www.microsoft.com/en-us/about
+[2026-07-20 09:26:01] [LIVE SCRAPING] Probing subpage: https://support.microsoft.com/contactus
+[2026-07-20 09:26:20] [LIVE SCRAPING] Probing subpage: https://microsoft.com/contactus
+[2026-07-20 09:26:20] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:21] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Microsoft CEO...
+[2026-07-20 09:26:26] [LIVE SCRAPING] Processing lead for Microsoft | Email: info@domain.com | Score: 60%
+[2026-07-20 09:26:26] [SUCCESS] Saved lead for Microsoft: Office Manager (Operations) | Verified: Valid
+[2026-07-20 09:26:26] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:26] Agent execution finished.
+[2026-07-20 09:26:26] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

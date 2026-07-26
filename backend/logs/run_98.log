@@ -1,0 +1,20 @@
+[2026-07-23 20:00:16] Starting Lead Generation Agent Execution #98
+[2026-07-23 20:00:16] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 20:00:16] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 20:00:17] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-23 20:00:18] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-23 20:00:18] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+small software companies in Chicago
+[2026-07-23 20:00:18] [LIVE SCRAPING] Querying Exa AI for: small software companies in Chicago
+[2026-07-23 20:00:20] [LIVE SCRAPING] Found 28 new target websites. Processing batch...
+[2026-07-23 20:00:20] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-23 20:00:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-23 20:00:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 20:00:27] [LIVE SCRAPING] Extracted Leader: NOT_FOUND (NOT_FOUND)
+[2026-07-23 20:00:27] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software...
+[2026-07-23 20:00:29] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 20:00:29] CRITICAL ERROR in Agent execution: name 'score_email' is not defined
+[2026-07-23 20:00:29] Agent execution finished.

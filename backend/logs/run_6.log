@@ -1,0 +1,13 @@
+[SYSTEM] Agent execution scheduled at 2026-07-18 08:11:52
+[2026-07-18 08:11:52] Starting Lead Generation Agent Execution #6
+[2026-07-18 08:11:52] Criteria - Category: Direct Enrichment | Location: openai | Keywords: None
+[2026-07-18 08:11:52] [SIMULATION] Initializing high-fidelity simulator...
+[2026-07-18 08:11:53] [SIMULATION] Enrichment mode. Analyzing target URL: openai ...
+[2026-07-18 08:11:55] [SIMULATION] Scraping website: https://openai ...
+[2026-07-18 08:11:55] [SIMULATION] Extracted company details - Address: 6516 Business Way, Online | Phone: (909) 946-7172
+[2026-07-18 08:11:55] [SIMULATION] Validating contact: John Martinez | Email: contact@openai
+[2026-07-18 08:11:55] [WARNING] Invalid email syntax for: contact@openai. Skipping.
+[2026-07-18 08:11:55] [FAILED] Validation failed for company Openai Corp
+[2026-07-18 08:11:55] [SIMULATION SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-18 08:11:55] Agent execution finished.
+[2026-07-18 08:11:55] [OUTREACH] Skipped. No email template provided.

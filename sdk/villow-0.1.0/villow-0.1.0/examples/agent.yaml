@@ -1,0 +1,19 @@
+publisher_id: publisher_local
+agent_id: hello_world_agent
+name: Hello World Agent
+version: 0.1.0
+task_templates:
+  - slug: hello_world
+    category_slug: documents_forms_data_extraction
+    artifact_type: generic
+    # T·M per-unit price ceilings (N1.5): typical_charge = T, unit_ceiling = M (worst case),
+    # both in credits. Optional + additive; the platform holds min(M, cap, envelope).
+    typical_charge: 20
+    unit_ceiling: 40
+    input_composition:
+      - primitive: dropdown_with_descriptions
+        id: tone
+        label: Tone
+        default_value: friendly
+        decide_for_me:
+          value: friendly

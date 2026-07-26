@@ -1,0 +1,7 @@
+[2026-07-19 16:36:54] Starting Lead Generation Agent Execution #32
+[2026-07-19 16:36:54] Criteria - Category: IT Service | Location: Tata Consultancy | Keywords: Location: Mumbai
+[2026-07-19 16:36:54] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 16:36:55] [LIVE SCRAPING] Company name specified: 'Tata Consultancy'. Resolving official website domain...
+[2026-07-19 16:37:00] [LIVE SCRAPING SUCCESS] Resolved official website for 'Tata Consultancy': https://www.tataconsultancy.com
+[2026-07-19 16:37:00] CRITICAL ERROR in Agent execution: cannot access local variable 'query' where it is not associated with a value
+[2026-07-19 16:37:00] Agent execution finished.

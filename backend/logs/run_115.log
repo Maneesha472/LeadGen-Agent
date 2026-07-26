@@ -1,0 +1,55 @@
+[2026-07-24 15:59:34] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 15:59:35] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 15:59:52] Iteration 1/1
+Searching: Software buyers companies in Chicago under 20 employees
+[2026-07-24 15:59:56] [LIVE SCRAPING] Scraping directory for companies: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 15:59:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 15:59:57] [LIVE SCRAPING] Scraping directory for companies: https://clutch.co/developers/small-business/chicago
+[2026-07-24 15:59:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/small-business/chicago
+[2026-07-24 16:00:02] [LIVE SCRAPING] Scraping directory for companies: https://www.builtinchicago.org/companies/type/app-development-companies
+[2026-07-24 16:00:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/type/app-development-companies
+[2026-07-24 16:00:02] [LIVE SCRAPING] Scraping directory for companies: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:00:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:00:03] [LIVE SCRAPING] Scraping directory for companies: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 16:00:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 16:00:03] [LIVE SCRAPING] Scraping directory for companies: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:00:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:00:04] [LIVE SCRAPING] Found 2 new target websites. Processing batch concurrently...
+[2026-07-24 16:00:04] [LIVE SCRAPING] Visiting https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/ ...
+[2026-07-24 16:00:04] [LIVE SCRAPING] Visiting https://quixta.com/blogs/custom-software-development-companies-in-chicago/ ...
+[2026-07-24 16:00:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 16:00:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 16:00:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/contact-us
+[2026-07-24 16:00:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/contact/
+[2026-07-24 16:00:05] [LIVE SCRAPING] Probing subpage: https://quixta.com/contact/
+[2026-07-24 16:00:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/about/
+[2026-07-24 16:00:06] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/contact-us
+[2026-07-24 16:00:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contact-us
+[2026-07-24 16:00:08] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contact-us
+[2026-07-24 16:00:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contact
+[2026-07-24 16:00:09] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contact
+[2026-07-24 16:00:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contact_us
+[2026-07-24 16:00:11] [LIVE SCRAPING] Probing subpage: https://quixta.com/about/
+[2026-07-24 16:00:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//contact-us
+[2026-07-24 16:00:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//contact
+[2026-07-24 16:00:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//contactus
+[2026-07-24 16:00:31] [LIVE SCRAPING] Probing subpage: https://quixta.com/blogs/custom-software-development-companies-in-chicago//contact
+[2026-07-24 16:00:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//contact_us
+[2026-07-24 16:00:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//contactus
+[2026-07-24 16:00:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//about-us
+[2026-07-24 16:00:37] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//about-us
+[2026-07-24 16:00:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//about
+[2026-07-24 16:00:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//about-us
+[2026-07-24 16:00:39] [LIVE SCRAPING] Probing subpage: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago//about
+[2026-07-24 16:00:39] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 16:00:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://quixta.com/blogs/custom-software-development-companies-in-chicago//about
+[2026-07-24 16:00:47] [LIVE SCRAPING] Probing subpage: https://quixta.com/blogs/custom-software-development-companies-in-chicago//about
+[2026-07-24 16:00:47] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 16:00:56] [LIVE SCRAPING] Searching LinkedIn company page for 10 Affordable Custom Software Development Companies in Chicago! in Chicago...
+[2026-07-24 16:01:05] [LIVE SCRAPING] Searching LinkedIn company page for Top 10 Custom Software Development Companies In Chicago in Chicago...
+[2026-07-24 16:01:05] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/erws-inc
+[2026-07-24 16:01:06] [LIVE SCRAPING] Processing lead for 10 Affordable Custom Software Development Companies in Chicago! | Email: info@tekinvent.com | Score: 85/100
+[2026-07-24 16:01:06] [SAVED] Lead Office Manager @ 10 Affordable Custom Software Development Companies in Chicago! saved to database.
+[2026-07-24 16:01:24] [LIVE SCRAPING] Found via Exa AI: https://ca.linkedin.com/company/intersog
+[2026-07-24 16:01:24] [LIVE SCRAPING] Processing lead for Top 10 Custom Software Development Companies In Chicago | Email: hello@quixta.com | Score: 85/100
+[2026-07-24 16:01:24] [SAVED] Lead Office Manager @ Top 10 Custom Software Development Companies In Chicago saved to database.

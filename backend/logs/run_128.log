@@ -1,0 +1,136 @@
+[2026-07-24 18:39:36] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 18:39:36] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 18:39:52] Iteration 1/1
+Searching: Software buyers companies in Chicago under 20 employees
+[2026-07-24 18:39:54] [LIVE SCRAPING] Scraping directory/listicle for companies: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 18:39:54] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 18:39:56] [LIVE SCRAPING] Zero companies extracted from https://gregslist.com/chicago/software-companies-size/small/. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 18:39:56] [LIVE SCRAPING] Scraping directory/listicle for companies: https://clutch.co/developers/small-business/chicago
+[2026-07-24 18:39:56] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://clutch.co/developers/small-business/chicago
+[2026-07-24 18:39:56] [LIVE SCRAPING] Zero companies extracted from https://clutch.co/developers/small-business/chicago. Reason: Empty HTML (fetch failed or anti-bot protection)
+[2026-07-24 18:39:56] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.builtinchicago.org/companies/type/productivity-companies
+[2026-07-24 18:39:56] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.builtinchicago.org/companies/type/productivity-companies
+[2026-07-24 18:39:56] [LIVE SCRAPING] Zero companies extracted from https://www.builtinchicago.org/companies/type/productivity-companies. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 18:39:56] [LIVE SCRAPING] Scraping directory/listicle for companies: https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 18:39:56] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 18:39:56] [LIVE SCRAPING] Extracted 1 external links and 4 profile names from https://quixta.com/blogs/custom-software-development-companies-in-chicago/
+[2026-07-24 18:39:56] [LIVE SCRAPING] Resolving 4 official company websites via Exa...
+[2026-07-24 18:40:02] [LIVE SCRAPING] Scraping directory/listicle for companies: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 18:40:02] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 18:40:03] [LIVE SCRAPING] Zero companies extracted from https://epicpresence.com/software-companies-in-chicago/. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 18:40:03] [LIVE SCRAPING] Scraping directory/listicle for companies: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 18:40:03] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 18:40:03] [LIVE SCRAPING] Zero companies extracted from https://builtin.com/awards/chicago/2026/best-midsize-places-to-work. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 18:40:03] [LIVE SCRAPING] Scraping directory/listicle for companies: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 18:40:03] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 18:40:03] [LIVE SCRAPING] Extracted 0 external links and 4 profile names from https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 18:40:03] [LIVE SCRAPING] Resolving 4 official company websites via Exa...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 18:40:09] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 18:40:09] [LIVE SCRAPING] Zero companies extracted from https://www.goodfirms.co/directory/city/top-software-development-companies/chicago. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 18:40:09] [LIVE SCRAPING] Found 7 new target websites. Processing batch concurrently...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Visiting https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report ...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report
+[2026-07-24 18:40:09] [LIVE SCRAPING] Visiting https://share.america.gov/ ...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Visiting https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion ...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov/
+[2026-07-24 18:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion
+[2026-07-24 18:40:09] [LIVE SCRAPING] Visiting https://www.trinet.com/insights/hr-software ...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Visiting https://blog.google/ ...
+[2026-07-24 18:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software
+[2026-07-24 18:40:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google/
+[2026-07-24 18:40:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact-us
+[2026-07-24 18:40:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//contact-us
+[2026-07-24 18:40:10] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact-us
+[2026-07-24 18:40:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact
+[2026-07-24 18:40:11] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact
+[2026-07-24 18:40:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact_us
+[2026-07-24 18:40:11] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contact_us
+[2026-07-24 18:40:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contactus
+[2026-07-24 18:40:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/contact-us
+[2026-07-24 18:40:11] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/contactus
+[2026-07-24 18:40:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/about-us
+[2026-07-24 18:40:12] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/about-us
+[2026-07-24 18:40:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/about
+[2026-07-24 18:40:12] [LIVE SCRAPING] Probing subpage: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report/about
+[2026-07-24 18:40:12] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:40:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//contact
+[2026-07-24 18:40:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/contact-us
+[2026-07-24 18:40:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//contact_us
+[2026-07-24 18:40:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/contact
+[2026-07-24 18:40:29] [LIVE SCRAPING] Searching LinkedIn company page for grandviewresearch.com in Chicago...
+[2026-07-24 18:40:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/contact
+[2026-07-24 18:40:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov/category/about-america/
+[2026-07-24 18:40:30] [LIVE SCRAPING] Probing subpage: https://share.america.gov/category/about-america/
+[2026-07-24 18:40:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov/category/about-america/ "About America"
+[2026-07-24 18:40:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov/about-us/ "About Us "
+[2026-07-24 18:40:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov/about-us/
+[2026-07-24 18:40:31] [LIVE SCRAPING] Probing subpage: https://share.america.gov/about-us/
+[2026-07-24 18:40:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//contact-us
+[2026-07-24 18:40:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/contact_us
+[2026-07-24 18:40:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/contact_us
+[2026-07-24 18:40:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/contactus
+[2026-07-24 18:40:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//contact
+[2026-07-24 18:40:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/contactus
+[2026-07-24 18:40:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/about-us
+[2026-07-24 18:40:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/about-us
+[2026-07-24 18:40:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//contact_us
+[2026-07-24 18:40:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//contactus
+[2026-07-24 18:40:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.trinet.com/insights/hr-software/about
+[2026-07-24 18:40:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.thoughtspot.com/blog/spotlight-ashok-anand-thoughtspot-selfless-excellence-champion/about
+[2026-07-24 18:40:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//contactus
+[2026-07-24 18:40:46] [LIVE SCRAPING] Found via Exa AI: https://kr.linkedin.com/company/vous-vitamin-llc
+[2026-07-24 18:40:46] [LIVE SCRAPING] Processing lead for grandviewresearch.com | Email: contact@grandviewresearch.com | Score: 80/100
+[2026-07-24 18:40:46] [LIVE SCRAPING] Visiting https://www.related.com/blog ...
+[2026-07-24 18:40:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog
+[2026-07-24 18:40:46] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:40:46] [DUPLICATE] Company already processed: https://www.grandviewresearch.com/industry-analysis/custom-software-development-market-report
+[2026-07-24 18:40:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/contact-us
+[2026-07-24 18:40:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//about-us
+[2026-07-24 18:40:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/contact
+[2026-07-24 18:40:49] [LIVE SCRAPING] Probing subpage: https://share.america.gov//about-us
+[2026-07-24 18:40:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://share.america.gov//about
+[2026-07-24 18:40:51] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:40:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/contact_us
+[2026-07-24 18:40:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/contactus
+[2026-07-24 18:40:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/about-us
+[2026-07-24 18:40:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.related.com/blog/about
+[2026-07-24 18:40:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:40:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//about-us
+[2026-07-24 18:41:02] [LIVE SCRAPING] Searching LinkedIn company page for Blog by Anand Ashok in Chicago...
+[2026-07-24 18:41:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://blog.google//about
+[2026-07-24 18:41:03] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:41:03] [LIVE SCRAPING] Probing subpage: https://blog.google//about
+[2026-07-24 18:41:03] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:41:07] [LIVE SCRAPING] Searching LinkedIn company page for How HR Software Helps Businesses Scale Faster in Chicago...
+[2026-07-24 18:41:14] [LIVE SCRAPING] Searching LinkedIn company page for RelatedBlog in Chicago...
+[2026-07-24 18:41:20] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 18:41:20] [LIVE SCRAPING] Searching LinkedIn company page for Related Blogs in Chicago...
+[2026-07-24 18:41:20] [LIVE SCRAPING] Processing lead for Blog by Anand Ashok | Email: contact@thoughtspot.com | Score: 80/100
+[2026-07-24 18:41:20] [LIVE SCRAPING] Visiting https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us/ ...
+[2026-07-24 18:41:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us/
+[2026-07-24 18:41:20] [LIVE SCRAPING] Searching LinkedIn company page for Share this article in Chicago...
+[2026-07-24 18:41:20] [SAVED] Lead Office Manager @ Blog by Anand Ashok saved to database.
+[2026-07-24 18:41:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//contact-us
+[2026-07-24 18:41:26] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 18:41:26] [LIVE SCRAPING] Processing lead for How HR Software Helps Businesses Scale Faster | Email: contact@trinet.com | Score: 80/100
+[2026-07-24 18:41:26] [SAVED] Lead Office Manager @ How HR Software Helps Businesses Scale Faster saved to database.
+[2026-07-24 18:41:32] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ready-set-gc
+[2026-07-24 18:41:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//contact
+[2026-07-24 18:41:35] [LIVE SCRAPING] Processing lead for RelatedBlog | Email: rel@edrentals.com | Score: 25/100
+[2026-07-24 18:41:35] [QUALITY FILTER] Lead for RelatedBlog rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 18:41:38] [LIVE SCRAPING] Found via Exa AI: https://fr.linkedin.com/company/the-chicago-community-trust
+[2026-07-24 18:41:38] [LIVE SCRAPING] Processing lead for Share this article | Email: foia.st@e.gov | Score: 5/100
+[2026-07-24 18:41:38] [QUALITY FILTER] Lead for Share this article rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 18:41:38] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/consortium-on-chicago-schools
+[2026-07-24 18:41:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//contact_us
+[2026-07-24 18:41:38] [LIVE SCRAPING] Processing lead for Related Blogs | Email: press@google.com | Score: 30/100
+[2026-07-24 18:41:38] [QUALITY FILTER] Lead for Related Blogs rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 18:41:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//contactus
+[2026-07-24 18:41:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//about-us
+[2026-07-24 18:42:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://buildsmartinstitute.com/whats-happening-at-build-smart-institute/contact-us//about
+[2026-07-24 18:42:19] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 18:42:35] [LIVE SCRAPING] Searching LinkedIn company page for Build Smart with TheRight Team. in Chicago...
+[2026-07-24 18:42:53] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicagodesignbuild
+[2026-07-24 18:42:53] [LIVE SCRAPING] Processing lead for Build Smart with TheRight Team. | Email: contact@buildsmartinstitute.com | Score: 85/100
+[2026-07-24 18:42:53] [SAVED] Lead Office Manager @ Build Smart with TheRight Team. saved to database.

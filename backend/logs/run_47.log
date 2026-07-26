@@ -1,0 +1,16 @@
+[SYSTEM] CSV Bulk Execution for 'Google' scheduled at 2026-07-20 09:25:22
+[2026-07-20 09:25:22] Starting Lead Generation Agent Execution #47
+[2026-07-20 09:25:22] Criteria - Category: Technology | Location: https://google.com | Keywords: AI search cloud
+[2026-07-20 09:25:22] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:22] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://google.com
+[2026-07-20 09:25:22] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:22] [LIVE SCRAPING] Visiting https://google.com ...
+[2026-07-20 09:25:40] [LIVE SCRAPING] Probing subpage: https://google.com/contact
+[2026-07-20 09:25:50] [LIVE SCRAPING] Probing subpage: https://google.com/about
+[2026-07-20 09:25:51] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:25:54] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Google CEO...
+[2026-07-20 09:26:01] [LIVE SCRAPING] Processing lead for Google | Email: press@google.com | Score: 60%
+[2026-07-20 09:26:01] [SUCCESS] Saved lead for Google: Office Manager (Operations) | Verified: Valid
+[2026-07-20 09:26:01] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:01] Agent execution finished.
+[2026-07-20 09:26:01] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

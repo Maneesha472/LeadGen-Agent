@@ -1,0 +1,20 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 18:21:34
+[2026-07-19 18:21:34] Starting Lead Generation Agent Execution #42
+[2026-07-19 18:21:34] Criteria - Category: Direct Enrichment | Location: Cognizant | Keywords: None
+[2026-07-19 18:21:34] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-19 18:21:35] [LIVE SCRAPING] Company name: 'Cognizant'. Resolving official website...
+[2026-07-19 18:21:36] [LIVE SCRAPING SUCCESS] Resolved: https://www.cognizant.com
+[2026-07-19 18:21:36] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-19 18:21:36] [LIVE SCRAPING] Visiting https://www.cognizant.com ...
+[2026-07-19 18:21:43] [LIVE SCRAPING] Team/leadership page found: https://www.cognizant.com/in/en/industries/capital-markets-technology-solutions/asset-management
+[2026-07-19 18:21:47] [LIVE SCRAPING] Probing subpage: https://www.cognizant.com/contact-us
+[2026-07-19 18:21:49] [LIVE SCRAPING] Probing subpage: https://www.cognizant.com/contact
+[2026-07-19 18:21:54] [LIVE SCRAPING] Probing subpage: https://www.cognizant.com/contactus
+[2026-07-19 18:22:02] [LIVE SCRAPING] Probing subpage: https://www.cognizant.com/in/en/about-cognizant/responsible-ai
+[2026-07-19 18:22:04] [LIVE SCRAPING] Probing subpage: https://www.cognizant.com/in/en/about-cognizant
+[2026-07-19 18:22:05] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-19 18:22:07] [LIVE SCRAPING] Processing lead for Cognizant | Email: contact@cognizant.com | Score: 70%
+[2026-07-19 18:22:07] [SUCCESS] Saved lead for Cognizant: Office Manager (Operations) | Verified: Valid
+[2026-07-19 18:22:07] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 18:22:07] Agent execution finished.
+[2026-07-19 18:22:07] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

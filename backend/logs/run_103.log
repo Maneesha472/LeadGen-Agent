@@ -1,0 +1,254 @@
+[2026-07-23 22:00:25] Starting Lead Generation Agent Execution #103
+[2026-07-23 22:00:25] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 22:00:25] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 22:00:25] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-23 22:00:27] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-23 22:00:27] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+software companies in Chicago with less than 20 employees
+[2026-07-23 22:00:27] [LIVE SCRAPING] Querying Exa AI for: software companies in Chicago with less than 20 employees
+[2026-07-23 22:00:29] [LIVE SCRAPING] Found 29 new target websites. Processing batch...
+[2026-07-23 22:00:29] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-23 22:00:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-23 22:00:33] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 22:00:34] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software in Chicago...
+[2026-07-23 22:00:39] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 22:00:40] [LIVE SCRAPING] Processing lead for ZNP Tech — Websites · Apps · Software | Email: contact@znptech.com | Score: 85/100
+[2026-07-23 22:00:40] \n--- VALIDATION FOR: ZNP Tech — Websites · Apps · Software ---
+[2026-07-23 22:00:40] Person: Office Manager (Operations)
+[2026-07-23 22:00:40] Email: contact@znptech.com (Source: Not Available)
+[2026-07-23 22:00:40] LinkedIn (Person): Not Available
+[2026-07-23 22:00:40] LinkedIn (Company): Not Available
+[2026-07-23 22:00:40] Score: 85/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35]
+[2026-07-23 22:00:40] --------------------------------
+[2026-07-23 22:00:40] [SUCCESS] Saved lead for ZNP Tech — Websites · Apps · Software: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 35
+[2026-07-23 22:00:41] [LIVE SCRAPING] Visiting https://seanware.llc ...
+[2026-07-23 22:00:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://seanware.llc
+[2026-07-23 22:00:44] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 22:00:44] [LIVE SCRAPING] Searching LinkedIn company page for Seanware LLC in Chicago...
+[2026-07-23 22:00:46] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 22:00:46] [LIVE SCRAPING] Processing lead for Seanware LLC | Email: contact@seanware.llc | Score: 80/100
+[2026-07-23 22:00:46] \n--- VALIDATION FOR: Seanware LLC ---
+[2026-07-23 22:00:46] Person: Office Manager (Operations)
+[2026-07-23 22:00:46] Email: contact@seanware.llc (Source: Not Available)
+[2026-07-23 22:00:46] LinkedIn (Person): Not Available
+[2026-07-23 22:00:46] LinkedIn (Company): Not Available
+[2026-07-23 22:00:46] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-23 22:00:46] --------------------------------
+[2026-07-23 22:00:46] [SUCCESS] Saved lead for Seanware LLC: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-23 22:00:46] [LIVE SCRAPING] Visiting https://juzu-ai.com ...
+[2026-07-23 22:00:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://juzu-ai.com
+[2026-07-23 22:00:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 22:00:51] [LIVE SCRAPING] Searching LinkedIn company page for Juzu AI in Chicago...
+[2026-07-23 22:00:54] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-23 22:00:54] [LIVE SCRAPING] Processing lead for Juzu AI | Email: hello@juzu-ai.com | Score: 80/100
+[2026-07-23 22:00:54] \n--- VALIDATION FOR: Juzu AI ---
+[2026-07-23 22:00:54] Person: Office Manager (Operations)
+[2026-07-23 22:00:54] Email: hello@juzu-ai.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 22:00:54] LinkedIn (Person): Not Available
+[2026-07-23 22:00:54] LinkedIn (Company): Not Available
+[2026-07-23 22:00:54] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-23 22:00:54] --------------------------------
+[2026-07-23 22:00:54] [SUCCESS] Saved lead for Juzu AI: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-23 22:00:55] [LIVE SCRAPING] Visiting https://dombrowskitechnologies.com ...
+[2026-07-23 22:00:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dombrowskitechnologies.com
+[2026-07-23 22:00:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 22:00:59] [LIVE SCRAPING] Searching LinkedIn company page for Custom Software & Web Development in Chicago | Dombrowski Technologies in Chicago...
+[2026-07-23 22:01:01] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 22:01:01] [LIVE SCRAPING] Processing lead for Custom Software & Web Development in Chicago | Dombrowski Technologies | Email: hello@dombrowskitechnologies.com | Score: 80/100
+[2026-07-23 22:01:01] \n--- VALIDATION FOR: Custom Software & Web Development in Chicago | Dombrowski Technologies ---
+[2026-07-23 22:01:01] Person: Office Manager (Operations)
+[2026-07-23 22:01:01] Email: hello@dombrowskitechnologies.com (Source: Website DOM Extraction (Generic))
+[2026-07-23 22:01:01] LinkedIn (Person): Not Available
+[2026-07-23 22:01:01] LinkedIn (Company): https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-23 22:01:01] Score: 80/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35]
+[2026-07-23 22:01:01] --------------------------------
+[2026-07-23 22:01:01] [SUCCESS] Saved lead for Custom Software & Web Development in Chicago | Dombrowski Technologies: Office Manager (Operations) | Verified: Valid | Score Breakdown: official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 0, location: 0, company_validity: 35
+[2026-07-23 22:01:01] [LIVE SCRAPING] Visiting https://ncubesoftware.com ...
+[2026-07-23 22:01:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ncubesoftware.com
+[2026-07-23 22:44:20] [WARNING] Could not load https://ncubesoftware.com. Skipping.
+[2026-07-23 22:44:22] [LIVE SCRAPING] Visiting https://boldlinestudios.com ...
+[2026-07-23 22:44:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://boldlinestudios.com
+[2026-07-24 05:24:06] [WARNING] Parallel Extract API failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-07-24 05:24:06] [WARNING] Could not load https://boldlinestudios.com. Skipping.
+[2026-07-24 05:24:06] [LIVE SCRAPING] Visiting https://www.hydeparksoftwareconsulting.com ...
+[2026-07-24 05:24:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hydeparksoftwareconsulting.com
+[2026-07-24 05:24:08] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EF58F50>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:08] [WARNING] Could not load https://www.hydeparksoftwareconsulting.com. Skipping.
+[2026-07-24 05:24:08] [LIVE SCRAPING] Visiting https://dakic.com ...
+[2026-07-24 05:24:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://dakic.com
+[2026-07-24 05:24:10] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE89BD0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:10] [WARNING] Could not load https://dakic.com. Skipping.
+[2026-07-24 05:24:10] [LIVE SCRAPING] Visiting https://www.sdpchicago.com ...
+[2026-07-24 05:24:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com
+[2026-07-24 05:24:12] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AC10>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:12] [WARNING] Could not load https://www.sdpchicago.com. Skipping.
+[2026-07-24 05:24:12] [LIVE SCRAPING] Visiting https://pumoritech.com ...
+[2026-07-24 05:24:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pumoritech.com
+[2026-07-24 05:24:14] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AE90>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:14] [WARNING] Could not load https://pumoritech.com. Skipping.
+[2026-07-24 05:24:14] [LIVE SCRAPING] Visiting https://www.beniceworks.com ...
+[2026-07-24 05:24:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.beniceworks.com
+[2026-07-24 05:24:16] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B250>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:16] [WARNING] Could not load https://www.beniceworks.com. Skipping.
+[2026-07-24 05:24:16] [LIVE SCRAPING] Visiting https://ai-workflow.fyi ...
+[2026-07-24 05:24:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ai-workflow.fyi
+[2026-07-24 05:24:18] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AD50>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:18] [WARNING] Could not load https://ai-workflow.fyi. Skipping.
+[2026-07-24 05:24:18] [LIVE SCRAPING] Visiting https://pureapplications.com ...
+[2026-07-24 05:24:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://pureapplications.com
+[2026-07-24 05:24:20] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B750>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:20] [WARNING] Could not load https://pureapplications.com. Skipping.
+[2026-07-24 05:24:20] [LIVE SCRAPING] Visiting https://birthbaum.com ...
+[2026-07-24 05:24:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://birthbaum.com
+[2026-07-24 05:24:22] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B890>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:22] [WARNING] Could not load https://birthbaum.com. Skipping.
+[2026-07-24 05:24:22] [LIVE SCRAPING] Visiting https://www.pekkerllc.com ...
+[2026-07-24 05:24:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.pekkerllc.com
+[2026-07-24 05:24:24] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8BB10>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:24] [WARNING] Could not load https://www.pekkerllc.com. Skipping.
+[2026-07-24 05:24:24] [LIVE SCRAPING] Visiting https://parallactic.com ...
+[2026-07-24 05:24:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://parallactic.com
+[2026-07-24 05:24:26] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8BED0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:26] [WARNING] Could not load https://parallactic.com. Skipping.
+[2026-07-24 05:24:26] [LIVE SCRAPING] Visiting https://www.robertneyrinck.com ...
+[2026-07-24 05:24:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.robertneyrinck.com
+[2026-07-24 05:24:28] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A990>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:28] [WARNING] Could not load https://www.robertneyrinck.com. Skipping.
+[2026-07-24 05:24:28] [LIVE SCRAPING] Visiting https://www.theradicalsoftware.com ...
+[2026-07-24 05:24:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.theradicalsoftware.com
+[2026-07-24 05:24:30] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A710>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:30] [WARNING] Could not load https://www.theradicalsoftware.com. Skipping.
+[2026-07-24 05:24:30] [LIVE SCRAPING] Visiting https://polaritylabs.io ...
+[2026-07-24 05:24:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://polaritylabs.io
+[2026-07-24 05:24:32] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A490>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:32] [WARNING] Could not load https://polaritylabs.io. Skipping.
+[2026-07-24 05:24:32] [LIVE SCRAPING] Visiting https://www.gogreenlit.com ...
+[2026-07-24 05:24:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.gogreenlit.com
+[2026-07-24 05:24:34] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A0D0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:34] [WARNING] Could not load https://www.gogreenlit.com. Skipping.
+[2026-07-24 05:24:34] [LIVE SCRAPING] Visiting https://digiline.io ...
+[2026-07-24 05:24:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digiline.io
+[2026-07-24 05:24:36] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EFC4050>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:36] [WARNING] Could not load https://digiline.io. Skipping.
+[2026-07-24 05:24:36] [LIVE SCRAPING] Visiting https://10ustech.com ...
+[2026-07-24 05:24:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://10ustech.com
+[2026-07-24 05:24:38] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A0D0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:38] [WARNING] Could not load https://10ustech.com. Skipping.
+[2026-07-24 05:24:38] [LIVE SCRAPING] Visiting https://kddziekan.com ...
+[2026-07-24 05:24:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://kddziekan.com
+[2026-07-24 05:24:40] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A490>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:40] [WARNING] Could not load https://kddziekan.com. Skipping.
+[2026-07-24 05:24:40] [LIVE SCRAPING] Visiting https://reallyvibrant.com ...
+[2026-07-24 05:24:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://reallyvibrant.com
+[2026-07-24 05:24:42] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A710>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:42] [WARNING] Could not load https://reallyvibrant.com. Skipping.
+[2026-07-24 05:24:42] [LIVE SCRAPING] Visiting https://linkrulzsoftware.com ...
+[2026-07-24 05:24:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://linkrulzsoftware.com
+[2026-07-24 05:24:44] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8A850>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:44] [WARNING] Could not load https://linkrulzsoftware.com. Skipping.
+[2026-07-24 05:24:44] [LIVE SCRAPING] Visiting https://www.orbitech.software ...
+[2026-07-24 05:24:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.orbitech.software
+[2026-07-24 05:24:46] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8BED0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:46] [WARNING] Could not load https://www.orbitech.software. Skipping.
+[2026-07-24 05:24:46] [LIVE SCRAPING] Visiting https://eightbitstudios.com ...
+[2026-07-24 05:24:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://eightbitstudios.com
+[2026-07-24 05:24:48] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8BB10>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:48] [WARNING] Could not load https://eightbitstudios.com. Skipping.
+[2026-07-24 05:24:48] [LIVE SCRAPING] Visiting https://artesianskyline.com ...
+[2026-07-24 05:24:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://artesianskyline.com
+[2026-07-24 05:24:50] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B890>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:50] [WARNING] Could not load https://artesianskyline.com. Skipping.
+[2026-07-24 05:24:50] [LIVE SCRAPING] Visiting https://www.bow-tied.com ...
+[2026-07-24 05:24:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bow-tied.com
+[2026-07-24 05:24:52] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B750>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] Could not load https://www.bow-tied.com. Skipping.
+[2026-07-24 05:24:52] Valid Leads: 4/20
+------------------------------------------------
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 2/10
+Searching:
+small software businesses Chicago
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: small software businesses Chicago
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AD50>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'small software businesses Chicago'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 3/10
+Searching:
+Chicago software firms under 20 staff
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: Chicago software firms under 20 staff
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B4D0>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'Chicago software firms under 20 staff'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 4/10
+Searching:
+software startups in Chicago with fewer than 20 employees
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: software startups in Chicago with fewer than 20 employees
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AC10>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'software startups in Chicago with fewer than 20 employees'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 5/10
+Searching:
+Chicago based software companies with small teams
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: Chicago based software companies with small teams
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AAD0>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'Chicago based software companies with small teams'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 6/10
+Searching:
+tiny software companies in Chicago
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: tiny software companies in Chicago
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EFC4550>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'tiny software companies in Chicago'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 7/10
+Searching:
+micro software businesses in Chicago
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: micro software businesses in Chicago
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EFC4910>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'micro software businesses in Chicago'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 8/10
+Searching:
+Chicago software companies with fewer than 20 people
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: Chicago software companies with fewer than 20 people
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8AAD0>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'Chicago software companies with fewer than 20 people'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 9/10
+Searching:
+small scale software companies Chicago
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: small scale software companies Chicago
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B390>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'small scale software companies Chicago'. Trying next variation...
+[2026-07-24 05:24:52] 
+------------------------------------------------
+Iteration 10/10
+Searching:
+Chicago software businesses with less than 20 personnel
+[2026-07-24 05:24:52] [LIVE SCRAPING] Querying Exa AI for: Chicago software businesses with less than 20 personnel
+[2026-07-24 05:24:52] [WARNING] Exa AI discovery failed: HTTPSConnectionPool(host='api.exa.ai', port=443): Max retries exceeded with url: /search (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027F5EE8B110>: Failed to resolve 'api.exa.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 05:24:52] [WARNING] No new target websites found for 'Chicago software businesses with less than 20 personnel'. Trying next variation...
+[2026-07-24 05:24:52] CRITICAL ERROR in Agent execution: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT executions.id AS executions_id, executions.user_id AS executions_user_id, executions.category AS executions_category, executions.location AS executions_location, executions.keywords AS executions_keywords, executions.total_found AS executions_total_found, executions.valid_leads AS executions_valid_leads, executions.sent_count AS executions_sent_count, executions.reply_count AS executions_reply_count, executions.created_at AS executions_created_at 
+FROM executions 
+WHERE executions.id = %(pk_1)s]
+[parameters: {'pk_1': 103}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2026-07-24 05:24:52] Agent execution finished.

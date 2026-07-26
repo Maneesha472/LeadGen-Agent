@@ -1,0 +1,14 @@
+[2026-07-19 15:31:28] Starting Lead Generation Agent Execution #25
+[2026-07-19 15:31:28] Criteria - Category: Direct Enrichment | Location: https://www.mahindra.com/ | Keywords: None
+[2026-07-19 15:31:28] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 15:31:29] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.mahindra.com/
+[2026-07-19 15:31:29] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 15:31:31] [LIVE SCRAPING] visiting https://www.mahindra.com/ ...
+[2026-07-19 15:31:34] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/investor-relations/reports
+[2026-07-19 15:31:36] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/contact-us
+[2026-07-19 15:31:37] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/our-offices
+[2026-07-19 15:31:38] [LIVE SCRAPING] Probing subpage: https://www.mahindra.com/leadership
+[2026-07-19 15:31:40] [LIVE SCRAPING] Processing lead record for Mahindra | Email: ramachandran.sriram@mahindra.com | Score: 94%
+[2026-07-19 15:31:41] [SUCCESS] Validated & saved lead for Mahindra: Anish Shah (Founder & CEO) | Verified: Valid
+[2026-07-19 15:31:41] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 15:31:41] Agent execution finished.

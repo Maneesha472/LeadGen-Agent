@@ -1,0 +1,17 @@
+[SYSTEM] Agent execution scheduled at 2026-07-20 05:45:06
+[2026-07-20 05:45:06] Starting Lead Generation Agent Execution #45
+[2026-07-20 05:45:06] Criteria - Category: Direct Enrichment | Location: https://www.kia.com/in/home.html | Keywords: None
+[2026-07-20 05:45:06] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 05:45:06] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://www.kia.com/in/home.html
+[2026-07-20 05:45:06] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 05:45:06] [LIVE SCRAPING] Visiting https://www.kia.com ...
+[2026-07-20 05:45:12] [LIVE SCRAPING] Team/leadership page found: https://www.kia.com/in/discover-kia/kia-in-india/about-us.html
+[2026-07-20 05:45:31] [LIVE SCRAPING] Probing subpage: https://www.kia.com/in/discover-kia/kia-in-india/about-us.html
+[2026-07-20 05:45:34] [LIVE SCRAPING] Probing subpage: https://www.kia.com/in/discover-kia/contact-us.html
+[2026-07-20 05:45:35] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 05:45:37] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Kia CEO...
+[2026-07-20 05:45:44] [LIVE SCRAPING] Processing lead for Kia | Email: kiacare@kiaindia.net | Score: 60%
+[2026-07-20 05:45:45] [SUCCESS] Saved lead for Kia: Office Manager (Operations) | Verified: Valid
+[2026-07-20 05:45:45] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 05:45:45] Agent execution finished.
+[2026-07-20 05:45:45] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

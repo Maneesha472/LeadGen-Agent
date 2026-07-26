@@ -1,0 +1,28 @@
+[SYSTEM] CSV Bulk Execution for 'Amazon' scheduled at 2026-07-20 09:25:22
+[2026-07-20 09:25:22] Starting Lead Generation Agent Execution #50
+[2026-07-20 09:25:22] Criteria - Category: E-Commerce | Location: https://amazon.com | Keywords: cloud logistics retail
+[2026-07-20 09:25:22] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://amazon.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://amazon.com ...
+[2026-07-20 09:25:30] [LIVE SCRAPING] Requests returned thin/blocked page for https://amazon.com, switching to Playwright browser...
+[2026-07-20 09:25:54] [LIVE SCRAPING] Team/leadership page found: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+[2026-07-20 09:26:03] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+[2026-07-20 09:26:09] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/accessibility
+[2026-07-20 09:26:14] [LIVE SCRAPING] Probing subpage: https://amazon.com/MoKo-Generation-Stand-Translucent-Support/dp/B0B8STRJYJ/?_encoding=UTF8&pd_rd_w=mQnew&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=FCV34CW8NMBVY2NZZ8YS&pd_rd_wg=2VtCU&pd_rd_r=d4d1d8b8-eee9-46a6-b977-2f7ff7ce72b9&ref_=pd_hp_d_btf_crs_zg_bs_541966
+[2026-07-20 09:26:19] [LIVE SCRAPING] Probing subpage: https://blog.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+[2026-07-20 09:26:21] [LIVE SCRAPING] Probing subpage: https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer
+[2026-07-20 09:26:24] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+[2026-07-20 09:26:28] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates
+[2026-07-20 09:26:31] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he
+[2026-07-20 09:26:35] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou
+[2026-07-20 09:26:38] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy
+[2026-07-20 09:26:40] [LIVE SCRAPING] Probing subpage: https://amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy
+[2026-07-20 09:26:45] [LIVE SCRAPING] Probing subpage: https://amazon.com/contact-us
+[2026-07-20 09:26:45] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:46] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Amazon CEO...
+[2026-07-20 09:26:51] [LIVE SCRAPING] Processing lead for Amazon | Email: th@amazon.com | Score: 70%
+[2026-07-20 09:26:51] [SUCCESS] Saved lead for Amazon: Office Manager (Operations) | Verified: Valid
+[2026-07-20 09:26:52] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:52] Agent execution finished.
+[2026-07-20 09:26:52] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

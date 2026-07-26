@@ -1,0 +1,234 @@
+[2026-07-24 15:13:14] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 15:13:15] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 15:13:16] [LIVE SCRAPING] Generated 3 search variations (Capped at 3).
+[2026-07-24 15:13:16] Iteration 1/3
+Searching: Chicago software companies under 20 employees
+[2026-07-24 15:13:18] [LIVE SCRAPING] Found 5 new target websites. Processing batch concurrently...
+[2026-07-24 15:13:18] [LIVE SCRAPING] Visiting https://www.builtinchicago.org/companies/perks/lunch-and-learns ...
+[2026-07-24 15:13:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns
+[2026-07-24 15:13:18] [LIVE SCRAPING] Visiting https://gregslist.com/chicago/software-companies-number-of-employees/1-10/ ...
+[2026-07-24 15:13:18] [LIVE SCRAPING] Visiting https://builtin.com/awards/chicago/2026/best-midsize-places-to-work ...
+[2026-07-24 15:13:18] [LIVE SCRAPING] Visiting https://fortune.com/ranking/best-small-workplaces-chicago-area/ ...
+[2026-07-24 15:13:18] [LIVE SCRAPING] Visiting https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il ...
+[2026-07-24 15:13:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://gregslist.com/chicago/software-companies-number-of-employees/1-10/
+[2026-07-24 15:13:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 15:13:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il
+[2026-07-24 15:13:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area/
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/team-based-strategic-planning "Click to visit Chicago Companies With Team-Based Strategic Planning page"
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/4d-healthware/about/ "View Linkedin"
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/contact-us
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//contact-us
+[2026-07-24 15:13:20] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/team-based-strategic-planning "Click to visit Chicago Companies With Team-Based Strategic Planning page"
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/team-workouts "Click to visit Chicago Companies That Offer Team Workouts page"
+[2026-07-24 15:13:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/acumence-holding-company/about/ "View Linkedin"
+[2026-07-24 15:13:21] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/team-workouts "Click to visit Chicago Companies That Offer Team Workouts page"
+[2026-07-24 15:13:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact-us
+[2026-07-24 15:13:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/adrenaline-inc/about/ "View Linkedin"
+[2026-07-24 15:13:21] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact-us
+[2026-07-24 15:13:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact
+[2026-07-24 15:13:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/agnostack/about/ "View Linkedin"
+[2026-07-24 15:13:22] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact_us
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/allbetterapp/about/ "View Linkedin"
+[2026-07-24 15:13:22] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/contact_us
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/contactus
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/aloi/about/ "View Linkedin"
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/badjupiter/about/ "View Linkedin"
+[2026-07-24 15:13:22] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/contactus
+[2026-07-24 15:13:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/about-us
+[2026-07-24 15:13:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/bevanalytics/about/ "View Linkedin"
+[2026-07-24 15:13:23] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/about-us
+[2026-07-24 15:13:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.builtinchicago.org/companies/perks/lunch-and-learns/about
+[2026-07-24 15:13:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/blocklightio/about/ "View Linkedin"
+[2026-07-24 15:13:23] [LIVE SCRAPING] Probing subpage: https://www.builtinchicago.org/companies/perks/lunch-and-learns/about
+[2026-07-24 15:13:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:13:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/blueprinthealth/about/ "View Linkedin"
+[2026-07-24 15:13:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.linkedin.com/company/broadleaf-cannabis/about/ "View Linkedin"
+[2026-07-24 15:13:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.linkedin.com/company/cachefly/about/ "View Linkedin"
+[2026-07-24 15:13:25] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:13:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact-us
+[2026-07-24 15:13:26] [LIVE SCRAPING] Searching LinkedIn company page for 1-10 Employee Software Companies in Chicago in Chicago...
+[2026-07-24 15:13:34] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 15:13:36] [LIVE SCRAPING] Processing lead for 1-10 Employee Software Companies in Chicago | Email: careers.rentgr@a.com | Score: 35/100
+[2026-07-24 15:13:36] [QUALITY FILTER] Lead for 1-10 Employee Software Companies in Chicago rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 15:13:41] [LIVE SCRAPING] Searching LinkedIn company page for Top Chicago, IL Companies With Lunch and Learns (322) in Chicago...
+[2026-07-24 15:13:41] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact-us
+[2026-07-24 15:13:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact
+[2026-07-24 15:13:43] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 15:13:43] [LIVE SCRAPING] Processing lead for Top Chicago, IL Companies With Lunch and Learns (322) | Email: contact@builtinchicago.org | Score: 80/100
+[2026-07-24 15:13:43] [DUPLICATE] Company already processed: https://www.builtinchicago.org/companies/perks/lunch-and-learns
+[2026-07-24 15:13:53] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact
+[2026-07-24 15:13:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact_us
+[2026-07-24 15:14:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/contact
+[2026-07-24 15:14:18] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contact_us
+[2026-07-24 15:14:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contactus
+[2026-07-24 15:14:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/contact_us
+[2026-07-24 15:14:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/contactus
+[2026-07-24 15:14:35] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/contactus
+[2026-07-24 15:14:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/about-us
+[2026-07-24 15:14:41] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/about-us
+[2026-07-24 15:14:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/about
+[2026-07-24 15:14:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/about-us
+[2026-07-24 15:14:49] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 15:14:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//contact
+[2026-07-24 15:15:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://builtin.com/awards/chicago/2026/best-midsize-places-to-work/about
+[2026-07-24 15:15:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//contact_us
+[2026-07-24 15:15:08] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:15:15] [LIVE SCRAPING] Probing subpage: https://www.comparably.com/leaderboard/best-startups-to-work-for-in-chicago-il/about
+[2026-07-24 15:15:15] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:15:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//contactus
+[2026-07-24 15:15:25] [LIVE SCRAPING] Searching LinkedIn company page for Best Midsize Companies to Work for in Chicago, IL 2026 in Chicago...
+[2026-07-24 15:15:32] [LIVE SCRAPING] Searching LinkedIn company page for Top Startups to Work For in Chicago in Chicago...
+[2026-07-24 15:15:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//about-us
+[2026-07-24 15:15:34] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/vividseats
+[2026-07-24 15:15:34] [LIVE SCRAPING] Processing lead for Best Midsize Companies to Work for in Chicago, IL 2026 | Email: contact@builtin.com | Score: 85/100
+[2026-07-24 15:15:34] [DUPLICATE] Contact already processed: contact@builtin.com
+[2026-07-24 15:15:46] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/built-in-chicago
+[2026-07-24 15:15:47] [LIVE SCRAPING] Processing lead for Top Startups to Work For in Chicago | Email: contact@comparably.com | Score: 80/100
+[2026-07-24 15:15:47] [SAVED] Lead Office Manager @ Top Startups to Work For in Chicago saved to database.
+[2026-07-24 15:17:02] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 15:17:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.com/ranking/best-small-workplaces-chicago-area//about
+[2026-07-24 15:18:31] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 15:18:31] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:18:49] [LIVE SCRAPING] Searching LinkedIn company page for Best Small and Medium Workplaces in Chicago in Chicago...
+[2026-07-24 15:19:08] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/bluedog-inc
+[2026-07-24 15:19:08] [LIVE SCRAPING] Processing lead for Best Small and Medium Workplaces in Chicago | Email: contact@fortune.com | Score: 80/100
+[2026-07-24 15:19:08] [SAVED] Lead Office Manager @ Best Small and Medium Workplaces in Chicago saved to database.
+[2026-07-24 15:19:08] Iteration 2/3
+Searching: small software firms in Chicago
+[2026-07-24 15:19:10] [LIVE SCRAPING] Found 8 new target websites. Processing batch concurrently...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Visiting https://www.goodfirms.co/directory/city/top-software-development-companies/chicago ...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Visiting https://epicpresence.com/software-companies-in-chicago/ ...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 15:19:10] [LIVE SCRAPING] Visiting https://atomicobject.com/offices/custom-software-development-chicago ...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 15:19:10] [LIVE SCRAPING] Visiting https://www.designrush.com/agency/software-development/illinois/chicago ...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Visiting https://clutch.co/developers/chicago ...
+[2026-07-24 15:19:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago
+[2026-07-24 15:19:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago
+[2026-07-24 15:19:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago
+[2026-07-24 15:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//contact-us
+[2026-07-24 15:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/about-us
+[2026-07-24 15:19:11] [LIVE SCRAPING] Probing subpage: https://epicpresence.com/software-companies-in-chicago//contact-us
+[2026-07-24 15:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//contact
+[2026-07-24 15:19:11] [LIVE SCRAPING] Probing subpage: https://www.designrush.com/about-us
+[2026-07-24 15:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/contact-us
+[2026-07-24 15:19:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact-us
+[2026-07-24 15:19:12] [LIVE SCRAPING] Probing subpage: https://epicpresence.com/software-companies-in-chicago//contact
+[2026-07-24 15:19:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//contact_us
+[2026-07-24 15:19:12] [LIVE SCRAPING] Probing subpage: https://www.designrush.com/contact-us
+[2026-07-24 15:19:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/contact-us
+[2026-07-24 15:19:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//contactus
+[2026-07-24 15:19:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/methodology "Learn More about Leaders Matrix Methodology"
+[2026-07-24 15:19:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://survey.hsforms.com/1trPaL4oaSO61PI87sM8OzA2d5bk "Site Feedback"
+[2026-07-24 15:19:16] [LIVE SCRAPING] Probing subpage: https://survey.hsforms.com/1trPaL4oaSO61PI87sM8OzA2d5bk "Site Feedback"
+[2026-07-24 15:19:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://help.clutch.co/contact-us "Contact Us"
+[2026-07-24 15:19:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/about-us "About Us"
+[2026-07-24 15:19:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/contact
+[2026-07-24 15:19:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://help.clutch.co/en/knowledge "FAQ"
+[2026-07-24 15:19:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/contact-us
+[2026-07-24 15:19:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/contact_us
+[2026-07-24 15:19:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.forbes.com/sites/paulspiegelman/2021/07/25/what-about-the-dog-getting-your-team-back-to-the-office-is-getting-complicated/?sh=71597a7370c9
+[2026-07-24 15:19:23] [LIVE SCRAPING] Probing subpage: https://www.forbes.com/sites/paulspiegelman/2021/07/25/what-about-the-dog-getting-your-team-back-to-the-office-is-getting-complicated/?sh=71597a7370c9
+[2026-07-24 15:19:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/contact-us
+[2026-07-24 15:19:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/contact
+[2026-07-24 15:19:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//about-us
+[2026-07-24 15:19:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/contactus
+[2026-07-24 15:19:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://epicpresence.com/software-companies-in-chicago//about
+[2026-07-24 15:19:31] [LIVE SCRAPING] Probing subpage: https://epicpresence.com/software-companies-in-chicago//about
+[2026-07-24 15:19:31] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:19:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/about-us
+[2026-07-24 15:19:37] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/contact-us
+[2026-07-24 15:19:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/contact
+[2026-07-24 15:19:41] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact-us
+[2026-07-24 15:19:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact
+[2026-07-24 15:19:41] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact
+[2026-07-24 15:19:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact_us
+[2026-07-24 15:19:41] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contact_us
+[2026-07-24 15:19:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contactus
+[2026-07-24 15:19:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/contact_us
+[2026-07-24 15:19:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.designrush.com/agency/software-development/illinois/chicago/about
+[2026-07-24 15:19:48] [LIVE SCRAPING] Searching LinkedIn company page for 25 Software Companies in Chicago Doing Awesome Things in Chicago...
+[2026-07-24 15:19:51] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/contact
+[2026-07-24 15:19:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/contact_us
+[2026-07-24 15:19:54] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/contactus
+[2026-07-24 15:19:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/about-us
+[2026-07-24 15:19:57] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:20:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/contactus
+[2026-07-24 15:20:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/about-us
+[2026-07-24 15:20:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://clutch.co/developers/chicago/about
+[2026-07-24 15:20:03] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/about-us
+[2026-07-24 15:20:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/about
+[2026-07-24 15:20:05] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/contact_us
+[2026-07-24 15:20:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/contactus
+[2026-07-24 15:20:08] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/8th-light
+[2026-07-24 15:20:08] [LIVE SCRAPING] Processing lead for 25 Software Companies in Chicago Doing Awesome Things | Email: contact@epicpresence.com | Score: 80/100
+[2026-07-24 15:20:08] [SAVED] Lead Office Manager @ 25 Software Companies in Chicago Doing Awesome Things saved to database.
+[2026-07-24 15:20:14] [LIVE SCRAPING] Searching LinkedIn company page for Top Chicago Software Development Companies | 2026 in Chicago...
+[2026-07-24 15:20:20] [LIVE SCRAPING] Probing subpage: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago/about
+[2026-07-24 15:20:20] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:20:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:20:34] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/modelop
+[2026-07-24 15:20:34] [LIVE SCRAPING] Processing lead for Top Chicago Software Development Companies | 2026 | Email: sponsor@designrush.com | Score: 80/100
+[2026-07-24 15:20:34] [SAVED] Lead Office Manager @ Top Chicago Software Development Companies | 2026 saved to database.
+[2026-07-24 15:20:38] [LIVE SCRAPING] Searching LinkedIn company page for Top Chicago Software Companies - 2026 Reviews in Chicago...
+[2026-07-24 15:20:41] [LIVE SCRAPING] Searching LinkedIn company page for Top Software Development Agencies in Chicago in Chicago...
+[2026-07-24 15:20:45] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/contactus
+[2026-07-24 15:20:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/about-us
+[2026-07-24 15:20:57] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/verveware
+[2026-07-24 15:20:57] [LIVE SCRAPING] Processing lead for Top Chicago Software Companies - 2026 Reviews | Email: vaultinnov@ion.com | Score: 0/100
+[2026-07-24 15:20:57] [QUALITY FILTER] Lead for Top Chicago Software Companies - 2026 Reviews rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 15:21:00] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/intersog
+[2026-07-24 15:21:00] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/about-us
+[2026-07-24 15:21:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://atomicobject.com/offices/custom-software-development-chicago/about
+[2026-07-24 15:21:01] [LIVE SCRAPING] Processing lead for Top Software Development Agencies in Chicago | Email: https%3a%2f%2f@omicobject.com | Score: 5/100
+[2026-07-24 15:21:01] [QUALITY FILTER] Lead for Top Software Development Agencies in Chicago rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 15:21:19] [LIVE SCRAPING] Probing subpage: https://atomicobject.com/offices/custom-software-development-chicago/about
+[2026-07-24 15:21:19] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:21:37] [LIVE SCRAPING] Searching LinkedIn company page for Chicago Custom Software Development in Chicago...
+[2026-07-24 15:21:56] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-software-solutions
+[2026-07-24 15:21:56] [LIVE SCRAPING] Processing lead for Chicago Custom Software Development | Email: michigancelebr@es.org | Score: 30/100
+[2026-07-24 15:21:56] [QUALITY FILTER] Lead for Chicago Custom Software Development rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 15:21:56] Iteration 3/3
+Searching: Chicago based software startups with less than 20 staff
+[2026-07-24 15:21:58] [LIVE SCRAPING] Found 8 new target websites. Processing batch concurrently...
+[2026-07-24 15:21:58] [LIVE SCRAPING] Visiting https://www.startupblink.com/top-startups/chicago-il-us ...
+[2026-07-24 15:21:58] [LIVE SCRAPING] Visiting https://topstartups.io/?hq_location=Chicago ...
+[2026-07-24 15:21:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us
+[2026-07-24 15:21:58] [LIVE SCRAPING] Visiting https://wellfound.com/startups/location/chicago ...
+[2026-07-24 15:21:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago
+[2026-07-24 15:21:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://wellfound.com/startups/location/chicago
+[2026-07-24 15:22:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/contact?utm_source=homepage
+[2026-07-24 15:22:05] [LIVE SCRAPING] Probing subpage: https://www.startupblink.com/contact?utm_source=homepage
+[2026-07-24 15:22:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/contact-us
+[2026-07-24 15:22:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.substack.com/about
+[2026-07-24 15:22:23] [LIVE SCRAPING] Probing subpage: https://topstartups.substack.com/about
+[2026-07-24 15:22:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/contact-us
+[2026-07-24 15:22:32] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/contact-us
+[2026-07-24 15:22:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/contact
+[2026-07-24 15:22:34] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/contact
+[2026-07-24 15:22:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/contact_us
+[2026-07-24 15:22:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/contact
+[2026-07-24 15:22:40] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/contact_us
+[2026-07-24 15:22:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/contactus
+[2026-07-24 15:22:45] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/contactus
+[2026-07-24 15:22:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/about-us
+[2026-07-24 15:22:48] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/about-us
+[2026-07-24 15:22:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://topstartups.io/?hq_location=Chicago/about
+[2026-07-24 15:22:52] [LIVE SCRAPING] Probing subpage: https://topstartups.io/?hq_location=Chicago/about
+[2026-07-24 15:22:52] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:23:09] [LIVE SCRAPING] Searching LinkedIn company page for Top 8 Chicago Startups — Newly Funded & Hiring in Chicago...
+[2026-07-24 15:23:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/contact_us
+[2026-07-24 15:23:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/contactus
+[2026-07-24 15:23:26] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 15:23:26] [WARNING] Could not load https://wellfound.com/startups/location/chicago. Skipping.
+[2026-07-24 15:23:29] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 15:23:29] [LIVE SCRAPING] Processing lead for Top 8 Chicago Startups — Newly Funded & Hiring | Email: contact@topstartups.io | Score: 85/100
+[2026-07-24 15:23:29] [SAVED] Lead Office Manager @ Top 8 Chicago Startups — Newly Funded & Hiring saved to database.
+[2026-07-24 15:23:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/about-us
+[2026-07-24 15:23:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.startupblink.com/top-startups/chicago-il-us/about
+[2026-07-24 15:24:10] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 15:24:27] [LIVE SCRAPING] Searching LinkedIn company page for 2083 Top startups in Chicago for July 2026 in Chicago...
+[2026-07-24 15:24:46] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/freshxlogistics
+[2026-07-24 15:24:47] [LIVE SCRAPING] Processing lead for 2083 Top startups in Chicago for July 2026 | Email: p@hos.com | Score: 25/100
+[2026-07-24 15:24:47] [QUALITY FILTER] Lead for 2083 Top startups in Chicago for July 2026 rejected: Email verification check failed (missing or domain mismatch)

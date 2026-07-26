@@ -1,0 +1,19 @@
+[2026-07-19 16:38:26] Starting Lead Generation Agent Execution #34
+[2026-07-19 16:38:26] Criteria - Category: IT Service | Location: Tata Consultancy | Keywords: Location: Mumbai
+[2026-07-19 16:38:26] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 16:38:27] [LIVE SCRAPING] Company name specified: 'Tata Consultancy'. Resolving official website domain...
+[2026-07-19 16:38:32] [LIVE SCRAPING SUCCESS] Resolved official website for 'Tata Consultancy': https://www.tataconsultancy.com
+[2026-07-19 16:38:32] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 16:38:34] [LIVE SCRAPING] visiting https://www.tataconsultancy.com ...
+[2026-07-19 16:38:39] [WARNING] Could not connect to https://www.tataconsultancy.com: HTTPSConnectionPool(host='www.tataconsultancy.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018F9E19E490>: Failed to resolve 'www.tataconsultancy.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-19 16:38:39] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact-us/mumbai
+[2026-07-19 16:38:40] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/locations/mumbai
+[2026-07-19 16:38:41] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact-us
+[2026-07-19 16:38:41] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact_us
+[2026-07-19 16:38:42] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contactus
+[2026-07-19 16:38:43] [LIVE SCRAPING] Probing subpage: https://www.tataconsultancy.com/contact
+[2026-07-19 16:38:44] [LIVE SCRAPING] Processing lead record for Tata Consultancy | Email: Not Available | Score: 29%
+[2026-07-19 16:38:44] [WARNING] Lead for Tata Consultancy already exists in your account. Skipping duplicate.
+[2026-07-19 16:38:44] [INFO] Skipped duplicate lead at website https://www.tataconsultancy.com
+[2026-07-19 16:38:44] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-19 16:38:44] Agent execution finished.

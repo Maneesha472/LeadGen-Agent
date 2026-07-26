@@ -1,0 +1,68 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 07:36:17
+[2026-07-19 07:36:17] Starting Lead Generation Agent Execution #20
+[2026-07-19 07:36:17] Criteria - Category: Direct Enrichment | Location: https://openai.com/ | Keywords: None
+[2026-07-19 07:36:17] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 07:36:18] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://openai.com/
+[2026-07-19 07:36:18] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 07:36:20] [LIVE SCRAPING] visiting https://openai.com/ ...
+[2026-07-19 07:36:22] [LIVE SCRAPING] Navigating to subpage: https://openai.com/about/
+[2026-07-19 07:36:25] [LIVE SCRAPING] AI Scraper active. Analyzing multi-page context for: 'Openai'...
+[2026-07-19 07:36:35] [WARNING] Gemini API returned HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 24.406522145s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "24s"
+      }
+    ]
+  }
+}
+
+[2026-07-19 07:36:35] [INFO] No email found on website or contact subpages.
+[2026-07-19 07:36:35] [LIVE SCRAPING] Validating lead: Office Manager | Email: Not Available
+[2026-07-19 07:36:35] [WARNING] Invalid or missing email: Not Available. Skipping.
+[2026-07-19 07:36:35] [FAILED] Validation failed for lead at website https://openai.com/
+[2026-07-19 07:36:36] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-19 07:36:36] Agent execution finished.
+[2026-07-19 07:36:36] [OUTREACH] Skipped. No email template provided.

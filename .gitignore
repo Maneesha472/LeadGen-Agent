@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+
+# Databases
+*.sqlite
+*.sqlite3
+scraper_cache.sqlite
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

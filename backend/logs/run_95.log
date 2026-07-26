@@ -1,0 +1,17 @@
+[2026-07-23 17:38:29] Starting Lead Generation Agent Execution #95
+[2026-07-23 17:38:29] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 17:38:29] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 17:38:29] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-23 17:38:31] [LIVE SCRAPING] Generated 10 search variations.
+[2026-07-23 17:38:31] 
+------------------------------------------------
+Iteration 1/10
+Searching:
+small software companies in Chicago
+[2026-07-23 17:38:31] [LIVE SCRAPING] Querying Exa AI for: small software companies in Chicago
+[2026-07-23 17:38:32] [LIVE SCRAPING] Found 28 new target websites. Processing batch...
+[2026-07-23 17:38:32] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-23 17:38:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-23 17:38:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 17:38:34] CRITICAL ERROR in Agent execution: type object 'ExtractorService' has no attribute 'extract_decision_maker'
+[2026-07-23 17:38:34] Agent execution finished.

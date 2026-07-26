@@ -1,0 +1,16 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 17:57:02
+[2026-07-19 17:57:03] Starting Lead Generation Agent Execution #41
+[2026-07-19 17:57:03] Criteria - Category: IT Service | Location: capgemini | Keywords: None
+[2026-07-19 17:57:03] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-19 17:57:03] [LIVE SCRAPING] Company name: 'capgemini'. Resolving official website...
+[2026-07-19 17:57:04] [LIVE SCRAPING SUCCESS] Resolved: https://www.capgemini.com
+[2026-07-19 17:57:04] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-19 17:57:04] [LIVE SCRAPING] Visiting https://www.capgemini.com ...
+[2026-07-19 17:57:10] [LIVE SCRAPING] Probing subpage: https://www.capgemini.com/contact-us
+[2026-07-19 17:57:20] [LIVE SCRAPING] Probing subpage: https://www.capgemini.com/about-us
+[2026-07-19 17:57:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-19 17:57:26] [LIVE SCRAPING] Processing lead for Capgemini | Email: contact@capgemini.com | Score: 60%
+[2026-07-19 17:57:26] [SUCCESS] Saved lead for Capgemini: Office Manager (Operations) | Verified: Valid
+[2026-07-19 17:57:26] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 17:57:26] Agent execution finished.
+[2026-07-19 17:57:26] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

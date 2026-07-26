@@ -1,0 +1,97 @@
+[2026-07-24 20:06:46] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 20:06:47] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 20:07:04] Iteration 1/1
+Searching: Software buyers companies in Chicago under 20 employees
+[2026-07-24 20:07:05] [WARNING] Exa search failed: Request failed with status code 402: {"requestId":"8ea5687615a933c03aa86f4345b17ed5","error":"You have exceeded your credits limit. Please top up to keep using Exa at dashboard.exa.ai","tag":"NO_MORE_CREDITS"}
+[2026-07-24 20:07:05] [LIVE SCRAPING] Exa unavailable/out of credits. Falling back to DuckDuckGo Search...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Scraping directory/listicle for companies: https://en.softonic.com/downloads/computer-software
+[2026-07-24 20:07:10] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://en.softonic.com/downloads/computer-software
+[2026-07-24 20:07:10] [LIVE SCRAPING] Zero companies extracted from https://en.softonic.com/downloads/computer-software. Reason: Empty HTML (fetch failed or anti-bot protection)
+[2026-07-24 20:07:10] [LIVE SCRAPING] Found 8 new target websites. Processing batch concurrently...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Visiting https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/ ...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types/
+[2026-07-24 20:07:10] [LIVE SCRAPING] Visiting https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d ...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d
+[2026-07-24 20:07:10] [LIVE SCRAPING] Visiting https://en.softonic.com/windows ...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows
+[2026-07-24 20:07:10] [LIVE SCRAPING] Visiting https://www.techtarget.com/searchapparchitecture/definition/software ...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software
+[2026-07-24 20:07:10] [LIVE SCRAPING] Visiting https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm ...
+[2026-07-24 20:07:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm
+[2026-07-24 20:07:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/contact-us
+[2026-07-24 20:07:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchsoftwarequality/A-comprehensive-test-automation-guide-for-IT-teams
+[2026-07-24 20:07:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact-us
+[2026-07-24 20:07:13] [LIVE SCRAPING] Probing subpage: https://www.techtarget.com/searchsoftwarequality/A-comprehensive-test-automation-guide-for-IT-teams
+[2026-07-24 20:07:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchcloudcomputing/feature/Pelotons-engineering-team-makes-the-case-for-test-in-production
+[2026-07-24 20:07:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/contact-us
+[2026-07-24 20:07:14] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact-us
+[2026-07-24 20:07:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact
+[2026-07-24 20:07:14] [LIVE SCRAPING] Probing subpage: https://www.techtarget.com/searchcloudcomputing/feature/Pelotons-engineering-team-makes-the-case-for-test-in-production
+[2026-07-24 20:07:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/contact-us
+[2026-07-24 20:07:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/contact
+[2026-07-24 20:07:15] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact
+[2026-07-24 20:07:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact_us
+[2026-07-24 20:07:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/contact_us
+[2026-07-24 20:07:16] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contact_us
+[2026-07-24 20:07:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contactus
+[2026-07-24 20:07:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/contactus
+[2026-07-24 20:07:17] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/contactus
+[2026-07-24 20:07:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/about-us
+[2026-07-24 20:07:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/about-us
+[2026-07-24 20:07:17] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/about-us
+[2026-07-24 20:07:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/about
+[2026-07-24 20:07:18] [LIVE SCRAPING] Probing subpage: https://www.tutorialspoint.com/computer_fundamentals/computer_software_types.htm/about
+[2026-07-24 20:07:18] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 20:07:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.microsoft.com/en-us/software-download/?msockid=119ae7dacdf86a1c1342f07accdf6b6d/about
+[2026-07-24 20:07:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/contact
+[2026-07-24 20:07:21] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 20:07:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/contact_us
+[2026-07-24 20:07:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/contactus
+[2026-07-24 20:07:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/about-us
+[2026-07-24 20:07:28] [LIVE SCRAPING] Probing subpage: https://en.softonic.com/windows/contact-us
+[2026-07-24 20:07:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/contact
+[2026-07-24 20:07:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.techtarget.com/searchapparchitecture/definition/software/about
+[2026-07-24 20:07:30] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 20:07:35] [LIVE SCRAPING] Searching LinkedIn company page for Computer - Software Types - Online Tutorials Library in Chicago...
+[2026-07-24 20:07:36] [LIVE SCRAPING] Processing lead for Computer - Software Types - Online Tutorials Library | Email: contact@tutorialspoint.com | Score: 80/100
+[2026-07-24 20:07:36] [LIVE SCRAPING] Visiting https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software ...
+[2026-07-24 20:07:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software
+[2026-07-24 20:07:36] [SAVED] Lead Office Manager @ Computer - Software Types - Online Tutorials Library saved to database.
+[2026-07-24 20:07:38] [LIVE SCRAPING] Searching LinkedIn company page for Software Download - microsoft.com in Chicago...
+[2026-07-24 20:07:39] [LIVE SCRAPING] Processing lead for Software Download - microsoft.com | Email: contact@microsoft.com | Score: 80/100
+[2026-07-24 20:07:40] [SAVED] Lead Office Manager @ Software Download - microsoft.com saved to database.
+[2026-07-24 20:07:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/contact-us
+[2026-07-24 20:07:44] [LIVE SCRAPING] Probing subpage: https://en.softonic.com/windows/contact
+[2026-07-24 20:07:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/contact_us
+[2026-07-24 20:07:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/contact
+[2026-07-24 20:07:46] [LIVE SCRAPING] Searching LinkedIn company page for What Is Software? | Definition from TechTarget in Chicago...
+[2026-07-24 20:07:47] [LIVE SCRAPING] Processing lead for What Is Software? | Definition from TechTarget | Email: contact@techtarget.com | Score: 85/100
+[2026-07-24 20:07:47] [SAVED] Lead Office Manager @ What Is Software? | Definition from TechTarget saved to database.
+[2026-07-24 20:07:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/about/
+[2026-07-24 20:07:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/contact_us
+[2026-07-24 20:07:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/contactus
+[2026-07-24 20:07:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/about-us
+[2026-07-24 20:07:56] [LIVE SCRAPING] Probing subpage: https://www.geeksforgeeks.org/about/
+[2026-07-24 20:07:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/about/contact-us/
+[2026-07-24 20:07:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.simplilearn.com/tutorials/programming-tutorial/what-is-software/about
+[2026-07-24 20:07:56] [LIVE SCRAPING] Probing subpage: https://www.geeksforgeeks.org/about/contact-us/
+[2026-07-24 20:07:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact-us
+[2026-07-24 20:07:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 20:08:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/contactus
+[2026-07-24 20:08:09] [LIVE SCRAPING] Probing subpage: https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact-us
+[2026-07-24 20:08:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact
+[2026-07-24 20:08:15] [LIVE SCRAPING] Searching LinkedIn company page for What is Software? Definition, Examples, & Types Explained in Chicago...
+[2026-07-24 20:08:16] [LIVE SCRAPING] Processing lead for What is Software? Definition, Examples, & Types Explained | Email: contact@simplilearn.com | Score: 80/100
+[2026-07-24 20:08:16] [SAVED] Lead Office Manager @ What is Software? Definition, Examples, & Types Explained saved to database.
+[2026-07-24 20:08:18] [LIVE SCRAPING] Probing subpage: https://en.softonic.com/windows/contactus
+[2026-07-24 20:08:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/about-us
+[2026-07-24 20:08:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://en.softonic.com/windows/about
+[2026-07-24 20:08:50] [LIVE SCRAPING] Probing subpage: https://en.softonic.com/windows/about
+[2026-07-24 20:08:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 20:08:53] [LIVE SCRAPING] Probing subpage: https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact
+[2026-07-24 20:08:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact_us
+[2026-07-24 20:09:07] [LIVE SCRAPING] Searching LinkedIn company page for Download software for Windows - Softonic in Chicago...
+[2026-07-24 20:09:08] [LIVE SCRAPING] Processing lead for Download software for Windows - Softonic | Email: recoverytools-office-365-to-gmail-migr@ion-tool.en.softonic.com | Score: 80/100
+[2026-07-24 20:09:08] [SAVED] Lead Office Manager @ Download software for Windows - Softonic saved to database.
+[2026-07-24 20:09:11] [LIVE SCRAPING] Probing subpage: https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contact_us
+[2026-07-24 20:09:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.geeksforgeeks.org/computer-science-fundamentals/software-and-its-types//contactus

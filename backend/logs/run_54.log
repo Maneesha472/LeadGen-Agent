@@ -1,0 +1,16 @@
+[SYSTEM] CSV Bulk Execution for 'OpenAI' scheduled at 2026-07-20 09:25:23
+[2026-07-20 09:25:23] Starting Lead Generation Agent Execution #54
+[2026-07-20 09:25:23] Criteria - Category: Artificial Intelligence | Location: https://openai.com | Keywords: LLM GPT AI
+[2026-07-20 09:25:23] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://openai.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://openai.com ...
+[2026-07-20 09:25:34] [LIVE SCRAPING] Probing subpage: https://openai.com/contact
+[2026-07-20 09:25:55] [LIVE SCRAPING] Probing subpage: https://openai.com/about
+[2026-07-20 09:25:56] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:00] [LIVE SCRAPING] DOM/AI could not identify leader. Searching DDG for Openai CEO...
+[2026-07-20 09:26:06] [LIVE SCRAPING] Processing lead for Openai | Email: contact@openai.com | Score: 60%
+[2026-07-20 09:26:07] [SUCCESS] Saved lead for Openai: Office Manager (Operations) | Verified: Valid
+[2026-07-20 09:26:07] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:07] Agent execution finished.
+[2026-07-20 09:26:07] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

@@ -1,0 +1,23 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 06:46:08
+[2026-07-19 06:46:09] Starting Lead Generation Agent Execution #14
+[2026-07-19 06:46:09] Criteria - Category: Direct Enrichment | Location: https://worklane-staging.villow.ai/ | Keywords: None
+[2026-07-19 06:46:09] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 06:46:10] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://worklane-staging.villow.ai/
+[2026-07-19 06:46:10] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 06:46:12] [LIVE SCRAPING] visiting https://worklane-staging.villow.ai/ ...
+[2026-07-19 06:46:14] [LIVE SCRAPING] AI Scraper active. Gathering search snippets and performing LLM analysis for: 'Worklane-staging'...
+[2026-07-19 06:46:19] [WARNING] Gemini API returned HTTP 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+[2026-07-19 06:46:19] [INFO] No email found on website. Guessing fallback: info@worklane-staging.villow.ai
+[2026-07-19 06:46:19] [LIVE SCRAPING] Validating lead: Office Manager | Email: info@worklane-staging.villow.ai
+[2026-07-19 06:46:19] [WARNING] Lead with email info@worklane-staging.villow.ai already exists. Skipping duplicate.
+[2026-07-19 06:46:19] [FAILED] Validation failed for lead at website https://worklane-staging.villow.ai/
+[2026-07-19 06:46:20] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-19 06:46:20] Agent execution finished.
+[2026-07-19 06:46:20] [OUTREACH] Skipped. No email template provided.

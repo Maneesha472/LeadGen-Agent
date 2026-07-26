@@ -1,0 +1,8 @@
+[SYSTEM] Agent execution scheduled at 2026-07-21 05:48:38
+[2026-07-21 05:48:38] Starting Lead Generation Agent Execution #59
+[2026-07-21 05:48:38] Criteria - Category: Software Development | Location: Hyderabad | Keywords: None
+[2026-07-21 05:48:38] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-21 05:48:39] [LIVE SCRAPING] Querying DuckDuckGo for: 'Software Development companies in Hyderabad'
+[2026-07-21 05:48:40] [WARNING] No target websites found. Execution complete with 0 leads.
+[2026-07-21 05:48:40] Agent execution finished.
+[2026-07-21 05:48:40] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

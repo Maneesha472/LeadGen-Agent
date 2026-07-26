@@ -1,0 +1,23 @@
+[SYSTEM] CSV Bulk Execution for 'Apple' scheduled at 2026-07-20 09:25:22
+[2026-07-20 09:25:23] Starting Lead Generation Agent Execution #51
+[2026-07-20 09:25:23] Criteria - Category: Technology | Location: https://apple.com | Keywords: consumer electronics hardware
+[2026-07-20 09:25:23] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Direct Enrichment Mode. Analyzing: https://apple.com
+[2026-07-20 09:25:23] [LIVE SCRAPING] Found 1 target websites. Scraping details...
+[2026-07-20 09:25:23] [LIVE SCRAPING] Visiting https://apple.com ...
+[2026-07-20 09:25:31] [LIVE SCRAPING] Team/leadership page found: https://apple.com/leadership/
+[2026-07-20 09:25:39] [LIVE SCRAPING] Probing subpage: https://support.apple.com/?cid=gn-ols-home-hp-tab
+[2026-07-20 09:25:44] [LIVE SCRAPING] Probing subpage: https://support.apple.com/kb/HT209218
+[2026-07-20 09:25:51] [LIVE SCRAPING] Probing subpage: https://apple.com/us/shop/goto/help
+[2026-07-20 09:25:56] [LIVE SCRAPING] Probing subpage: https://apple.com/leadership/
+[2026-07-20 09:26:01] [LIVE SCRAPING] Probing subpage: https://apple.com/contact/
+[2026-07-20 09:26:11] [LIVE SCRAPING] Probing subpage: https://apple.com/us/shop/goto/help/sales_refunds
+[2026-07-20 09:26:18] [LIVE SCRAPING] Probing subpage: https://apple.com/contact
+[2026-07-20 09:26:28] [LIVE SCRAPING] Probing subpage: https://apple.com/about
+[2026-07-20 09:26:29] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-20 09:26:30] [LIVE SCRAPING] Searching LinkedIn for Arthur D. Levinson at Apple...
+[2026-07-20 09:26:34] [LIVE SCRAPING] Processing lead for Apple | Email: arthur.levinson@apple.com | Score: 74%
+[2026-07-20 09:26:35] [SUCCESS] Saved lead for Apple: Arthur D. Levinson (Chairman of the Board, Apple, Founder and CEO, Calico) | Verified: Valid
+[2026-07-20 09:26:35] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-20 09:26:35] Agent execution finished.
+[2026-07-20 09:26:35] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

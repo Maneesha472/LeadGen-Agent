@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Generation Execution Agent</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Styling -->
+    <link rel="stylesheet" href="style.css?v=2.1">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-solid fa-wand-magic-sparkles logo-icon"></i>
+                <div class="logo-text">
+                    <h2>Lead Gen Agent</h2>
+                    <span>Execution Agent</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-tab="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="run-agent">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Run Agent</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="leads">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Leads Manager</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="campaigns">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Outreach</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="settings">
+                    <i class="fa-solid fa-gears"></i>
+                    <span>Settings</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="pulse-dot green"></span>
+                    <span class="status-label">Agent Engine Idle</span>
+                </div>
+                <button class="btn btn-logout mt-3" id="logout-btn" style="width: 100%; text-align: left; padding: 10px 15px; border-radius: 8px; background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.2); font-weight: 500; cursor: pointer; transition: all 0.2s ease;">
+                    <i class="fa-solid fa-right-from-bracket" style="margin-right: 10px;"></i> Log Out
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-wrapper">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="page-title">
+                    <h1 id="header-title">Executive Dashboard</h1>
+                    <p id="header-subtitle">Real-time business discovery and automated outreach telemetry.</p>
+                </div>
+                <div class="header-actions">
+                </div>
+            </header>
+
+            <!-- TAB CONTENT CONTAINER -->
+            <div class="tab-content-container">
+
+                <!-- 1. DASHBOARD TAB -->
+                <section id="dashboard" class="tab-panel active">
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon purple">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="stat-details">
+                                <span class="stat-title">Companies Found</span>
+                                <h3 id="stat-found">0</h3>
+                                <span class="stat-delta"><i class="fa-solid fa-circle-nodes"></i> Total listings</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon blue">
+                                <i class="fa-solid fa-shield-check"></i>
+                            </div>
+                            <div class="stat-details">
+                                <span class="stat-title">Validated Leads</span>
+                                <h3 id="stat-validated">0</h3>
+                                <span class="stat-delta green-txt"><i class="fa-solid fa-check"></i> Clean contacts</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon cyan">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>
+                            <div class="stat-details">
+                                <span class="stat-title">Outreach Sent</span>
+                                <h3 id="stat-sent">0</h3>
+                                <span class="stat-delta"><i class="fa-solid fa-envelope"></i> SMTP dispatches</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon green">
+                                <i class="fa-solid fa-reply-all"></i>
+                            </div>
+                            <div class="stat-details">
+                                <span class="stat-title">Replies Logged</span>
+                                <h3 id="stat-replies">0</h3>
+                                <span class="stat-delta green-txt"><i class="fa-solid fa-chart-line"></i> Inbound interest</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Grid -->
+                    <div class="charts-grid">
+                        <div class="chart-card glass-panel">
+                            <h3>Conversion Funnel</h3>
+                            <div class="chart-container">
+                                <canvas id="funnelChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card glass-panel">
+                            <h3>Top Lead Categories</h3>
+                            <div class="chart-container">
+                                <canvas id="categoriesChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Executions Panel -->
+                    <div class="glass-panel mt-4">
+                        <div class="panel-header">
+                            <h3>Execution History</h3>
+                            <span class="subtext">Log of runs executed by the agent</span>
+                        </div>
+                        <div class="table-container">
+                            <table class="data-table" id="executions-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Target Category</th>
+                                        <th>Location</th>
+                                        <th>Start Time</th>
+                                        <th>Discovered</th>
+                                        <th>Valid Leads</th>
+                                        <th>Emails Sent</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="8" class="text-center">No execution records available.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. RUN AGENT TAB -->
+                <section id="run-agent" class="tab-panel">
+                    <div class="run-grid">
+                        <!-- Configuration Form -->
+                        <div class="glass-panel">
+                            <div class="panel-header">
+                                <h3>Configure Generation Run</h3>
+                                <p class="subtext">Instruct the agent where to search and how to personalize outreach.</p>
+                            </div>
+                            <form id="agent-form" class="agent-form">
+                                <div class="form-group mb-3">
+                                    <label for="target-mode">Targeting Mode</label>
+                                    <select id="target-mode" style="background: rgba(30, 41, 59, 0.6); font-weight: 500;">
+                                        <option value="bulk" selected>🔍 Bulk Search (General Discovery)</option>
+                                        <option value="single">🎯 Single Website (Direct Enrichment)</option>
+                                        <option value="csv">📂 CSV Bulk Upload (Multi-Company)</option>
+                                    </select>
+                                </div>
+                                <div class="form-row" id="bulk-inputs-row">
+                                    <div class="form-group">
+                                        <label for="category">Business Category <span class="required">*</span></label>
+                                        <input type="text" id="category" placeholder="e.g. Dentists, SaaS, Real Estate" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="location">Location <span class="required">*</span></label>
+                                        <input type="text" id="location" placeholder="e.g. Chicago IL, Austin TX" required>
+                                    </div>
+                                </div>
+                                <div class="form-group hidden" id="single-input-row">
+                                    <label for="target-url">Target Website URL or Company Name <span class="required">*</span></label>
+                                    <input type="text" id="target-url" placeholder="e.g. Tata Consultancy, openai.com, or https://example.com" class="mb-3">
+                                    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="single-location">Target Office Location / Region <span class="optional">(Optional)</span></label>
+                                            <input type="text" id="single-location" placeholder="e.g. Mumbai, New York, London, Head Office">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="single-category">Business Category / Type <span class="optional">(Optional)</span></label>
+                                            <input type="text" id="single-category" placeholder="e.g. Enterprise, Startups, IT Services, Automotive">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group" id="keywords-group">
+                                    <label for="keywords">Keywords <span class="optional">(Optional)</span></label>
+                                    <input type="text" id="keywords" placeholder="e.g. pediatric, commercial, AI, boutique">
+                                </div>
+                                
+                                <input type="hidden" id="email-subject" value="">
+                                <input type="hidden" id="email-body" value="">
+
+                                <!-- CSV Upload Row (hidden by default) -->
+                                <div class="form-group hidden" id="csv-upload-row">
+                                    <label>Upload Company CSV <span class="required">*</span></label>
+                                    <div id="csv-dropzone" style="border: 2px dashed rgba(139,92,246,0.4); border-radius: 12px; padding: 1.5rem 1rem; text-align: center; cursor: pointer; transition: all 0.2s; background: rgba(139,92,246,0.04);" onclick="document.getElementById('csv-file-input').click()" ondragover="event.preventDefault(); this.style.borderColor='#8b5cf6';" ondragleave="this.style.borderColor='rgba(139,92,246,0.4)';" ondrop="handleCsvDrop(event)">
+                                        <i class="fa-solid fa-file-csv" style="font-size: 2rem; color: #8b5cf6; margin-bottom: 0.5rem;"></i>
+                                        <p style="color: #94a3b8; font-size: 0.85rem; margin: 0;">Drag & drop a CSV file here, or <span style="color: #8b5cf6; font-weight: 600;">click to browse</span></p>
+                                        <p id="csv-file-name" style="color: #c4b5fd; font-size: 0.8rem; margin-top: 0.4rem; font-weight: 500;"></p>
+                                    </div>
+                                    <input type="file" id="csv-file-input" accept=".csv" style="display:none" onchange="handleCsvFileSelect(this)">
+                                    <div style="margin-top: 0.75rem; display: flex; align-items: center; justify-content: space-between;">
+                                        <span style="font-size: 0.75rem; color: #94a3b8;">Columns: <code>Company Name</code>, <code>Website</code>, <code>Category</code>, <code>Location</code>, <code>Keywords</code></span>
+                                        <a href="/sample_companies.csv" download style="font-size: 0.75rem; color: #8b5cf6; font-weight: 600;"><i class="fa-solid fa-download"></i> Sample CSV</a>
+                                    </div>
+                                    <div id="csv-preview" style="margin-top: 0.75rem; display: none; background: rgba(30,41,59,0.5); border-radius: 8px; padding: 0.75rem; max-height: 120px; overflow-y: auto; font-size: 0.75rem; color: #94a3b8; font-family: monospace;"></div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-block mt-4" id="submit-run-btn">
+                                    <i class="fa-solid fa-play"></i> Launch Scraper Run
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Live Logging Console -->
+                        <div class="glass-panel console-panel">
+                            <div class="console-header">
+                                <div class="console-title">
+                                    <span class="live-dot pulse"></span>
+                                    <h3>Live Agent Console Output</h3>
+                                </div>
+                                <div class="console-actions">
+                                    <span id="run-progress-text">0%</span>
+                                    <button class="btn btn-icon" id="clear-console-btn" title="Clear Console">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Progress Bar -->
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" id="run-progress-bar" style="width: 0%"></div>
+                            </div>
+                            <div class="terminal-logs" id="terminal-logs">
+                                <div class="terminal-line placeholder-line">&gt; Ready for instructions. Launch an agent execution to stream telemetry logs.</div>
+                            </div>
+                            <div class="console-footer-stats">
+                                <div>Found: <span id="log-found-count" class="bold-txt">0</span></div>
+                                <div>Validated: <span id="log-valid-count" class="bold-txt">0</span></div>
+                                <div>Outreach: <span id="log-sent-count" class="bold-txt">0</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. LEADS MANAGER TAB -->
+                <section id="leads" class="tab-panel">
+                    <div class="glass-panel">
+                        <!-- Filters Header -->
+                        <div class="filter-bar">
+                            <div class="search-input-wrapper">
+                                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                <input type="text" id="lead-search" placeholder="Search by name, company, domain, email...">
+                            </div>
+                            <div class="filter-actions">
+                                <select id="filter-status" class="form-select">
+                                    <option value="">All Statuses</option>
+                                    <option value="New">New / Uncontacted</option>
+                                    <option value="Sent">Outreach Sent</option>
+                                    <option value="Replied">Replied / Interested</option>
+                                    <option value="Failed">Failed / Invalid</option>
+                                </select>
+                                <button class="btn btn-secondary" id="export-leads-btn" onclick="exportLeadsCSV()">
+                                    <i class="fa-solid fa-file-export"></i> Export CSV
+                                </button>
+                                <button class="btn btn-secondary" id="refresh-leads-btn">
+                                    <i class="fa-solid fa-rotate"></i> Refresh
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Leads Table -->
+                        <div class="table-container max-height-container">
+                            <table class="data-table" id="leads-table">
+                                <thead>
+                                    <tr>
+                                        <th>Lead Name</th>
+                                        <th>Role</th>
+                                        <th>Company</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Status</th>
+                                        <th>Quality</th>
+                                        <th>Discovered</th>
+                                        <th class="actions-col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="9" class="text-center">Loading lead directory...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. SYSTEM SETTINGS TAB -->
+                <section id="settings" class="tab-panel">
+                    <div class="settings-grid">
+                        <!-- Mode and Scraper Config -->
+                        <div class="glass-panel">
+                            <div class="panel-header">
+                                <h3>Engine Behavior Settings</h3>
+                                <p class="subtext">Configure how the scraping agent finds and handles target listing databases.</p>
+                            </div>
+                            <form id="settings-engine-form">
+                                <input type="hidden" id="setting-simulation-mode" value="false">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="setting-delay">Scraping Request Delay (seconds)</label>
+                                        <input type="number" id="setting-delay" min="0.5" max="30" step="0.5" value="2.0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="setting-max-results">Max Results Per Run</label>
+                                        <input type="number" id="setting-max-results" min="1" max="100" value="10">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-3">Save Engine Config</button>
+                            </form>
+                        </div>
+
+                        <!-- SMTP Configuration -->
+                        <div class="glass-panel">
+                            <div class="panel-header">
+                                <h3>SMTP Email Credentials</h3>
+                                <p class="subtext">Configure credentials for real email outreach. Leaving username/password blank triggers demo mode email logs.</p>
+                            </div>
+                            <form id="settings-smtp-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="setting-smtp-host">SMTP Host</label>
+                                        <input type="text" id="setting-smtp-host" placeholder="smtp.gmail.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="setting-smtp-port">SMTP Port</label>
+                                        <input type="number" id="setting-smtp-port" placeholder="587">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="setting-smtp-user">SMTP Username / Email</label>
+                                    <input type="email" id="setting-smtp-user" placeholder="e.g. sales@yourdomain.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="setting-smtp-pass">SMTP Password</label>
+                                    <input type="password" id="setting-smtp-pass" placeholder="••••••••••••">
+                                </div>
+                                <div class="form-group">
+                                    <label class="switch-container">
+                                        <input type="checkbox" id="setting-smtp-tls" checked>
+                                        <span class="switch-slider"></span>
+                                        <span class="switch-label">Use TLS Authentication (Standard)</span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-3">Save SMTP Credentials</button>
+                            </form>
+                        </div>
+
+                        <!-- AI API Keys — Groq Only -->
+                        <div class="glass-panel">
+                            <div class="panel-header">
+                                <h3>AI Extraction Engine</h3>
+                                <p class="subtext">Configure your Groq API key to power intelligent lead extraction, leader identification, and contact enrichment — completely free and ultra-fast.</p>
+                            </div>
+                            <form id="settings-llm-form">
+                                <div class="section-title mt-2"><i class="fa-solid fa-brain"></i> Groq AI Engine</div>
+                                <div class="form-group">
+                                    <div class="d-flex justify-between align-center">
+                                        <label for="setting-groq-key">Groq API Key <span class="required">*</span></label>
+                                        <a href="https://console.groq.com/keys" target="_blank" class="cyber-link text-xs"><i class="fa-solid fa-arrow-up-right-from-square"></i> Get Free Groq Key</a>
+                                    </div>
+                                    <div class="password-input-wrapper mt-1">
+                                        <input type="password" id="setting-groq-key" placeholder="gsk_...">
+                                        <i class="fa-solid fa-eye toggle-password-btn" data-target="setting-groq-key"></i>
+                                    </div>
+                                    <p class="subtext mt-1" style="font-size:0.78rem;">Powers intelligent name/email/role extraction from websites using Llama 3.3 70B. Free at <a href="https://console.groq.com" target="_blank" class="cyber-link">console.groq.com</a>.</p>
+                                </div>
+
+                                <div class="section-title mt-4"><i class="fa-solid fa-circle-info"></i> How the Agent Works</div>
+                                <div style="background: rgba(139,92,246,0.07); border: 1px solid rgba(139,92,246,0.2); border-radius: 10px; padding: 1rem; font-size: 0.82rem; color: #94a3b8; line-height: 1.7;">
+                                    <b style="color:#a78bfa;">1. Website Discovery</b> — DuckDuckGo search finds target company websites<br>
+                                    <b style="color:#a78bfa;">2. Headless Browser Rendering</b> — Playwright Chrome renders JS-heavy SPAs<br>
+                                    <b style="color:#a78bfa;">3. CSS Card Extraction</b> — Detects team member cards using 14 selector patterns<br>
+                                    <b style="color:#a78bfa;">4. Schema.org JSON-LD Parsing</b> — Extracts structured Person data<br>
+                                    <b style="color:#a78bfa;">5. Team Page Detection</b> — Auto-navigates to /team /leadership /about pages<br>
+                                    <b style="color:#a78bfa;">6. Contact Subpage Crawling</b> — Probes /contact /contact-us for emails<br>
+                                    <b style="color:#a78bfa;">7. Groq AI Extraction</b> — Llama 3.3 70B structures all data into clean leads
+                                </div>
+
+                                <button type="submit" class="btn btn-primary mt-4">Save Configuration</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. OUTREACH CAMPAIGNS TAB -->
+                <section id="campaigns" class="tab-panel">
+                    <div class="agent-grid">
+                        <!-- Campaign Settings Panel -->
+                        <div class="glass-panel">
+                            <div class="panel-header">
+                                <h3>Configure Bulk Email Campaign</h3>
+                                <p class="subtext">Configure template parameters to broadcast outreach campaigns to a generated lead directory list.</p>
+                            </div>
+                            <form id="campaign-launch-form">
+                                <div class="form-group">
+                                    <label for="campaign-source">Lead Target List / Source <span class="required">*</span></label>
+                                    <select id="campaign-source" required>
+                                        <option value="">-- Select Target Leads List --</option>
+                                        <option value="all">All Uncontacted Leads (All Runs)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="campaign-subject">Email Subject Line <span class="required">*</span></label>
+                                    <input type="text" id="campaign-subject" placeholder="e.g. Partnership Opportunities for {company_name}" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="campaign-body">Email Body Template <span class="required">*</span></label>
+                                    <textarea id="campaign-body" rows="8" placeholder="Hi {contact_name},
+
+I noticed your listing at {company_website} and wanted to reach out. I would love to talk about our services.
+
+Best regards,
+My Sales Team" required></textarea>
+                                </div>
+                                <div class="template-placeholders">
+                                    <strong>Supported tags:</strong>
+                                    <code>{contact_name}</code>, <code>{contact_title}</code>, <code>{company_name}</code>, <code>{company_website}</code>, <code>{location}</code>, <code>{industry}</code>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block mt-4" id="submit-campaign-btn">
+                                    <i class="fa-solid fa-paper-plane"></i> Launch Outreach Campaign
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Live Logging Console -->
+                        <div class="glass-panel d-flex-col">
+                            <div class="panel-header d-flex justify-between align-center">
+                                <div>
+                                    <h3>Live Campaign Telemetry Output</h3>
+                                    <p class="subtext">Real-time logs showing email broadcasts, connection reports, and SMTP handshake signals.</p>
+                                </div>
+                                <button class="btn btn-icon text-muted" id="clear-campaign-logs-btn" title="Clear console">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </div>
+                            <div class="terminal-console" id="campaign-terminal-logs">
+                                <div class="terminal-placeholder">Ready for instructions. Launch an outreach campaign to stream telemetry logs.</div>
+                            </div>
+                            <div class="terminal-stats">
+                                <div class="stat-indicator">Dispatched: <span id="campaign-stat-sent">0</span></div>
+                                <div class="stat-indicator">Failed: <span id="campaign-stat-failed">0</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campaign History Table -->
+                    <div class="glass-panel mt-4">
+                        <div class="panel-header">
+                            <h3>Campaign Execution History</h3>
+                            <p class="subtext">Telemetry records of prior marketing broadcast executions.</p>
+                        </div>
+                        <div class="table-container">
+                            <table class="leads-table">
+                                <thead>
+                                    <tr>
+                                        <th>Campaign ID</th>
+                                        <th>Email Subject Line</th>
+                                        <th>Target List</th>
+                                        <th>Dispatch Metrics</th>
+                                        <th>Status</th>
+                                        <th>Launch Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="campaigns-table-body">
+                                    <tr>
+                                        <td colspan="6" class="text-center text-muted">No campaigns launched yet.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- LEAD DETAIL MODAL -->
+    <div class="modal-backdrop" id="lead-modal">
+        <div class="modal-card glass-panel">
+            <div class="modal-header">
+                <h3>Lead Deep-Dive Inspection</h3>
+                <button class="btn btn-icon close-modal-btn" id="close-modal-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="detail-section">
+                    <div class="section-title"><i class="fa-solid fa-user-tie"></i> Contact Details</div>
+                    <div class="detail-grid">
+                        <div class="detail-item"><span class="label">Name:</span> <strong id="modal-lead-name">-</strong></div>
+                        <div class="detail-item"><span class="label">Job Designation:</span> <span id="modal-lead-role">-</span></div>
+                        <div class="detail-item"><span class="label">Direct Email:</span> <span id="modal-lead-email">-</span> <span id="modal-lead-verification" class="badge">Unverified</span></div>
+                        <div class="detail-item"><span class="label">Contact Phone:</span> <span id="modal-lead-phone">-</span></div>
+                        <div class="detail-item span-two"><span class="label">Executive LinkedIn (CEO/Founder):</span> <a href="#" target="_blank" id="modal-lead-linkedin">-</a></div>
+                    </div>
+                </div>
+                <div class="detail-section mt-4">
+                    <div class="section-title"><i class="fa-solid fa-gauge-high"></i> Lead Quality Evaluation</div>
+                    <div class="score-display-wrapper">
+                        <div class="score-ring-container">
+                            <svg class="score-svg-ring" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="8" />
+                                <circle id="modal-score-circle" cx="50" cy="50" r="40" fill="none" stroke="#8b5cf6" stroke-width="8" 
+                                        stroke-dasharray="251.2" stroke-dashoffset="251.2" stroke-linecap="round" />
+                            </svg>
+                            <span id="modal-score-percent" class="score-percent-text">0%</span>
+                        </div>
+                        <div class="score-checks-list" id="modal-score-checks">
+                            <!-- Checks dynamic contents -->
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-section mt-4">
+                    <div class="section-title"><i class="fa-solid fa-building"></i> Company Overview</div>
+                    <div class="detail-grid">
+                        <div class="detail-item"><span class="label">Business Name:</span> <strong id="modal-comp-name">-</strong></div>
+                        <div class="detail-item"><span class="label">Website Domain:</span> <a href="#" target="_blank" id="modal-comp-web">-</a></div>
+                        <div class="detail-item"><span class="label">Industry category:</span> <span id="modal-comp-industry">-</span></div>
+                        <div class="detail-item"><span class="label">Office Phone:</span> <span id="modal-comp-phone">-</span></div>
+                        <div class="detail-item span-two"><span class="label">Company LinkedIn:</span> <a href="#" target="_blank" id="modal-comp-linkedin">-</a></div>
+                        <div class="detail-item span-two"><span class="label">Social Media Profiles:</span> <div id="modal-comp-socials" class="d-flex align-center gap-2 mt-1">-</div></div>
+                        <div class="detail-item span-two"><span class="label">Street Address:</span> <span id="modal-comp-address">-</span></div>
+                    </div>
+                </div>
+                <div class="detail-section mt-4">
+                    <div class="section-title"><i class="fa-solid fa-code-branch"></i> Source Attribution (Origin Breakdown)</div>
+                    <div class="detail-grid" id="modal-attribution-grid">
+                        <div class="detail-item"><span class="label">Email Origin:</span> <span id="attr-email">Not Available</span></div>
+                        <div class="detail-item"><span class="label">Email Verification:</span> <span id="attr-email-val">Pattern & Syntax Validation</span></div>
+                        <div class="detail-item"><span class="label">Phone Origin:</span> <span id="attr-phone">Not Available</span></div>
+                        <div class="detail-item"><span class="label">LinkedIn Discovery:</span> <span id="attr-linkedin">Search Engine</span></div>
+                        <div class="detail-item span-two"><span class="label">Search Provider:</span> <span id="attr-discovery">DuckDuckGo Search Engine</span></div>
+                    </div>
+                </div>
+                <div class="detail-section mt-4" id="modal-outreach-section">
+                    <div class="section-title"><i class="fa-solid fa-paper-plane"></i> Email Outreach Transaction Details</div>
+                    <div class="outreach-box">
+                        <div class="outreach-meta">
+                            <div><strong>Subject:</strong> <span id="modal-outreach-subject">-</span></div>
+                            <div><strong>Sent:</strong> <span id="modal-outreach-date">-</span></div>
+                        </div>
+                        <div class="outreach-body" id="modal-outreach-body">
+                            -
+                        </div>
+                        <div class="outreach-status-msg" id="modal-outreach-status">
+                            Status: <span class="badge">-</span>
+                        </div>
+                        <div class="outreach-response mt-2" id="modal-outreach-response-container">
+                            <strong>System Log Response:</strong>
+                            <pre id="modal-outreach-response">-</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login/Registration Overlay -->
+    <div id="auth-container" class="auth-backdrop">
+        <div class="auth-card glass-panel">
+            <div class="auth-header">
+                <i class="fa-solid fa-wand-magic-sparkles auth-logo-icon"></i>
+                <h2>Lead Gen Agent</h2>
+                <p>Execution Agent SaaS Portal</p>
+            </div>
+            
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form">
+                <h3>Sign In</h3>
+                <div class="form-group">
+                    <label for="login-email">Email Address</label>
+                    <input type="email" id="login-email" placeholder="name@company.com" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="login-password">Password</label>
+                    <div class="password-input-wrapper">
+                        <input type="password" id="login-password" placeholder="••••••••" required>
+                        <i class="fa-solid fa-eye toggle-password-btn" data-target="login-password"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-4">Sign In</button>
+                <div class="auth-footer mt-3">
+                    Don't have an account? <a href="#" id="go-to-signup">Sign Up</a>
+                </div>
+            </form>
+
+            <!-- Signup Form (Hidden by default) -->
+            <form id="signup-form" class="auth-form hidden">
+                <h3>Create Account</h3>
+                <div class="form-group">
+                    <label for="signup-email">Email Address</label>
+                    <input type="email" id="signup-email" placeholder="name@company.com" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="signup-password">Password</label>
+                    <div class="password-input-wrapper">
+                        <input type="password" id="signup-password" placeholder="Min. 6 characters" required>
+                        <i class="fa-solid fa-eye toggle-password-btn" data-target="signup-password"></i>
+                    </div>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="signup-confirm-password">Confirm Password</label>
+                    <div class="password-input-wrapper">
+                        <input type="password" id="signup-confirm-password" placeholder="••••••••" required>
+                        <i class="fa-solid fa-eye toggle-password-btn" data-target="signup-confirm-password"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-4">Create Account</button>
+                <div class="auth-footer mt-3">
+                    Already have an account? <a href="#" id="go-to-login">Sign In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Registration Success Modal -->
+    <div class="modal-backdrop" id="success-modal" style="z-index: 10000;">
+        <div class="modal-card glass-panel" style="max-width: 400px; text-align: center; padding: 2.5rem 2rem; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);">
+            <div style="font-size: 3.5rem; color: #10b981; margin-bottom: 1rem;">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 style="margin-bottom: 0.75rem; font-family: 'Outfit'; font-size: 1.5rem; color: #ffffff;">Registered Successfully!</h3>
+            <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1.75rem; line-height: 1.5; font-family: 'Inter';">
+                Your Lead Gen Agent account has been created. You can now sign in to start generating leads.
+            </p>
+            <button class="btn btn-primary" id="success-modal-btn" style="width: 100%; padding: 0.75rem; font-size: 0.95rem; border-radius: 10px; font-family: 'Inter'; cursor: pointer;">
+                Proceed to Sign In
+            </button>
+        </div>
+    </div>
+
+    <!-- Individual Email Composer Modal -->
+    <div class="modal-backdrop" id="email-composer-modal" style="z-index: 10000;">
+        <div class="modal-card glass-panel" style="max-width: 550px; padding: 2rem; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); position: relative; width: 90%;">
+            <button id="close-composer-btn" style="position: absolute; right: 20px; top: 20px; background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.25rem;"><i class="fa-solid fa-xmark"></i></button>
+            <div class="panel-header p-0 mb-3" style="text-align: left;">
+                <h3 style="font-family: 'Outfit'; font-size: 1.5rem; color: #ffffff; display: flex; align-items: center; gap: 10px; margin-bottom: 0;">
+                    <i class="fa-solid fa-envelope" style="color: var(--secondary);"></i> Send Individual Outreach
+                </h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Personalize and send outreach to this contact.</p>
+            </div>
+            
+            <form id="composer-form" style="display: flex; flex-direction: column; gap: 1rem; text-align: left;">
+                <input type="hidden" id="composer-contact-id">
+                <div class="form-group">
+                    <label for="composer-to" style="color: var(--text-muted); font-size: 0.8rem; font-weight: 600; margin-bottom: 5px; display: block;">Recipient</label>
+                    <input type="text" id="composer-to" disabled style="background: rgba(30, 41, 59, 0.2); color: #94a3b8; cursor: not-allowed; width: 100%;">
+                </div>
+                <div class="form-group">
+                    <label for="composer-subject" style="color: var(--text-muted); font-size: 0.8rem; font-weight: 600; margin-bottom: 5px; display: block;">Subject Line</label>
+                    <input type="text" id="composer-subject" placeholder="Partnership Inquiry - {company_name}" required style="width: 100%;">
+                </div>
+                <div class="form-group">
+                    <label for="composer-body" style="color: var(--text-muted); font-size: 0.8rem; font-weight: 600; margin-bottom: 5px; display: block;">Message Body</label>
+                    <textarea id="composer-body" rows="8" placeholder="Hi {contact_name}, ..." required style="width: 100%; resize: vertical;"></textarea>
+                </div>
+                <div class="template-placeholders" style="font-size: 0.75rem; color: var(--text-muted); padding: 8px 12px; background: rgba(30, 41, 59, 0.2); border-radius: 8px; border: 1px solid var(--border-color); line-height: 1.4;">
+                    <strong>Supported tags (will auto-replace):</strong><br>
+                    <code>{contact_name}</code>, <code>{company_name}</code>, <code>{company_website}</code>, <code>{location}</code>, <code>{industry}</code>
+                </div>
+                <button type="submit" class="btn btn-primary" id="composer-send-btn" style="width: 100%; padding: 0.75rem; font-size: 0.95rem; border-radius: 10px; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-paper-plane"></i> Send Email
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notifications Center -->
+    <div class="notification-toast-container" id="toast-container"></div>
+
+    <script src="app.js?v=2.4"></script>
+</body>
+</html>

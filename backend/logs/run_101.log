@@ -1,0 +1,42 @@
+[2026-07-23 21:41:15] Starting Lead Generation Agent Execution #101
+[2026-07-23 21:41:15] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 21:41:15] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 21:41:15] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-23 21:41:16] [LIVE SCRAPING] Fallback to base search query (LLM variation failed).
+[2026-07-23 21:41:16] 
+------------------------------------------------
+Iteration 1/7
+Searching:
+Software buyers companies in Chicago under 20 employees
+[2026-07-23 21:41:16] [LIVE SCRAPING] Querying Exa AI for: Software buyers companies in Chicago under 20 employees
+[2026-07-23 21:41:18] [LIVE SCRAPING] Found 25 new target websites. Processing batch...
+[2026-07-23 21:41:18] [LIVE SCRAPING] Visiting https://www.sdpchicago.com ...
+[2026-07-23 21:41:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com
+[2026-07-23 21:41:21] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:22] [LIVE SCRAPING] Searching LinkedIn company page for Strategic Data Products — AI does the busywork. You run the business....
+[2026-07-23 21:41:23] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ai-to-business
+[2026-07-23 21:41:24] [LIVE SCRAPING] Processing lead for Strategic Data Products — AI does the busywork. You run the business. | Email: rdawson@strategicdataproducts.com | Score: 30/100
+[2026-07-23 21:41:24] \n--- VALIDATION FOR: Strategic Data Products — AI does the busywork. You run the business. ---
+[2026-07-23 21:41:24] Person: Office Manager (Operations)
+[2026-07-23 21:41:24] Email: rdawson@strategicdataproducts.com (Source: Website DOM Extraction (Best Match))
+[2026-07-23 21:41:24] LinkedIn (Person): Not Available
+[2026-07-23 21:41:24] LinkedIn (Company): https://www.linkedin.com/company/ai-to-business
+[2026-07-23 21:41:24] Score: 30/100 [official_email: 25, domain_match: 0, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0]
+[2026-07-23 21:41:24] --------------------------------
+[2026-07-23 21:41:24] [QUALITY FILTER] Lead for Strategic Data Products — AI does the busywork. You run the business. rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-23 21:41:24] [LIVE SCRAPING] Visiting https://znptech.com ...
+[2026-07-23 21:41:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://znptech.com
+[2026-07-23 21:41:27] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-23 21:41:28] [LIVE SCRAPING] Searching LinkedIn company page for ZNP Tech — Websites · Apps · Software...
+[2026-07-23 21:41:29] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/atome-edtech
+[2026-07-23 21:41:29] [LIVE SCRAPING] Processing lead for ZNP Tech — Websites · Apps · Software | Email: contact@znptech.com | Score: 70/100
+[2026-07-23 21:41:29] \n--- VALIDATION FOR: ZNP Tech — Websites · Apps · Software ---
+[2026-07-23 21:41:29] Person: Office Manager (Operations)
+[2026-07-23 21:41:29] Email: contact@znptech.com (Source: Not Available)
+[2026-07-23 21:41:29] LinkedIn (Person): Not Available
+[2026-07-23 21:41:29] LinkedIn (Company): https://www.linkedin.com/company/atome-edtech
+[2026-07-23 21:41:29] Score: 70/100 [official_email: 25, domain_match: 20, real_ceo: 0, linkedin_match: 0, website_evidence: 0, phone: 5, location: 0, company_validity: 20]
+[2026-07-23 21:41:29] --------------------------------
+[2026-07-23 21:41:29] [QUALITY FILTER] Lead for ZNP Tech — Websites · Apps · Software rejected: Confidence score (70) < 80
+[2026-07-23 21:41:29] [LIVE SCRAPING] Visiting https://ncubesoftware.com ...
+[2026-07-23 21:41:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ncubesoftware.com

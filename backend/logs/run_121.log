@@ -1,0 +1,18 @@
+[2026-07-24 16:22:41] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 16:22:42] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 16:22:59] Iteration 1/1
+Searching: Software buyers companies in Chicago under 20 employees
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://epicpresence.com/software-companies-in-chicago/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.builtinchicago.org/companies/type/software-companies
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.builtinchicago.org/companies/type/software-companies
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://gregslist.com/chicago/software-companies-number-of-employees/1-10/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://gregslist.com/chicago/software-companies-number-of-employees/1-10/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://tekinvent.com/how-to-find-an-affordable-custom-software-development-company-in-chicago/
+[2026-07-24 16:22:59] [LIVE SCRAPING] Scraping directory/listicle for companies: https://clutch.co/developers/small-business/chicago
+[2026-07-24 16:22:59] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://clutch.co/developers/small-business/chicago
+[2026-07-24 16:23:00] [LIVE SCRAPING] Scraping directory/listicle for companies: https://builtin.com/awards/chicago/2025/best-midsize-places-to-work
+[2026-07-24 16:23:00] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://builtin.com/awards/chicago/2025/best-midsize-places-to-work

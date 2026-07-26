@@ -1,0 +1,1 @@
+['from .extractor import ExtractorService\n', '            search_variations = ExtractorService.generate_search_variations(category, location, keywords, groq_key)\n', '                    llm_result = ExtractorService.extract_decision_maker(page_text, leader_info, groq_key)\n']

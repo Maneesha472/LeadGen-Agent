@@ -1,0 +1,10 @@
+[2026-07-23 09:02:58] Starting Lead Generation Agent Execution #76
+[2026-07-23 09:02:58] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 09:02:58] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 09:02:59] [LIVE SCRAPING] Querying Exa AI for: 'Software buyers companies in Chicago under 20 employees'
+[2026-07-23 09:02:59] [LIVE SCRAPING] Querying Exa AI for: Software buyers companies in Chicago under 20 employees
+[2026-07-23 09:03:00] [LIVE SCRAPING] Found 19 target websites. Scraping details...
+[2026-07-23 09:03:00] [LIVE SCRAPING] Visiting https://www.sdpchicago.com ...
+[2026-07-23 09:03:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.sdpchicago.com
+[2026-07-23 09:03:03] CRITICAL ERROR in Agent execution: name 'EmailNotValidError' is not defined
+[2026-07-23 09:03:03] Agent execution finished.

@@ -1,0 +1,8 @@
+[2026-07-23 05:49:29] Starting Lead Generation Agent Execution #66
+[2026-07-23 05:49:29] Criteria - Category: Software buyers | Location: Chicago | Keywords: under 20 employees
+[2026-07-23 05:49:29] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 05:49:30] [LIVE SCRAPING] Querying DuckDuckGo for: 'Software buyers companies in Chicago under 20 employees'
+[2026-07-23 05:49:30] [LIVE SCRAPING] Querying Exa AI for: Software buyers companies in Chicago under 20 employees
+[2026-07-23 05:49:30] [WARNING] Exa AI discovery failed: Exa.search() got an unexpected keyword argument 'use_autoprompt'
+[2026-07-23 05:49:30] [WARNING] No target websites found. Execution complete with 0 leads.
+[2026-07-23 05:49:30] Agent execution finished.

@@ -1,0 +1,20 @@
+[SYSTEM] Agent execution scheduled at 2026-07-19 16:44:03
+[2026-07-19 16:44:03] Starting Lead Generation Agent Execution #36
+[2026-07-19 16:44:03] Criteria - Category: IT Service | Location: https://www.infosys.com/ | Keywords: Location: Mumbai
+[2026-07-19 16:44:03] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 16:44:04] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://www.infosys.com/
+[2026-07-19 16:44:04] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 16:44:06] [LIVE SCRAPING] visiting https://www.infosys.com ...
+[2026-07-19 16:44:12] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/locations/mumbai
+[2026-07-19 16:44:14] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact-us/mumbai
+[2026-07-19 16:44:15] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contactus
+[2026-07-19 16:44:17] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact
+[2026-07-19 16:44:19] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact_us
+[2026-07-19 16:44:20] [LIVE SCRAPING] Probing subpage: https://www.infosys.com/contact-us
+[2026-07-19 16:44:22] [LIVE SCRAPING] AI Extraction active. Analyzing multi-page payload...
+[2026-07-19 16:44:27] [LIVE SCRAPING] Processing lead record for Infosys | Email: Not Available | Score: 29%
+[2026-07-19 16:44:27] [WARNING] Lead for Infosys already exists in your account. Skipping duplicate.
+[2026-07-19 16:44:27] [INFO] Skipped duplicate lead at website https://www.infosys.com
+[2026-07-19 16:44:27] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 0 valid leads.
+[2026-07-19 16:44:27] Agent execution finished.
+[2026-07-19 16:44:27] [OUTREACH] Auto email dispatch skipped (no outreach subject/body template provided). Lead is saved in Leads Manager.

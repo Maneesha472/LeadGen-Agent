@@ -1,0 +1,8 @@
+[2026-07-23 06:28:20] Starting Lead Generation Agent Execution #72
+[2026-07-23 06:28:20] Criteria - Category: Marketing Agency | Location: Chicago | Keywords: None
+[2026-07-23 06:28:20] [LIVE SCRAPING] Starting live scraper with Leader Agent pipeline...
+[2026-07-23 06:28:20] [LIVE SCRAPING] Querying Exa AI for: 'Marketing Agency companies in Chicago'
+[2026-07-23 06:28:20] [LIVE SCRAPING] Querying Exa AI for: Marketing Agency companies in Chicago
+[2026-07-23 06:28:21] [WARNING] Exa AI discovery failed: Request failed with status code 400: {"requestId":"48e852de8c4ac964f4e37a6084f607f8","error":"You are asking for a number of results above what your plan allows. To be able to get up to thousands of results per search, contact hello@exa.ai and we will figure something out :)","tag":"NUM_RESULTS_EXCEEDED"}
+[2026-07-23 06:28:21] [WARNING] No target websites found. Execution complete with 0 leads.
+[2026-07-23 06:28:21] Agent execution finished.

@@ -1,0 +1,11 @@
+[2026-07-19 07:09:32] Starting Lead Generation Agent Execution #17
+[2026-07-19 07:09:32] Criteria - Category: Direct Enrichment | Location: https://worklane-staging.villow.ai/ | Keywords: None
+[2026-07-19 07:09:32] [LIVE SCRAPING] Starting live scraper...
+[2026-07-19 07:09:33] [LIVE SCRAPING] Direct Enrichment Mode active. Analyzing target website: https://worklane-staging.villow.ai/
+[2026-07-19 07:09:33] [LIVE SCRAPING] Found 1 potential target websites. Scraping details...
+[2026-07-19 07:09:35] [LIVE SCRAPING] visiting https://worklane-staging.villow.ai/ ...
+[2026-07-19 07:09:37] [LIVE SCRAPING] Navigating to subpage: https://worklane-staging.villow.ai/contact
+[2026-07-19 07:09:39] [LIVE SCRAPING] Validating lead: Office Manager | Email: piyush@villow.ai
+[2026-07-19 07:09:39] [SUCCESS] Validated & saved lead: Office Manager (Operations)
+[2026-07-19 07:09:39] [LIVE SCRAPING SUCCESS] Found 1 companies, generated 1 valid leads.
+[2026-07-19 07:09:39] Agent execution finished.

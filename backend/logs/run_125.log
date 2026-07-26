@@ -1,0 +1,682 @@
+[2026-07-24 17:34:49] [LIVE SCRAPING] Starting live scraper with Enterprise Concurrency pipeline...
+[2026-07-24 17:34:49] [LIVE SCRAPING] Generating semantic search variations via Groq AI...
+[2026-07-24 17:34:51] [LIVE SCRAPING] Generated 3 search variations (Capped at 3).
+[2026-07-24 17:34:51] Iteration 1/3
+Searching: Chicago software companies under 20 employees
+[2026-07-24 17:35:09] [LIVE SCRAPING] Scraping directory/listicle for companies: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 17:35:09] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://gregslist.com/chicago/software-companies-size/small/
+[2026-07-24 17:35:12] [LIVE SCRAPING] Zero companies extracted from https://gregslist.com/chicago/software-companies-size/small/. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 17:35:12] [LIVE SCRAPING] Scraping directory/listicle for companies: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 17:35:12] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://builtin.com/awards/chicago/2026/best-midsize-places-to-work
+[2026-07-24 17:35:12] [LIVE SCRAPING] Zero companies extracted from https://builtin.com/awards/chicago/2026/best-midsize-places-to-work. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 17:35:12] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.builtinchicago.org/companies/type/productivity-companies
+[2026-07-24 17:35:12] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.builtinchicago.org/companies/type/productivity-companies
+[2026-07-24 17:35:22] [LIVE SCRAPING] Zero companies extracted from https://www.builtinchicago.org/companies/type/productivity-companies. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 17:35:22] [LIVE SCRAPING] Scraping directory/listicle for companies: https://clutch.co/developers/small-business/chicago
+[2026-07-24 17:35:22] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://clutch.co/developers/small-business/chicago
+[2026-07-24 17:35:23] [LIVE SCRAPING] Zero companies extracted from https://clutch.co/developers/small-business/chicago. Reason: Empty HTML (fetch failed or anti-bot protection)
+[2026-07-24 17:35:23] [LIVE SCRAPING] Scraping directory/listicle for companies: https://fortune.com/ranking/best-small-workplaces-chicago-area/
+[2026-07-24 17:35:23] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://fortune.com/ranking/best-small-workplaces-chicago-area/
+[2026-07-24 17:35:23] [LIVE SCRAPING] Extracted 7 external links and 36 profile names from https://fortune.com/ranking/best-small-workplaces-chicago-area/
+[2026-07-24 17:35:23] [LIVE SCRAPING] Resolving 36 official company websites via Exa...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Scraping directory/listicle for companies: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 17:36:42] [LIVE SCRAPING] Fetching raw HTML for link extraction: https://www.goodfirms.co/directory/city/top-software-development-companies/chicago
+[2026-07-24 17:36:42] [LIVE SCRAPING] Zero companies extracted from https://www.goodfirms.co/directory/city/top-software-development-companies/chicago. Reason: HTML parsing failed (Invalid HTML returned)
+[2026-07-24 17:36:42] [LIVE SCRAPING] Found 40 new target websites. Processing batch concurrently...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Visiting https://www.tiktok.com/@fortune ...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune
+[2026-07-24 17:36:42] [LIVE SCRAPING] Visiting https://fortunecustomerservice.zendesk.com/hc/en-us ...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us
+[2026-07-24 17:36:42] [LIVE SCRAPING] Visiting https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm ...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm
+[2026-07-24 17:36:42] [LIVE SCRAPING] Visiting https://www.greatplacetowork.com ...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com
+[2026-07-24 17:36:42] [LIVE SCRAPING] Visiting https://order.emags.com/fortune_single_issues ...
+[2026-07-24 17:36:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/contact-us
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/contact-us
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/contact-us
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/contact-us
+[2026-07-24 17:36:45] [LIVE SCRAPING] Probing subpage: https://www.greatplacetowork.com/contact-us
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/contact
+[2026-07-24 17:36:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/contact
+[2026-07-24 17:36:46] [LIVE SCRAPING] Probing subpage: https://www.greatplacetowork.com/contact
+[2026-07-24 17:36:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/contact_us
+[2026-07-24 17:36:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/contact_us
+[2026-07-24 17:36:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/contactus
+[2026-07-24 17:36:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/about-us
+[2026-07-24 17:36:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://order.emags.com/fortune_single_issues/about
+[2026-07-24 17:36:48] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:36:49] [LIVE SCRAPING] Searching LinkedIn company page for order.emags.com in Chicago...
+[2026-07-24 17:36:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/contact-us
+[2026-07-24 17:36:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/contact
+[2026-07-24 17:36:59] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/emagazines
+[2026-07-24 17:37:01] [LIVE SCRAPING] Processing lead for order.emags.com | Email: contact@order.emags.com | Score: 80/100
+[2026-07-24 17:37:01] [LIVE SCRAPING] Visiting https://fortune.wd108.myworkdayjobs.com/en-US/Fortune ...
+[2026-07-24 17:37:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune
+[2026-07-24 17:37:01] [DUPLICATE] Company already processed: https://order.emags.com/fortune_single_issues
+[2026-07-24 17:37:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/contact
+[2026-07-24 17:37:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/contact_us
+[2026-07-24 17:37:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/contactus
+[2026-07-24 17:37:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/contact_us
+[2026-07-24 17:37:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/about-us
+[2026-07-24 17:37:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/contactus
+[2026-07-24 17:37:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/contact-us
+[2026-07-24 17:37:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortunecustomerservice.zendesk.com/hc/en-us/about
+[2026-07-24 17:37:54] [LIVE SCRAPING] Probing subpage: https://www.tiktok.com/@fortune/contact-us
+[2026-07-24 17:37:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/contact
+[2026-07-24 17:37:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/about-us
+[2026-07-24 17:37:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:38:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/contact
+[2026-07-24 17:38:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm/about
+[2026-07-24 17:38:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/contactus
+[2026-07-24 17:38:16] [LIVE SCRAPING] Searching LinkedIn company page for fortunecustomerservice.zendesk.com in Chicago...
+[2026-07-24 17:38:18] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:38:18] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:38:18] [LIVE SCRAPING] Processing lead for fortunecustomerservice.zendesk.com | Email: contact@fortunecustomerservice.zendesk.com | Score: 80/100
+[2026-07-24 17:38:18] [LIVE SCRAPING] Visiting https://www.softchoice.com/ ...
+[2026-07-24 17:38:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com/
+[2026-07-24 17:38:18] [DUPLICATE] Company already processed: https://fortunecustomerservice.zendesk.com/hc/en-us
+[2026-07-24 17:38:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/about-us
+[2026-07-24 17:38:23] [LIVE SCRAPING] Probing subpage: https://www.greatplacetowork.com/about-us
+[2026-07-24 17:38:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.greatplacetowork.com/about
+[2026-07-24 17:38:23] [LIVE SCRAPING] Probing subpage: https://www.greatplacetowork.com/about
+[2026-07-24 17:38:23] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:38:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/contact_us
+[2026-07-24 17:38:35] [LIVE SCRAPING] Searching LinkedIn company page for fortunechina.com in Chicago...
+[2026-07-24 17:38:41] [LIVE SCRAPING] Searching LinkedIn company page for greatplacetowork.com in Chicago...
+[2026-07-24 17:38:50] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:38:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/contactus
+[2026-07-24 17:38:55] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:38:55] [LIVE SCRAPING] Processing lead for fortunechina.com | Email: contact@fortunechina.com | Score: 80/100
+[2026-07-24 17:38:55] [LIVE SCRAPING] Visiting https://www.fgmarchitects.com/ ...
+[2026-07-24 17:38:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com/
+[2026-07-24 17:38:55] [DUPLICATE] Company already processed: https://www.fortunechina.com/fortune500/c/2023-07/25/content_436290.htm
+[2026-07-24 17:38:56] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//contact-us
+[2026-07-24 17:39:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//contact-us
+[2026-07-24 17:39:03] [LIVE SCRAPING] Probing subpage: https://www.tiktok.com/@fortune/contact
+[2026-07-24 17:39:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/contact_us
+[2026-07-24 17:39:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//contact
+[2026-07-24 17:39:07] [LIVE SCRAPING] Processing lead for greatplacetowork.com | Email: my.gre@placetowork.com | Score: 30/100
+[2026-07-24 17:39:07] [QUALITY FILTER] Lead for greatplacetowork.com rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 17:39:07] [LIVE SCRAPING] Visiting https://ninjatrader.com/ ...
+[2026-07-24 17:39:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com/
+[2026-07-24 17:39:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//contact-us
+[2026-07-24 17:39:08] [LIVE SCRAPING] Probing subpage: https://www.fgmarchitects.com//contact
+[2026-07-24 17:39:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//contact_us
+[2026-07-24 17:39:09] [LIVE SCRAPING] Probing subpage: https://ninjatrader.com//contact-us
+[2026-07-24 17:39:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//contact
+[2026-07-24 17:39:14] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/about-us
+[2026-07-24 17:39:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//contact_us
+[2026-07-24 17:39:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//contactus
+[2026-07-24 17:39:22] [LIVE SCRAPING] Probing subpage: https://www.softchoice.com//contact-us
+[2026-07-24 17:39:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//contact
+[2026-07-24 17:39:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//about-us
+[2026-07-24 17:39:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.fgmarchitects.com//about
+[2026-07-24 17:39:45] [LIVE SCRAPING] Probing subpage: https://www.fgmarchitects.com//about
+[2026-07-24 17:39:45] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:39:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://fortune.wd108.myworkdayjobs.com/en-US/Fortune/about
+[2026-07-24 17:40:03] [LIVE SCRAPING] Searching LinkedIn company page for Fgm Architects in Chicago...
+[2026-07-24 17:40:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//contact_us
+[2026-07-24 17:40:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//contactus
+[2026-07-24 17:40:23] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/legat-architects
+[2026-07-24 17:40:23] [LIVE SCRAPING] Probing subpage: https://ninjatrader.com//contactus
+[2026-07-24 17:40:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//about-us
+[2026-07-24 17:40:23] [LIVE SCRAPING] Processing lead for Fgm Architects | Email: communications@fgmarchitects.com | Score: 80/100
+[2026-07-24 17:40:23] [LIVE SCRAPING] Visiting https://champakinc.com/ ...
+[2026-07-24 17:40:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com/
+[2026-07-24 17:40:23] [SAVED] Lead Office Manager @ Fgm Architects saved to database.
+[2026-07-24 17:40:32] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 17:40:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/contactus
+[2026-07-24 17:40:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://ninjatrader.com//about
+[2026-07-24 17:40:34] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:40:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:40:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//contactus
+[2026-07-24 17:40:51] [LIVE SCRAPING] Searching LinkedIn company page for fortune.wd108.myworkdayjobs.com in Chicago...
+[2026-07-24 17:40:54] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:40:54] [LIVE SCRAPING] Processing lead for fortune.wd108.myworkdayjobs.com | Email: contact@fortune.wd108.myworkdayjobs.com | Score: 80/100
+[2026-07-24 17:40:54] [LIVE SCRAPING] Visiting https://www.ballhort.com/ ...
+[2026-07-24 17:40:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com/
+[2026-07-24 17:40:54] [DUPLICATE] Company already processed: https://fortune.wd108.myworkdayjobs.com/en-US/Fortune
+[2026-07-24 17:41:07] [LIVE SCRAPING] Searching LinkedIn company page for Ninjatrader in Chicago...
+[2026-07-24 17:41:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//contact-us
+[2026-07-24 17:41:09] [LIVE SCRAPING] Probing subpage: https://champakinc.com//contact-us
+[2026-07-24 17:41:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//contact
+[2026-07-24 17:41:11] [LIVE SCRAPING] Probing subpage: https://champakinc.com//contact
+[2026-07-24 17:41:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//contact_us
+[2026-07-24 17:41:28] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ninjatrader-group-llc
+[2026-07-24 17:41:28] [LIVE SCRAPING] Processing lead for Ninjatrader | Email: account.ninj@rader.com | Score: 30/100
+[2026-07-24 17:41:28] [QUALITY FILTER] Lead for Ninjatrader rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 17:41:28] [LIVE SCRAPING] Visiting https://allwyn-northamerica.com/ ...
+[2026-07-24 17:41:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com/
+[2026-07-24 17:41:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com/contact-us/
+[2026-07-24 17:41:29] [LIVE SCRAPING] Probing subpage: https://allwyn-northamerica.com/contact-us/
+[2026-07-24 17:41:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//contact-us
+[2026-07-24 17:41:30] [LIVE SCRAPING] Probing subpage: https://allwyn-northamerica.com//contact-us
+[2026-07-24 17:41:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//contact
+[2026-07-24 17:41:30] [LIVE SCRAPING] Probing subpage: https://allwyn-northamerica.com//contact
+[2026-07-24 17:41:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//contact_us
+[2026-07-24 17:41:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//contactus
+[2026-07-24 17:41:35] [LIVE SCRAPING] Probing subpage: https://www.softchoice.com//contactus
+[2026-07-24 17:41:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//about-us
+[2026-07-24 17:41:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//contact-us
+[2026-07-24 17:41:39] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//contact-us
+[2026-07-24 17:41:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//contact
+[2026-07-24 17:41:40] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//contact
+[2026-07-24 17:41:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//contact_us
+[2026-07-24 17:41:41] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//contact_us
+[2026-07-24 17:41:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//contactus
+[2026-07-24 17:41:41] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//contactus
+[2026-07-24 17:41:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//about-us
+[2026-07-24 17:41:42] [LIVE SCRAPING] Probing subpage: https://www.tiktok.com/@fortune/contactus
+[2026-07-24 17:41:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/about-us
+[2026-07-24 17:41:42] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//about-us
+[2026-07-24 17:41:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ballhort.com//about
+[2026-07-24 17:41:42] [LIVE SCRAPING] Probing subpage: https://www.ballhort.com//about
+[2026-07-24 17:41:42] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:41:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//about-us
+[2026-07-24 17:41:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//contactus
+[2026-07-24 17:42:00] [LIVE SCRAPING] Searching LinkedIn company page for Ball Horticultural Company in Chicago...
+[2026-07-24 17:42:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//about-us
+[2026-07-24 17:42:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.softchoice.com//about
+[2026-07-24 17:42:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://champakinc.com//about
+[2026-07-24 17:42:20] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/ballseedcompany
+[2026-07-24 17:42:20] [LIVE SCRAPING] Processing lead for Ball Horticultural Company | Email: contact@ballhort.com | Score: 80/100
+[2026-07-24 17:42:20] [LIVE SCRAPING] Visiting https://theacademygroup.com/ ...
+[2026-07-24 17:42:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com/
+[2026-07-24 17:42:20] [SAVED] Lead Office Manager @ Ball Horticultural Company saved to database.
+[2026-07-24 17:42:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//contact-us
+[2026-07-24 17:42:22] [LIVE SCRAPING] Probing subpage: https://champakinc.com//about
+[2026-07-24 17:42:22] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:42:40] [LIVE SCRAPING] Searching LinkedIn company page for Champion Packaging Distribution in Chicago...
+[2026-07-24 17:42:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://allwyn-northamerica.com//about
+[2026-07-24 17:42:42] [LIVE SCRAPING] Probing subpage: https://theacademygroup.com//contact-us
+[2026-07-24 17:42:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//contact
+[2026-07-24 17:42:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//contact_us
+[2026-07-24 17:42:51] [LIVE SCRAPING] Probing subpage: https://www.tiktok.com/@fortune/about-us
+[2026-07-24 17:42:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.tiktok.com/@fortune/about
+[2026-07-24 17:42:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//contactus
+[2026-07-24 17:42:58] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:43:00] [LIVE SCRAPING] Found via Exa AI: https://ve.linkedin.com/company/championcontainercorp
+[2026-07-24 17:43:00] [LIVE SCRAPING] Processing lead for Champion Packaging Distribution | Email: contact@champakinc.com | Score: 80/100
+[2026-07-24 17:43:00] [LIVE SCRAPING] Visiting https://www.cfipartners.com/ ...
+[2026-07-24 17:43:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com/
+[2026-07-24 17:43:01] [SAVED] Lead Office Manager @ Champion Packaging Distribution saved to database.
+[2026-07-24 17:43:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//contact-us
+[2026-07-24 17:43:03] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:43:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//contact
+[2026-07-24 17:43:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//about-us
+[2026-07-24 17:43:16] [LIVE SCRAPING] Searching LinkedIn company page for Allwyn North America in Chicago...
+[2026-07-24 17:43:21] [LIVE SCRAPING] Probing subpage: https://theacademygroup.com//about-us
+[2026-07-24 17:43:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://theacademygroup.com//about
+[2026-07-24 17:43:21] [LIVE SCRAPING] Searching LinkedIn company page for Softchoice in Chicago...
+[2026-07-24 17:43:29] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:43:32] [LIVE SCRAPING] Probing subpage: https://www.cfipartners.com//contact
+[2026-07-24 17:43:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//contact_us
+[2026-07-24 17:43:36] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/allwyn-northamerica
+[2026-07-24 17:43:36] [LIVE SCRAPING] Processing lead for Allwyn North America | Email: contact@allwyn-northamerica.com | Score: 80/100
+[2026-07-24 17:43:36] [LIVE SCRAPING] Visiting https://www.novaspect.com/ ...
+[2026-07-24 17:43:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com/
+[2026-07-24 17:43:36] [SAVED] Lead Office Manager @ Allwyn North America saved to database.
+[2026-07-24 17:43:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//contactus
+[2026-07-24 17:43:41] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:43:41] [LIVE SCRAPING] Processing lead for Softchoice | Email: contact@softchoice.com | Score: 80/100
+[2026-07-24 17:43:41] [LIVE SCRAPING] Visiting https://www.hansonfaso.com/ ...
+[2026-07-24 17:43:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com/
+[2026-07-24 17:43:41] [SAVED] Lead Office Manager @ Softchoice saved to database.
+[2026-07-24 17:43:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//about-us
+[2026-07-24 17:43:46] [LIVE SCRAPING] Searching LinkedIn company page for The Academy Group in Chicago...
+[2026-07-24 17:43:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com/contact-us
+[2026-07-24 17:43:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com/about-us
+[2026-07-24 17:43:52] [LIVE SCRAPING] Probing subpage: https://www.hansonfaso.com/about-us
+[2026-07-24 17:43:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com/contact-us
+[2026-07-24 17:43:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cfipartners.com//about
+[2026-07-24 17:44:00] [LIVE SCRAPING] Probing subpage: https://www.tiktok.com/@fortune/about
+[2026-07-24 17:44:00] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:44:03] [LIVE SCRAPING] Probing subpage: https://www.novaspect.com/contact-us
+[2026-07-24 17:44:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//contact-us
+[2026-07-24 17:44:04] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:44:04] [LIVE SCRAPING] Probing subpage: https://www.hansonfaso.com/contact-us
+[2026-07-24 17:44:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//contact-us
+[2026-07-24 17:44:06] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-academy-of-nutrition-and-dietetics
+[2026-07-24 17:44:06] [LIVE SCRAPING] Processing lead for The Academy Group | Email: info@theacademy.group | Score: 30/100
+[2026-07-24 17:44:06] [QUALITY FILTER] Lead for The Academy Group rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 17:44:06] [LIVE SCRAPING] Visiting https://energydiagnosticsinc.com/ ...
+[2026-07-24 17:44:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com/
+[2026-07-24 17:44:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com/contact-us/
+[2026-07-24 17:44:17] [LIVE SCRAPING] Probing subpage: https://www.novaspect.com//contact-us
+[2026-07-24 17:44:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//contact
+[2026-07-24 17:44:18] [LIVE SCRAPING] Probing subpage: https://www.hansonfaso.com//contact-us
+[2026-07-24 17:44:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//contact
+[2026-07-24 17:44:18] [LIVE SCRAPING] Searching LinkedIn company page for tiktok.com in Chicago...
+[2026-07-24 17:44:22] [LIVE SCRAPING] Searching LinkedIn company page for Cfi Partners in Chicago...
+[2026-07-24 17:44:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//contact_us
+[2026-07-24 17:44:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//contactus
+[2026-07-24 17:44:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//about-us
+[2026-07-24 17:44:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//contact_us
+[2026-07-24 17:44:38] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/showreelgg
+[2026-07-24 17:44:38] [LIVE SCRAPING] Processing lead for tiktok.com | Email: contact@tiktok.com | Score: 80/100
+[2026-07-24 17:44:38] [LIVE SCRAPING] Visiting https://www.ascm.org/ ...
+[2026-07-24 17:44:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org/
+[2026-07-24 17:44:38] [DUPLICATE] Company already processed: https://www.tiktok.com/@fortune
+[2026-07-24 17:44:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//contact-us
+[2026-07-24 17:44:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://ds.tl/help-third-party-plugins "Third party browser plugins that block javascript"
+[2026-07-24 17:44:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//contact-us
+[2026-07-24 17:44:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//contactus
+[2026-07-24 17:44:40] [LIVE SCRAPING] Probing subpage: https://www.novaspect.com//about-us
+[2026-07-24 17:44:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.novaspect.com//about
+[2026-07-24 17:44:41] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/cfip-llc
+[2026-07-24 17:44:41] [LIVE SCRAPING] Processing lead for Cfi Partners | Email: contact@cfipartners.com | Score: 80/100
+[2026-07-24 17:44:41] [LIVE SCRAPING] Visiting https://www.brindleyengineering.com/ ...
+[2026-07-24 17:44:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com/
+[2026-07-24 17:44:42] [SAVED] Lead Office Manager @ Cfi Partners saved to database.
+[2026-07-24 17:44:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/join-our-team/ "Learn More"
+[2026-07-24 17:44:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/about/ "About Us"
+[2026-07-24 17:44:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/join-our-team/our-culture/ "Our Culture"
+[2026-07-24 17:44:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/join-our-team/ "Careers with Brindley"
+[2026-07-24 17:44:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com/knowledge-center/insights/5-questions-facility-managers-ask-about-concrete-inspections/
+[2026-07-24 17:44:44] [LIVE SCRAPING] Probing subpage: https://www.brindleyengineering.com/knowledge-center/insights/5-questions-facility-managers-ask-about-concrete-inspections/
+[2026-07-24 17:44:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/contact/ "Partner with us"
+[2026-07-24 17:44:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for http://www.brindleyengineering.com/join-our-team/ "Join our team"
+[2026-07-24 17:44:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com//contact-us
+[2026-07-24 17:44:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//about-us
+[2026-07-24 17:44:47] [LIVE SCRAPING] Probing subpage: https://www.brindleyengineering.com//contact-us
+[2026-07-24 17:44:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com//contact
+[2026-07-24 17:44:47] [LIVE SCRAPING] Probing subpage: https://www.brindleyengineering.com//contact
+[2026-07-24 17:44:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com//contact_us
+[2026-07-24 17:44:52] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:44:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//contact
+[2026-07-24 17:44:57] [LIVE SCRAPING] Probing subpage: https://www.hansonfaso.com//about-us
+[2026-07-24 17:44:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.hansonfaso.com//about
+[2026-07-24 17:45:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//contact
+[2026-07-24 17:45:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com//contactus
+[2026-07-24 17:45:10] [LIVE SCRAPING] Searching LinkedIn company page for Novaspect in Chicago...
+[2026-07-24 17:45:12] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:45:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//contact_us
+[2026-07-24 17:45:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.brindleyengineering.com//about-us
+[2026-07-24 17:45:26] [LIVE SCRAPING] Probing subpage: https://www.brindleyengineering.com//about-us
+[2026-07-24 17:45:26] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:45:30] [LIVE SCRAPING] Searching LinkedIn company page for Hanson Faso in Chicago...
+[2026-07-24 17:45:30] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/isa-will-dupage
+[2026-07-24 17:45:30] [LIVE SCRAPING] Processing lead for Novaspect | Email: contact@novaspect.com | Score: 85/100
+[2026-07-24 17:45:30] [LIVE SCRAPING] Visiting https://www.strongpointpartners.com/ ...
+[2026-07-24 17:45:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com/
+[2026-07-24 17:45:30] [SAVED] Lead Office Manager @ Novaspect saved to database.
+[2026-07-24 17:45:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//contact-us
+[2026-07-24 17:45:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//contactus
+[2026-07-24 17:45:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//contact_us
+[2026-07-24 17:45:44] [LIVE SCRAPING] Searching LinkedIn company page for Brindley Engineering in Chicago...
+[2026-07-24 17:45:49] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/fdmsales
+[2026-07-24 17:45:49] [LIVE SCRAPING] Processing lead for Hanson Faso | Email: genoffice@hansonfaso.com | Score: 85/100
+[2026-07-24 17:45:49] [LIVE SCRAPING] Visiting https://www.liventus.com/ ...
+[2026-07-24 17:45:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com/
+[2026-07-24 17:45:49] [SAVED] Lead Office Manager @ Hanson Faso saved to database.
+[2026-07-24 17:46:04] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:46:04] [LIVE SCRAPING] Processing lead for Brindley Engineering | Email: info@brindleyengineering.com | Score: 85/100
+[2026-07-24 17:46:04] [LIVE SCRAPING] Visiting https://www.i-car.com/ ...
+[2026-07-24 17:46:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.i-car.com/
+[2026-07-24 17:46:04] [SAVED] Lead Office Manager @ Brindley Engineering saved to database.
+[2026-07-24 17:46:15] [LIVE SCRAPING] Probing subpage: https://www.ascm.org//contact_us
+[2026-07-24 17:46:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//contactus
+[2026-07-24 17:46:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://info.i-car.com/gold-class "Learn more about Gold Class"
+[2026-07-24 17:46:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://info.i-car.com/sustaining-partners "Learn more about Sustaining Partners"
+[2026-07-24 17:46:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.i-car.com/s/industry-training-alliance "Learn more about Industry Training Alliance"
+[2026-07-24 17:46:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.collisioncareers.com/s/ "Learn more about Collision Careers"
+[2026-07-24 17:46:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://info.i-car.com/adas "Learn more about Advanced Driver Assistance Systems"
+[2026-07-24 17:46:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://info.i-car.com/electric-vehicles "Learn more about Electric Vehicles"
+[2026-07-24 17:46:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://my.i-car.com/s/learning-path-role/a3A1I000000hVdvUAE/vehicle-technology-specific-training "Learn more about Vehicle and Technology Specific training"
+[2026-07-24 17:46:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://rts.i-car.com/ "Learn more about Repairability Technical Support"
+[2026-07-24 17:46:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://rts.i-car.com/ask-i-car.html "Learn more about Ask I-CAR"
+[2026-07-24 17:46:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://info.i-car.com/repairers-realm "Learn more about Repairers Realm"
+[2026-07-24 17:46:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://rts.i-car.com/just-in-time.html "Learn more about Just in Time"
+[2026-07-24 17:46:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.i-car.com//contact-us
+[2026-07-24 17:46:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//about-us
+[2026-07-24 17:46:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//about-us
+[2026-07-24 17:46:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//contact
+[2026-07-24 17:46:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com/contact/
+[2026-07-24 17:46:34] [LIVE SCRAPING] Probing subpage: https://www.liventus.com/contact/
+[2026-07-24 17:46:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com/contact-us-sparkflow/?utm_source=website&utm_medium=SparkflowLP
+[2026-07-24 17:46:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//contact_us
+[2026-07-24 17:46:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ascm.org//about
+[2026-07-24 17:46:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//contactus
+[2026-07-24 17:46:55] [LIVE SCRAPING] Probing subpage: https://www.liventus.com/contact-us-sparkflow/?utm_source=website&utm_medium=SparkflowLP
+[2026-07-24 17:46:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com/contact-us-credit-mind/
+[2026-07-24 17:47:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://energydiagnosticsinc.com//about
+[2026-07-24 17:47:04] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:47:08] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//about-us
+[2026-07-24 17:47:10] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:47:17] [LIVE SCRAPING] Probing subpage: https://www.liventus.com/contact-us-credit-mind/
+[2026-07-24 17:47:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com/application-and-support-services/ " Application Support &Enhancement"
+[2026-07-24 17:47:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//contact-us
+[2026-07-24 17:47:20] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:47:22] [LIVE SCRAPING] Searching LinkedIn company page for Ascm in Chicago...
+[2026-07-24 17:47:28] [LIVE SCRAPING] Searching LinkedIn company page for I Car in Chicago...
+[2026-07-24 17:47:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.strongpointpartners.com//about
+[2026-07-24 17:47:38] [LIVE SCRAPING] Searching LinkedIn company page for Energy Diagnostics in Chicago...
+[2026-07-24 17:47:38] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:47:39] [LIVE SCRAPING] Probing subpage: https://www.liventus.com//contact-us
+[2026-07-24 17:47:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//contact
+[2026-07-24 17:47:41] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/apics
+[2026-07-24 17:47:42] [LIVE SCRAPING] Processing lead for Ascm | Email: contact@ascm.org | Score: 80/100
+[2026-07-24 17:47:42] [LIVE SCRAPING] Visiting https://sasser.com/ ...
+[2026-07-24 17:47:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com/
+[2026-07-24 17:47:42] [SAVED] Lead Office Manager @ Ascm saved to database.
+[2026-07-24 17:47:47] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-car-collective
+[2026-07-24 17:47:47] [LIVE SCRAPING] Processing lead for I Car | Email: contact@i-car.com | Score: 85/100
+[2026-07-24 17:47:47] [LIVE SCRAPING] Visiting https://www.revantage.com/ ...
+[2026-07-24 17:47:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com/
+[2026-07-24 17:47:47] [SAVED] Lead Office Manager @ I Car saved to database.
+[2026-07-24 17:47:48] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//contact-us
+[2026-07-24 17:47:56] [LIVE SCRAPING] Searching LinkedIn company page for Strongpoint Partners in Chicago...
+[2026-07-24 17:47:58] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:47:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com/about-us/
+[2026-07-24 17:47:58] [LIVE SCRAPING] Processing lead for Energy Diagnostics | Email: contact@energydiagnosticsinc.com | Score: 80/100
+[2026-07-24 17:47:58] [LIVE SCRAPING] Visiting https://www.zoro.com/ ...
+[2026-07-24 17:47:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com/
+[2026-07-24 17:47:58] [SAVED] Lead Office Manager @ Energy Diagnostics saved to database.
+[2026-07-24 17:47:58] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//contact-us
+[2026-07-24 17:48:00] [LIVE SCRAPING] Probing subpage: https://www.liventus.com//contact
+[2026-07-24 17:48:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//contact_us
+[2026-07-24 17:48:06] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//contact-us
+[2026-07-24 17:48:06] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//contact
+[2026-07-24 17:48:11] [LIVE SCRAPING] Probing subpage: https://sasser.com/about-us/
+[2026-07-24 17:48:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com/contact-us/
+[2026-07-24 17:48:12] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//contact
+[2026-07-24 17:48:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//contact_us
+[2026-07-24 17:48:15] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/strongpointpartners
+[2026-07-24 17:48:15] [LIVE SCRAPING] Processing lead for Strongpoint Partners | Email: contact@strongpointpartners.com | Score: 80/100
+[2026-07-24 17:48:15] [LIVE SCRAPING] Visiting https://medrina.com/ ...
+[2026-07-24 17:48:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/
+[2026-07-24 17:48:16] [SAVED] Lead Office Manager @ Strongpoint Partners saved to database.
+[2026-07-24 17:48:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/who-we-help/skilled-nursing-facility-rehab
+[2026-07-24 17:48:17] [LIVE SCRAPING] Probing subpage: https://medrina.com/who-we-help/skilled-nursing-facility-rehab
+[2026-07-24 17:48:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/who-we-help/inpatient-rehab/
+[2026-07-24 17:48:17] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//contact_us
+[2026-07-24 17:48:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//contactus
+[2026-07-24 17:48:17] [LIVE SCRAPING] Probing subpage: https://medrina.com/who-we-help/inpatient-rehab/
+[2026-07-24 17:48:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/who-we-help/hospitals
+[2026-07-24 17:48:18] [LIVE SCRAPING] Probing subpage: https://medrina.com/who-we-help/hospitals
+[2026-07-24 17:48:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/who-we-help/assisted-living
+[2026-07-24 17:48:18] [LIVE SCRAPING] Probing subpage: https://medrina.com/who-we-help/assisted-living
+[2026-07-24 17:48:18] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/who-we-help
+[2026-07-24 17:48:19] [LIVE SCRAPING] Probing subpage: https://medrina.com/who-we-help
+[2026-07-24 17:48:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com/contact
+[2026-07-24 17:48:19] [LIVE SCRAPING] Probing subpage: https://medrina.com/contact
+[2026-07-24 17:48:19] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//contact-us
+[2026-07-24 17:48:22] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//contactus
+[2026-07-24 17:48:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//about-us
+[2026-07-24 17:48:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//contact
+[2026-07-24 17:48:25] [LIVE SCRAPING] Probing subpage: https://medrina.com//contact
+[2026-07-24 17:48:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//contact_us
+[2026-07-24 17:48:28] [LIVE SCRAPING] Probing subpage: https://sasser.com/contact-us/
+[2026-07-24 17:48:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//contact-us
+[2026-07-24 17:48:30] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//contactus
+[2026-07-24 17:48:31] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//about-us
+[2026-07-24 17:48:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.revantage.com//about
+[2026-07-24 17:48:38] [LIVE SCRAPING] Probing subpage: https://sasser.com//contact-us
+[2026-07-24 17:48:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//contact
+[2026-07-24 17:48:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//about-us
+[2026-07-24 17:48:43] [LIVE SCRAPING] Probing subpage: https://www.revantage.com//about
+[2026-07-24 17:48:43] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:48:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//contactus
+[2026-07-24 17:48:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://medrina.com//about
+[2026-07-24 17:48:46] [LIVE SCRAPING] Probing subpage: https://medrina.com//about
+[2026-07-24 17:48:46] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:48:51] [LIVE SCRAPING] Probing subpage: https://sasser.com//contact
+[2026-07-24 17:48:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//contact_us
+[2026-07-24 17:48:59] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//contactus
+[2026-07-24 17:49:00] [LIVE SCRAPING] Searching LinkedIn company page for Revantage in Chicago...
+[2026-07-24 17:49:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//about-us
+[2026-07-24 17:49:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//about-us
+[2026-07-24 17:49:04] [LIVE SCRAPING] Searching LinkedIn company page for Medrina in Chicago...
+[2026-07-24 17:49:13] [LIVE SCRAPING] Probing subpage: https://sasser.com//about-us
+[2026-07-24 17:49:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sasser.com//about
+[2026-07-24 17:49:17] [LIVE SCRAPING] Probing subpage: https://www.liventus.com//about-us
+[2026-07-24 17:49:17] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.liventus.com//about
+[2026-07-24 17:49:20] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/revantage
+[2026-07-24 17:49:20] [LIVE SCRAPING] Processing lead for Revantage | Email: contact@revantage.com | Score: 85/100
+[2026-07-24 17:49:20] [LIVE SCRAPING] Visiting https://karbonhq.com/ ...
+[2026-07-24 17:49:20] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com/
+[2026-07-24 17:49:20] [SAVED] Lead Office Manager @ Revantage saved to database.
+[2026-07-24 17:49:23] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/medrina
+[2026-07-24 17:49:23] [LIVE SCRAPING] Processing lead for Medrina | Email: info@medrina.com | Score: 85/100
+[2026-07-24 17:49:23] [LIVE SCRAPING] Visiting https://www.engsys.com/ ...
+[2026-07-24 17:49:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com/
+[2026-07-24 17:49:23] [SAVED] Lead Office Manager @ Medrina saved to database.
+[2026-07-24 17:49:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//contact-us
+[2026-07-24 17:49:25] [LIVE SCRAPING] Probing subpage: https://sasser.com//about
+[2026-07-24 17:49:25] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:49:25] [LIVE SCRAPING] Probing subpage: https://www.engsys.com//contact-us
+[2026-07-24 17:49:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//contact
+[2026-07-24 17:49:26] [LIVE SCRAPING] Probing subpage: https://www.engsys.com//contact
+[2026-07-24 17:49:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//contact_us
+[2026-07-24 17:49:27] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 17:49:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//contact
+[2026-07-24 17:49:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//contact-us
+[2026-07-24 17:49:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//contactus
+[2026-07-24 17:49:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//about-us
+[2026-07-24 17:49:36] [LIVE SCRAPING] Probing subpage: https://www.engsys.com//about-us
+[2026-07-24 17:49:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.engsys.com//about
+[2026-07-24 17:49:37] [LIVE SCRAPING] Probing subpage: https://www.engsys.com//about
+[2026-07-24 17:49:37] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:49:42] [LIVE SCRAPING] Searching LinkedIn company page for Sasser Family Companies in Chicago...
+[2026-07-24 17:49:43] [LIVE SCRAPING] Probing subpage: https://www.liventus.com//about
+[2026-07-24 17:49:43] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:49:44] [LIVE SCRAPING] Probing subpage: https://karbonhq.com//contact-us
+[2026-07-24 17:49:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//contact
+[2026-07-24 17:49:55] [LIVE SCRAPING] Searching LinkedIn company page for Engineering Systems in Chicago...
+[2026-07-24 17:49:55] [LIVE SCRAPING] Probing subpage: https://karbonhq.com//contact
+[2026-07-24 17:49:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//contact_us
+[2026-07-24 17:50:01] [LIVE SCRAPING] Searching LinkedIn company page for Liventus in Chicago...
+[2026-07-24 17:50:02] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/chicago-freight-car-leasing
+[2026-07-24 17:50:03] [LIVE SCRAPING] Processing lead for Sasser Family Companies | Email: contact@sasser.com | Score: 85/100
+[2026-07-24 17:50:03] [LIVE SCRAPING] Visiting https://www.cloud9solutions.com/ ...
+[2026-07-24 17:50:03] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com/
+[2026-07-24 17:50:03] [SAVED] Lead Office Manager @ Sasser Family Companies saved to database.
+[2026-07-24 17:50:15] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/terra-engineering
+[2026-07-24 17:50:15] [LIVE SCRAPING] Processing lead for Engineering Systems | Email: newmatters@engsys.com | Score: 85/100
+[2026-07-24 17:50:15] [LIVE SCRAPING] Visiting https://www.myconsumers.org/ ...
+[2026-07-24 17:50:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org/
+[2026-07-24 17:50:15] [SAVED] Lead Office Manager @ Engineering Systems saved to database.
+[2026-07-24 17:50:21] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/bluedog-inc
+[2026-07-24 17:50:21] [LIVE SCRAPING] Processing lead for Liventus | Email: info@liventus.com | Score: 85/100
+[2026-07-24 17:50:21] [LIVE SCRAPING] Visiting https://www.osmworldwide.com/tracking/ ...
+[2026-07-24 17:50:21] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking/
+[2026-07-24 17:50:21] [SAVED] Lead Office Manager @ Liventus saved to database.
+[2026-07-24 17:50:22] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//contact-us
+[2026-07-24 17:50:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//contact
+[2026-07-24 17:50:24] [LIVE SCRAPING] Probing subpage: https://www.osmworldwide.com/tracking//contact
+[2026-07-24 17:50:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//contact_us
+[2026-07-24 17:50:24] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://digital.myconsumers.org/login-help
+[2026-07-24 17:50:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//contactus
+[2026-07-24 17:50:26] [LIVE SCRAPING] Probing subpage: https://digital.myconsumers.org/login-help
+[2026-07-24 17:50:26] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//contact-us
+[2026-07-24 17:50:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//about-us
+[2026-07-24 17:50:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//contactus
+[2026-07-24 17:50:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://karbonhq.com//about
+[2026-07-24 17:50:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//about-us
+[2026-07-24 17:50:32] [LIVE SCRAPING] Probing subpage: https://www.osmworldwide.com/tracking//about-us
+[2026-07-24 17:50:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.osmworldwide.com/tracking//about
+[2026-07-24 17:50:33] [LIVE SCRAPING] Probing subpage: https://www.osmworldwide.com/tracking//about
+[2026-07-24 17:50:33] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:50:38] [LIVE SCRAPING] Probing subpage: https://www.myconsumers.org//contact-us
+[2026-07-24 17:50:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//contact
+[2026-07-24 17:50:38] [LIVE SCRAPING] Probing subpage: https://karbonhq.com//about
+[2026-07-24 17:50:38] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:50:39] [LIVE SCRAPING] Probing subpage: https://www.myconsumers.org//contact
+[2026-07-24 17:50:39] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//contact_us
+[2026-07-24 17:50:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com/about
+[2026-07-24 17:50:51] [LIVE SCRAPING] Searching LinkedIn company page for Osm Worldwide in Chicago...
+[2026-07-24 17:50:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//contactus
+[2026-07-24 17:50:56] [LIVE SCRAPING] Searching LinkedIn company page for Karbon in Chicago...
+[2026-07-24 17:50:57] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 17:50:57] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//contact_us
+[2026-07-24 17:51:12] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/crainschicago
+[2026-07-24 17:51:12] [LIVE SCRAPING] Processing lead for Osm Worldwide | Email: contact@osmworldwide.com | Score: 80/100
+[2026-07-24 17:51:12] [LIVE SCRAPING] Visiting https://www.radioflyer.com/ ...
+[2026-07-24 17:51:12] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com/
+[2026-07-24 17:51:12] [SAVED] Lead Office Manager @ Osm Worldwide saved to database.
+[2026-07-24 17:51:13] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//about-us
+[2026-07-24 17:51:16] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:51:16] [LIVE SCRAPING] Processing lead for Karbon | Email: partnerships@karbonhq.com | Score: 85/100
+[2026-07-24 17:51:16] [LIVE SCRAPING] Visiting https://meetingtomorrow.com/ ...
+[2026-07-24 17:51:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com/
+[2026-07-24 17:51:16] [SAVED] Lead Office Manager @ Karbon saved to database.
+[2026-07-24 17:51:16] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//contact-us
+[2026-07-24 17:51:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.myconsumers.org//about
+[2026-07-24 17:51:29] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://shop.radioflyer.com/pages/about-us
+[2026-07-24 17:51:31] [LIVE SCRAPING] Probing subpage: https://www.cloud9solutions.com/about
+[2026-07-24 17:51:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com/contact
+[2026-07-24 17:51:38] [LIVE SCRAPING] Probing subpage: https://shop.radioflyer.com/pages/about-us
+[2026-07-24 17:51:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//contact-us
+[2026-07-24 17:51:50] [LIVE SCRAPING] Probing subpage: https://www.myconsumers.org//about
+[2026-07-24 17:51:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:52:07] [LIVE SCRAPING] Probing subpage: https://www.zoro.com//contact_us
+[2026-07-24 17:52:07] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//contactus
+[2026-07-24 17:52:08] [LIVE SCRAPING] Searching LinkedIn company page for Consumers Credit Union in Chicago...
+[2026-07-24 17:52:09] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//contact
+[2026-07-24 17:52:15] [LIVE SCRAPING] Probing subpage: https://www.cloud9solutions.com/contact
+[2026-07-24 17:52:15] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//contact-us
+[2026-07-24 17:52:28] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/great-lakes-credit-union
+[2026-07-24 17:52:28] [LIVE SCRAPING] Processing lead for Consumers Credit Union | Email: businessinquiries@myconsumers.org | Score: 85/100
+[2026-07-24 17:52:28] [LIVE SCRAPING] Visiting https://sevan.com/ ...
+[2026-07-24 17:52:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com/
+[2026-07-24 17:52:28] [SAVED] Lead Office Manager @ Consumers Credit Union saved to database.
+[2026-07-24 17:52:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//contact-us
+[2026-07-24 17:52:32] [LIVE SCRAPING] Probing subpage: https://sevan.com//contact-us
+[2026-07-24 17:52:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//contact
+[2026-07-24 17:52:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//contact
+[2026-07-24 17:52:35] [LIVE SCRAPING] Probing subpage: https://sevan.com//contact
+[2026-07-24 17:52:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//contact_us
+[2026-07-24 17:52:38] [LIVE SCRAPING] Probing subpage: https://sevan.com//contact_us
+[2026-07-24 17:52:38] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//contactus
+[2026-07-24 17:52:42] [LIVE SCRAPING] Probing subpage: https://sevan.com//contactus
+[2026-07-24 17:52:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//about-us
+[2026-07-24 17:52:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//contact
+[2026-07-24 17:52:46] [LIVE SCRAPING] Probing subpage: https://sevan.com//about-us
+[2026-07-24 17:52:46] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://sevan.com//about
+[2026-07-24 17:52:47] [LIVE SCRAPING] Probing subpage: https://meetingtomorrow.com//contact
+[2026-07-24 17:52:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//contact_us
+[2026-07-24 17:52:49] [LIVE SCRAPING] Probing subpage: https://sevan.com//about
+[2026-07-24 17:52:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:52:53] [LIVE SCRAPING] Probing subpage: https://www.radioflyer.com//contact
+[2026-07-24 17:52:53] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//contact_us
+[2026-07-24 17:52:55] [LIVE SCRAPING] Probing subpage: https://www.cloud9solutions.com//contact
+[2026-07-24 17:52:55] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//contact_us
+[2026-07-24 17:53:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//contactus
+[2026-07-24 17:53:07] [LIVE SCRAPING] Searching LinkedIn company page for Sevan Multi Site Solutions Llc in Chicago...
+[2026-07-24 17:53:11] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//contactus
+[2026-07-24 17:53:23] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//about-us
+[2026-07-24 17:53:25] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//about-us
+[2026-07-24 17:53:27] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:53:27] [LIVE SCRAPING] Processing lead for Sevan Multi Site Solutions Llc | Email: contact@sevan.com | Score: 85/100
+[2026-07-24 17:53:27] [LIVE SCRAPING] Visiting https://basis.com/ ...
+[2026-07-24 17:53:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com/
+[2026-07-24 17:53:27] [SAVED] Lead Office Manager @ Sevan Multi Site Solutions Llc saved to database.
+[2026-07-24 17:53:27] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//contact-us
+[2026-07-24 17:53:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.cloud9solutions.com//about
+[2026-07-24 17:53:31] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//contact
+[2026-07-24 17:53:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//contact_us
+[2026-07-24 17:53:36] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 17:53:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//about-us
+[2026-07-24 17:53:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//contactus
+[2026-07-24 17:53:44] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//contactus
+[2026-07-24 17:53:45] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//about-us
+[2026-07-24 17:53:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//about-us
+[2026-07-24 17:53:50] [LIVE SCRAPING] Probing subpage: https://www.cloud9solutions.com//about
+[2026-07-24 17:53:50] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:53:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://basis.com//about
+[2026-07-24 17:53:51] [LIVE SCRAPING] Probing subpage: https://meetingtomorrow.com//about-us
+[2026-07-24 17:53:51] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://meetingtomorrow.com//about
+[2026-07-24 17:53:54] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:53:56] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:54:08] [LIVE SCRAPING] Searching LinkedIn company page for Cloud 9 Solutions in Chicago...
+[2026-07-24 17:54:10] [LIVE SCRAPING] Probing subpage: https://www.radioflyer.com//about-us
+[2026-07-24 17:54:10] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.radioflyer.com//about
+[2026-07-24 17:54:12] [LIVE SCRAPING] Searching LinkedIn company page for Basis Technologies in Chicago...
+[2026-07-24 17:54:14] [LIVE SCRAPING] Searching LinkedIn company page for Meeting Tomorrow in Chicago...
+[2026-07-24 17:54:28] [LIVE SCRAPING] Found via Exa AI: Not Available
+[2026-07-24 17:54:28] [LIVE SCRAPING] Processing lead for Cloud 9 Solutions | Email: glen@cloud9solutions.com | Score: 85/100
+[2026-07-24 17:54:28] [LIVE SCRAPING] Visiting https://www.ptechpartners.com/ ...
+[2026-07-24 17:54:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com/
+[2026-07-24 17:54:28] [SAVED] Lead Office Manager @ Cloud 9 Solutions saved to database.
+[2026-07-24 17:54:28] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//contact-us
+[2026-07-24 17:54:32] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/basis-technologies
+[2026-07-24 17:54:32] [LIVE SCRAPING] Processing lead for Basis Technologies | Email: contact@basis.com | Score: 80/100
+[2026-07-24 17:54:32] [LIVE SCRAPING] Visiting https://www.bluedogdesign.com/ ...
+[2026-07-24 17:54:32] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com/
+[2026-07-24 17:54:32] [SAVED] Lead Office Manager @ Basis Technologies saved to database.
+[2026-07-24 17:54:33] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//contact-us
+[2026-07-24 17:54:34] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/meeting-tomorrow
+[2026-07-24 17:54:34] [LIVE SCRAPING] Processing lead for Meeting Tomorrow | Email: contact@meetingtomorrow.com | Score: 85/100
+[2026-07-24 17:54:34] [LIVE SCRAPING] Visiting https://marshmmamidwest.com/ ...
+[2026-07-24 17:54:34] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com/
+[2026-07-24 17:54:34] [SAVED] Lead Office Manager @ Meeting Tomorrow saved to database.
+[2026-07-24 17:54:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com/about/
+[2026-07-24 17:54:35] [LIVE SCRAPING] Probing subpage: https://marshmmamidwest.com/about/
+[2026-07-24 17:54:35] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com/team/
+[2026-07-24 17:54:36] [LIVE SCRAPING] Probing subpage: https://marshmmamidwest.com/team/
+[2026-07-24 17:54:36] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//contact-us
+[2026-07-24 17:54:40] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//contact
+[2026-07-24 17:54:41] [LIVE SCRAPING] Probing subpage: https://marshmmamidwest.com//contact
+[2026-07-24 17:54:41] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//contact_us
+[2026-07-24 17:54:42] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//contact
+[2026-07-24 17:54:47] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//contact
+[2026-07-24 17:54:49] [LIVE SCRAPING] Probing subpage: https://www.radioflyer.com//about
+[2026-07-24 17:54:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:54:49] [LIVE SCRAPING] Probing subpage: https://www.ptechpartners.com//contact
+[2026-07-24 17:54:49] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//contact_us
+[2026-07-24 17:54:50] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//contactus
+[2026-07-24 17:54:54] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//about-us
+[2026-07-24 17:55:00] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//contactus
+[2026-07-24 17:55:01] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//contact_us
+[2026-07-24 17:55:02] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//contactus
+[2026-07-24 17:55:04] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://marshmmamidwest.com//about
+[2026-07-24 17:55:05] [LIVE SCRAPING] Probing subpage: https://marshmmamidwest.com//about
+[2026-07-24 17:55:05] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:55:05] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.parallel.ai', port=443): Read timed out. (read timeout=20)"))
+[2026-07-24 17:55:05] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.zoro.com//about
+[2026-07-24 17:55:07] [LIVE SCRAPING] Searching LinkedIn company page for Radio Flyer in Chicago...
+[2026-07-24 17:55:32] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021239B8A850>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:32] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:55:35] [LIVE SCRAPING] Searching LinkedIn company page for Marsh Mclennan Agency Midwest Region in Chicago...
+[2026-07-24 17:55:37] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021233FC8410>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//about-us
+[2026-07-24 17:55:37] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021233FCB250>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:37] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//about-us
+[2026-07-24 17:55:38] [LIVE SCRAPING] Searching LinkedIn company page for Zoro in Chicago...
+[2026-07-24 17:55:40] [LIVE SCRAPING] Found via Exa AI: https://www.linkedin.com/company/radio-flyer
+[2026-07-24 17:55:43] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021239B8A350>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.ptechpartners.com//about
+[2026-07-24 17:55:43] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021239B89590>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:43] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.bluedogdesign.com//about
+[2026-07-24 17:55:49] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123977F250>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:55:49] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021233FC87D0>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:49] [LIVE SCRAPING] Groq AI extraction active. Analyzing page data...
+[2026-07-24 17:55:52] [LIVE SCRAPING] Processing lead for Marsh Mclennan Agency Midwest Region | Email: g.parekh@parsus.com | Score: 30/100
+[2026-07-24 17:55:52] [QUALITY FILTER] Lead for Marsh Mclennan Agency Midwest Region rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 17:55:52] [LIVE SCRAPING] Visiting https://www.mpachealthcare.com/ ...
+[2026-07-24 17:55:52] [LIVE SCRAPING] Using Parallel Web Systems Extract API for https://www.mpachealthcare.com/
+[2026-07-24 17:55:55] [LIVE SCRAPING] Searching LinkedIn company page for Peterson Technology Partners in Chicago...
+[2026-07-24 17:55:55] [LIVE SCRAPING] Searching LinkedIn company page for Bluedog Design in Chicago...
+[2026-07-24 17:55:55] [LIVE SCRAPING] Processing lead for Zoro | Email: contact@zoro.com | Score: 85/100
+[2026-07-24 17:55:57] [LIVE SCRAPING] Processing lead for Radio Flyer | Email: more@bcorp.com | Score: 30/100
+[2026-07-24 17:55:57] [QUALITY FILTER] Lead for Radio Flyer rejected: Email verification check failed (missing or domain mismatch)
+[2026-07-24 17:55:58] [WARNING] Parallel Extract API failed: HTTPSConnectionPool(host='api.parallel.ai', port=443): Max retries exceeded with url: /v1/extract (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021239B88910>: Failed to resolve 'api.parallel.ai' ([Errno 11001] getaddrinfo failed)"))
+[2026-07-24 17:55:58] [WARNING] Could not load https://www.mpachealthcare.com/. Skipping.
+[2026-07-24 17:56:12] [LIVE SCRAPING] Processing lead for Peterson Technology Partners | Email: hello@ptechpartners.com | Score: 85/100
+[2026-07-24 17:56:12] [LIVE SCRAPING] Processing lead for Bluedog Design | Email: hello@bluedogdesign.com | Score: 85/100
+[2026-07-24 17:56:14] [ERROR] Scraper crashed: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: SELECT companies.id AS companies_id, companies.execution_id AS companies_execution_id, companies.name AS companies_name, companies.website AS companies_website, companies.address AS companies_address, companies.phone AS companies_phone, companies.industry AS companies_industry, companies.linkedin_url AS companies_linkedin_url, companies.social_links AS companies_social_links, companies.source_attribution AS companies_source_attribution, companies.created_at AS companies_created_at 
+FROM companies 
+WHERE companies.website = %(website_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'website_1': 'zoro.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
