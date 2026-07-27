@@ -23,3 +23,4 @@ pydantic-settings
 browser-use
 groq
 langchain-groq
+gunicorn==23.0.0
